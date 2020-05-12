@@ -7,21 +7,21 @@ $includes = $path . "/includes/";                       //here we're taking the 
 
 <head>
     <title>SurGIS Of Texas Corp.</title>
-    <?php include($includes . "head.php"); ?>           <!--this is pulling in the html built in the head.php file. the 'include' is just like javascriprts '+=' - it adds thing to the existing variable  -->              
+    <?php include($includes . "head-surgis.php"); ?>           <!--this is pulling in the html built in the head.php file. the 'include' is just like javascriprts '+=' - it adds thing to the existing variable  -->              
 </head>
 
 <body>
 
-    <?php include($includes . "header.php"); ?>
+    <?php include($includes . "header-surgis.php"); ?>
 
     <main>
-        <?php include($includes . "hero.php"); ?>
+        <?php include($includes . "hero-surgis.php"); ?>
         
        
     </main>
 
-    <?php include($includes . "bottomnav.php"); ?>
-    <?php include($includes . "footer.php"); ?>
+    <?php include($includes . "bottomnav-surgis.php"); ?>
+    <?php include($includes . "footer-surgis.php"); ?>
 
 
 
