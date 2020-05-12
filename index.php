@@ -6,7 +6,7 @@ $includes = $path . "/includes/";                       //here we're taking the 
 <html>
 
 <head>
-    <title>RevvedUp Web Design Company that delivers promises.</title>
+    <title>SurGIS Of Texas Corp.</title>
     <?php include($includes . "head.php"); ?>           <!--this is pulling in the html built in the head.php file. the 'include' is just like javascriprts '+=' - it adds thing to the existing variable  -->              
 </head>
 
@@ -16,12 +16,6 @@ $includes = $path . "/includes/";                       //here we're taking the 
 
     <main>
         <?php include($includes . "hero.php"); ?>
-
-        <?php include($includes . "we-are.php"); ?>
-        <?php include($includes . "services.php"); ?>
-        <?php include($includes . "clients.php"); ?>
-        <?php include($includes . "projects.php"); ?>
-        <?php include($includes . "stats.php"); ?>
         
        
     </main>

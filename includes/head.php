@@ -1,7 +1,7 @@
-<meta name="description" content="RevvedUp Web Design Company that delivers promises. We focus on website that turns visitors into customers. Over 20 years in business, built in USA by Americans">
-  <meta property="og:title" content="RevvedUp Web Design - Online Marketing Texas" />
-  <meta property="og:description" content="RevvedUp Web Design Company that delivers promises. We focus on website that turns visitors into customers. Over 20 years in business, built in USA by Americans" />
-  <meta property="og:site_name" content="RevvedUp Web Design Company" />
+<meta name="description" content="SurGIS of Texas Corp. We focus on results that make for life long customers. Over 50 years of land surveying, built in USA by Americans">
+  <meta property="og:title" content="SurGIS of Texas - Texas Land Surveying" />
+  <meta property="og:description" content="SurGIS of Texas Land Surveying. We pride ourselves on our integrity and accuracy. Over 50 years of experience." />
+  <meta property="og:site_name" content="SurGIS of Texas Corp" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_US" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,13 +16,8 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/hero.css">
-  <link rel="stylesheet" href="css/we-are.css">
-  <link rel="stylesheet" href="css/services.css">
-  <link rel="stylesheet" href="css/clients.css">
   <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/projects.css">
-  <link rel="stylesheet" href="css/stats.css">
   <link rel="stylesheet" href="css/bottomnav.css">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
