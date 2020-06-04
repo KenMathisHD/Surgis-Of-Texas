@@ -124,3 +124,14 @@
 .ourServices div:hover .learnMoreServicesLink {
   opacity: 1;
 }
+@media (min-width: 576px) {
+  .aboutContDiv span {
+    font-size: 30px;
+  }
+  .aboutContDiv p {
+    font-size: 16px;
+  }
+  .aboutContDiv a {
+    font-size: 20px;
+  }
+}

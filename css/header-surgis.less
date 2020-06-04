@@ -45,7 +45,7 @@
 }
 .contactBar {
     position: relative;
-    padding: 5px 0;
+    padding: 2.5px 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -55,8 +55,8 @@
     transition: ease-in-out 350ms;
 
     div {
-        max-height: 25px;
-        font-size: 18px;
+        max-height: 22.5px;
+        font-size: 16px;
         transition: ease-in-out 350ms;
         span {
             position: relative;
@@ -89,7 +89,7 @@
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    padding: 5px 15px;
+    padding: 5px 10px;
     background: linear-gradient(to bottom, rgba(50, 50, 50, 0.5) 0%,rgba(50, 50, 50, 0.5) 40%,rgba(50, 50, 50, 0.5) 64%,rgba(30, 30, 30, 0.4) 90%, rgba(30, 30, 30, 0) 100%);
     transition: ease-in-out 350ms;
 
@@ -103,7 +103,7 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
-    margin-bottom: 2.5px;
+    margin-bottom: 5px;
     padding: 10px 20px 10px 10px;
     background: radial-gradient(ellipse closest-side, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.3) 35%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0.1) 91%, rgba(255, 255, 255, 0) 100%);
 
@@ -131,6 +131,7 @@
             text-align: center;
             span {
                 position: relative;
+                font-size: 14px;
                 font-family: Papyrus, Tahoma, sans-serif;
                 // below is css for text border, generated at https://tamali.net/en/instrument/html-css/css-text-border/
                 // text-shadow:0px 1px 0 rgb(255,255,255),0px -1px 0 rgb(255,255,255),1px 0px 0 rgb(255,255,255),-1px 0px 0 rgb(255,255,255),1px 1px 0 rgb(255,255,255),1px -1px 0 rgb(255,255,255),-1px 1px 0 rgb(255,255,255),-1px -1px 0 rgb(255,255,255);
@@ -143,8 +144,6 @@
         }
     }
 }
-
-
 
 
 .regularNav {
@@ -257,8 +256,6 @@
 }
 
 
-
-
 .back2top {
     position: fixed;
     z-index: 120;
@@ -298,10 +295,9 @@
     transform: translateY(0px);
 }
 
-
 @media (min-width: 576px) {
     .contactBar {
-        padding: 5px 0;
+        padding: 2.5px 0;
     
         div {
             max-height: 25px;
@@ -314,7 +310,7 @@
         }
     }   
     .navHolder {
-        height: 70px;
+        height: 80px;
     }
     .navLogo {
         margin-bottom: 5px;
@@ -337,13 +333,14 @@
 
 @media (min-width: 768px) {
     .navHolder {
-        height: 85px;
+        height: 90px;
+        padding: 5px 15px;
     }
     .navLogo {        
         a {
             img {
                 position: relative;
-                width: 85px;
+                width: 80px;
                 z-index: 26;
             }
             .wordsLogo {
@@ -380,14 +377,15 @@
         padding: 10px 0;
     }
     .navHolder {
-        height: 100px;
+        height: 110px;
+        padding: 10px 15px;
     }
     .navHolderSquished {
-        height: 90px;
+        height: 100px;
         transition: ease-in-out 350ms;
     }
     .navLogo {
-        margin-bottom: 7.5px;
+        margin-bottom: 5px;
         a {
             img {
                 width: 100px;
@@ -444,7 +442,8 @@
 @media (min-width: 1200px) {
     .navHolder {
         height: 125px;
-        padding: 20px 15px;
+        margin-bottom: 5px;
+        padding: 0 20px;
         background: linear-gradient(to bottom, rgba(90, 90, 90, 0.2) 0%,rgba(70, 70, 70, 0.2) 40%,rgba(50, 50, 50, 0.2) 64%,rgba(30, 30, 30, 0.2) 90%, rgba(30, 30, 30, 0) 100%);
     }
     .navHolderSquished {
@@ -455,7 +454,7 @@
         margin: 0;
         a {
             img {
-                width: 112.5px;
+                width: 125px;
             }
             .wordsLogo {
                 span {
