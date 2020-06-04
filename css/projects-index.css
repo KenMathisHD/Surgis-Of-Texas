@@ -1,0 +1,141 @@
+.projects-cont-index {
+  background-color: #000000;
+}
+.projects-word-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 0;
+}
+.projects-word-index h5 {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+}
+.projects-word-index h5:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: white;
+}
+.projects-word-index a {
+  padding: 15px 25px;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 25px;
+  transition: ease-in-out 350ms;
+}
+.projects-word-index a:hover {
+  background-color: goldenrod;
+  color: black;
+  border-color: #ffffff;
+}
+.projects-grid-index {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  margin: 0 0.25vw;
+}
+.projects-grid-index .background-wrap-projects-index {
+  flex: 0 0 24.75%;
+  min-height: 250px;
+  margin-bottom: 0.25vw;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+.projects-grid-index .background-wrap-projects-index #img1 {
+  background-image: url("/img/constructionsurvey.jpg");
+}
+.projects-grid-index .background-wrap-projects-index #img2 {
+  background-image: url("/img/flood-cert-box.jpg");
+}
+.projects-grid-index .background-wrap-projects-index #img3 {
+  background-image: url("/img/ImageNearNav.jpg");
+}
+.projects-grid-index .background-wrap-projects-index #img4 {
+  background-image: url("/img/ImageNearNav2.jpg");
+}
+.projects-grid-index .background-wrap-projects-index #img5 {
+  background-image: url("/img/placeholderImageNearNav.jpg");
+}
+.projects-grid-index .background-wrap-projects-index #img6 {
+  background-image: url("/img/subdivisionsurvey.jpg");
+}
+.projects-grid-index .background-wrap-projects-index #img7 {
+  background-image: url("/img/TopographyBackground.jpg");
+}
+.projects-grid-index .background-wrap-projects-index #img8 {
+  background-image: url("/img/boundarysurvey.jpg");
+}
+.projects-grid-index .background-wrap-projects-index .imgBackgroudProjectGrid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: ease-in-out 350ms;
+  z-index: 4;
+}
+.projects-grid-index .background-wrap-projects-index .anchorHoverProjectsIndex {
+  position: relative;
+  max-width: 40%;
+  z-index: 6;
+  color: white;
+  text-align: center;
+  opacity: 0;
+  transition: ease-in-out 350ms;
+}
+.projects-grid-index .background-wrap-projects-index .anchorHoverProjectsIndex h6 {
+  padding-bottom: 10px;
+}
+.projects-grid-index .background-wrap-projects-index .anchorHoverProjectsIndex a {
+  padding: 10px 15px;
+  background-color: goldenrod;
+  color: white;
+  text-decoration: none;
+  transition: ease-in-out 250ms;
+}
+.projects-grid-index .background-wrap-projects-index .anchorHoverProjectsIndex a:hover {
+  color: black;
+}
+.projects-grid-index .background-wrap-projects-index:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 5;
+  transition: ease-in-out 350ms;
+}
+.projects-grid-index .background-wrap-projects-index:hover .imgBackgroudProjectGrid {
+  transform: scale(1.25);
+}
+.projects-grid-index .background-wrap-projects-index:hover .anchorHoverProjectsIndex {
+  opacity: 1;
+}
+.projects-grid-index .background-wrap-projects-index:hover:after {
+  background-color: rgba(0, 0, 0, 0.6);
+}

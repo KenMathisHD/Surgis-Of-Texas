@@ -1,0 +1,67 @@
+.bottomNav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: black;
+  min-height: 250px;
+  margin: 0 auto;
+  padding: 15% 5% 2.5%;
+  color: white;
+}
+.bottomNav div {
+  position: relative;
+  flex: 0 0 24%;
+  padding: 0 5px;
+}
+.bottomNav div h5 {
+  font-size: 20px;
+}
+.bottomNav div ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.bottomNav div ul li {
+  font-size: 14px;
+  padding: 5px 0;
+}
+.bottomNav div ul li a {
+  text-decoration: none;
+  color: white;
+}
+.bottomNav div ul li a:hover {
+  color: lightgray;
+}
+.bottomNav div .logosholder {
+  position: relative;
+  padding: 20px 0;
+}
+.bottomNav div .logosholder a {
+  display: inline-block;
+  width: 45px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+.bottomNav div .logosholder a img {
+  width: 100%;
+  border-radius: 35%;
+}
+.bottomNav .firmLicense ul {
+  margin-right: 25%;
+}
+.bottomNav .copyright-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.bottomNav .copyright-box span {
+  font-size: 12px;
+}
+.bottomNav .copyright-box #copyright {
+  padding-right: 5px;
+  margin-right: 5px;
+  border-right: 2px solid white;
+}

@@ -1,0 +1,51 @@
+.heroImageHolder {
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.heroImageHolder .colorOverImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  background-color: rgba(30, 30, 30, 0.5);
+}
+.heroImageHolder img {
+  position: relative;
+  width: 100%;
+  z-index: 19;
+}
+.heroImageHolder .heroWords {
+  position: absolute;
+  top: 25%;
+  left: 6%;
+  z-index: 25;
+  width: 38%;
+  padding-right: 25px;
+  color: white;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heroImageHolder .heroWords span {
+  position: relative;
+  font-size: 28px;
+}
+.heroImageHolder .heroWords p {
+  padding-top: 20px;
+  position: relative;
+  font-size: 16px;
+}
+.heroImageHolder .heroWords:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: -8px;
+  bottom: 0;
+  width: 8px;
+  background-color: goldenrod;
+  z-index: 25;
+}
