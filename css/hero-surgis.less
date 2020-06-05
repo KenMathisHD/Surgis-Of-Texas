@@ -31,44 +31,23 @@
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         z-index: 25;
-        padding: 40px 50px 0;
+        padding: 0 20px;
         
         span {
             position: relative;
-            font-size: 18px;
+            font-size: 20px;
+            line-height: 27.5px;
         }
         p {
-            padding-top: 20px;
             position: relative;
-            font-size: 12px;
+            font-size: 15px;
+            line-height: 24px;
+            margin-top: 15px;
         }
     }
 }
 
-@media (max-width: 575px) {
-    .heroImageHolder {
-        img {
-            max-height: 600px;
-        }
-    }
-}
-@media (max-width: 767px) {
-    .heroImageHolder {
-        img {
-            max-height: 700px;
-        }
-        .heroWords {
-            padding: 20px 50px 0;
 
-            span {
-                font-size: 20px;
-            }
-            p {
-                font-size: 14px;
-            }
-        }
-    }
-}
 
 @media (max-width: 991px) {
     .heroImageHolder {
@@ -77,18 +56,75 @@
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
+
         img {
             max-height: 800px;
-            opacity: 0;
         }
-        .heroWords {
-            padding: 0 75px;
+    }
+}
+@media (max-width: 767px) {
+    .heroImageHolder {
+        img {
+            max-height: 700px;
+        }
+    }
+}
+@media (max-width: 399px) {
+    .heroImageHolder {
+        img {
+            max-height: 600px;
+        }
+    }
+}
 
+
+@media (min-width: 400px) {
+    .heroImageHolder {
+        .heroWords {
+            padding: 0 35px;
+    
             span {
-                font-size: 25px;
+                font-size: 23px;
+                line-height: 30px;
             }
             p {
-                font-size: 17px;
+                font-size: 18px;
+                line-height: 28px;
+                margin-top: 18px;
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .heroImageHolder {
+        .heroWords {
+            padding: 0 35px;
+    
+            span {
+                font-size: 30px;
+                line-height: 35px;
+            }
+            p {
+                font-size: 20px;
+                line-height: 28px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .heroImageHolder {
+        .heroWords {
+            padding: 0 75px;
+    
+            span {
+                font-size: 35px;
+                line-height: 40px;
+            }
+            p {
+                font-size: 25px;
+                line-height: 35px;
             }
         }
     }
