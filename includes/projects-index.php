@@ -5,7 +5,7 @@
             <h5>Our Projects</h5>
         </div>
         <div class="projects-grid-index">
-            <div class="background-wrap-projects-index">
+            <div class="background-wrap-projects-index mdi">
                 <div id="img1" class="imgBackgroudProjectGrid"></div>
                 <div class="anchorHoverProjectsIndex">
                     <h6>Ex: SurGIS of Texas, San Antonio, Texas</h6>

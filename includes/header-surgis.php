@@ -43,7 +43,7 @@
 
     </div>
 
-    <div>
+    <nav>
         
         <ul id="mobile-nav" class="mobileNav">
             <li><a href="">About Us</a></li>
@@ -54,7 +54,7 @@
             <li><a href="">Links</a></li>
         </ul>
         
-    </div>
+    </nav>
 
     <div id="back2top" class="back2top material-icons">
 
