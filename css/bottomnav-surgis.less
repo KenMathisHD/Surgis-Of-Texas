@@ -13,7 +13,7 @@
 
     div {
         position: relative;
-        flex: 0 0 24%;
+        flex: 0 0 85%;
         padding: 0 5px;
         h5 {
             font-size: 20px;
@@ -72,6 +72,86 @@
             padding-right: 5px;
             margin-right: 5px;
             border-right: 2px solid white;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .bottomNav {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background: black;
+        min-height: 250px;
+        margin: 0 auto;
+        padding: 15% 5% 2.5%;
+        color: white;
+        
+    
+        div {
+            position: relative;
+            flex: 0 0 24%;
+            padding: 0 5px;
+            h5 {
+                font-size: 20px;
+            }
+    
+            ul {
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                
+                li {
+                    font-size: 14px;
+                    padding: 5px 0;
+                    a {
+                        text-decoration: none;
+                        color: white;
+    
+                        &:hover {
+                            color: lightgray;
+                        }
+                    }
+                }
+            }
+    
+            .logosholder {
+                position: relative;
+                padding: 20px 0;
+                a {
+                    display: inline-block;
+                    width: 45px;
+                    padding-top: 10px;
+                    margin-right: 10px;
+                    img {
+                        width: 100%;
+                        border-radius: 35%;
+                    }
+                }
+            }
+        }
+    
+        .firmLicense {
+            ul {
+                margin-right: 25%;
+            }
+        }
+    
+        .copyright-box {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            span {
+                font-size: 12px;
+            }
+            #copyright {
+                padding-right: 5px;
+                margin-right: 5px;
+                border-right: 2px solid white;
+            }
         }
     }
 }
