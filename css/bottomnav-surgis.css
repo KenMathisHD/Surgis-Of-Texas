@@ -1,69 +1,86 @@
 .bottomNav {
+  margin: 0;
   position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  background: black;
-  min-height: 250px;
-  margin: 0 auto;
+  justify-content: center;
+  align-items: stretch;
+  background-color: black;
   padding: 15% 5% 2.5%;
   color: white;
 }
-.bottomNav div {
+.bottomNav > div {
   position: relative;
-  flex: 0 0 85%;
-  padding: 0 5px;
+  flex: 0 0 75%;
+  padding: 15px 5px;
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
 }
-.bottomNav div h5 {
-  font-size: 20px;
+.bottomNav > div h5 {
+  font-size: 18px;
 }
-.bottomNav div ul {
+.bottomNav > div ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-.bottomNav div ul li {
+.bottomNav > div ul li {
   font-size: 14px;
-  padding: 5px 0;
 }
-.bottomNav div ul li a {
+.bottomNav > div ul li a {
   text-decoration: none;
   color: white;
 }
-.bottomNav div ul li a:hover {
+.bottomNav > div ul li a:hover {
   color: lightgray;
 }
-.bottomNav div .logosholder {
+.bottomNav > div .logosholder {
   position: relative;
-  padding: 20px 0;
+  padding: 5px;
+  text-align: center;
 }
-.bottomNav div .logosholder a {
+.bottomNav > div .logosholder a {
   display: inline-block;
   width: 45px;
   padding-top: 10px;
-  margin-right: 10px;
+  margin: 0 5px;
 }
-.bottomNav div .logosholder a img {
+.bottomNav > div .logosholder a img {
   width: 100%;
-  border-radius: 35%;
+  border-radius: 30%;
 }
-.bottomNav .firmLicense ul {
-  margin-right: 25%;
+.bottomNav #sec1 {
+  display: none;
 }
-.bottomNav .copyright-box {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.bottomNav #sec2 {
+  order: 3;
 }
-.bottomNav .copyright-box span {
+.bottomNav #sec3 {
+  order: 2;
+}
+.bottomNav #sec4 {
+  order: 1;
+}
+.copyright-box {
+  background-color: black;
+  color: white;
+}
+.copyright-box span {
   font-size: 12px;
 }
-.bottomNav .copyright-box #copyright {
+.copyright-box #copyright {
   padding-right: 5px;
   margin-right: 5px;
-  border-right: 2px solid white;
+}
+@media (min-width: 400px) {
+  .bottomNav > div h5 {
+    font-size: 20px;
+  }
+  .bottomNav > div ul li {
+    font-size: 16px;
+  }
 }
 @media (min-width: 1200px) {
   .bottomNav {
@@ -77,6 +94,18 @@
     margin: 0 auto;
     padding: 15% 5% 2.5%;
     color: white;
+  }
+  .bottomNav #sec1 {
+    order: 1;
+  }
+  .bottomNav #sec2 {
+    order: 3;
+  }
+  .bottomNav #sec3 {
+    order: 2;
+  }
+  .bottomNav #sec4 {
+    order: 4;
   }
   .bottomNav div {
     position: relative;
@@ -93,7 +122,7 @@
   }
   .bottomNav div ul li {
     font-size: 14px;
-    padding: 5px 0;
+    padding: 1.5px 0;
   }
   .bottomNav div ul li a {
     text-decoration: none;
