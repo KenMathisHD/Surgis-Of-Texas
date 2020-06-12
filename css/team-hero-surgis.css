@@ -1,0 +1,104 @@
+.teamHeroCont {
+  position: relative;
+  width: 100%;
+}
+.teamHeroCont .colorOverImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: rgba(30, 30, 30, 0.5);
+}
+.teamHeroCont > img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+.teamHeroCont .teamCirclesCont {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  padding-top: 200px;
+  text-align: center;
+  color: white;
+}
+.teamHeroCont .teamCirclesCont h3 {
+  padding-bottom: 25px;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.teamHeroCont .teamCirclesCont .teamCircles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.teamHeroCont .teamCirclesCont .teamCircles > div > a {
+  position: relative;
+  border-radius: 50%;
+  height: 165px;
+  width: 165px;
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  text-decoration: none;
+  border: 2px solid white;
+}
+.teamHeroCont .teamCirclesCont .teamCircles > div > a span {
+  position: relative;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  z-index: 3;
+  opacity: 0;
+  transition: ease-in-out 250ms;
+}
+.teamHeroCont .teamCirclesCont .teamCircles > div > a img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.teamHeroCont .teamCirclesCont .teamCircles > div > a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: block;
+  background: rgba(0, 0, 0, 0);
+  z-index: 2;
+  transition: ease-in-out 250ms;
+}
+.teamHeroCont .teamCirclesCont .teamCircles > div > a:hover span {
+  opacity: 1;
+}
+.teamHeroCont .teamCirclesCont .teamCircles > div > a:hover:after {
+  background: rgba(0, 0, 0, 0.6);
+}
+.teamHeroCont .teamCirclesCont .teamCircles .rowOfTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+.teamHeroCont .teamCirclesCont .teamCircles .rowOfTwo a {
+  margin: 0 6vw;
+}
+.teamHeroCont .teamCirclesCont .teamCircles .surgisPlumb a {
+  background-image: url("/img/SurGIS Logo5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -38,10 +38,10 @@
         <div id="sec4">
             <h5>Recommended Links</h5>
             <ul>
-                <li><a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/">Texas Appraisal Districts</a></li>
-                <li><a href="https://msc.fema.gov/portal/home">FEMA Flood Maps</a></li>
                 <li><a href="https://www.tsps.org/default.aspx">Texas Society of Professional Land Surveyors</a></li>
                 <li><a href="https://txls.texas.gov/">Texas Board of Prof. Engineers & Land Surveyors</a></li>
+                <li><a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/">Texas Appraisal Districts</a></li>
+                <li><a href="https://msc.fema.gov/portal/home">FEMA Flood Maps</a></li>
                 <li><a href="https://www.bexar.org/2950/Real-PropertyLand-Records">Bexar County Clerk</a></li>
                 <li><a href="https://www.sanantonio.gov/GIS">City of San Antonio GIS</a></li>
                 <li><a href="https://www.capcog.org/divisions/regional-planning-services#geographic">CAPCOG GIS</a></li>

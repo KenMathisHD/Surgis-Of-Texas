@@ -5,12 +5,14 @@ const mobileNav = document.getElementById("mobile-nav");
 const back2top = document.getElementById("back2top");
 const navButtonSpan = document.getElementById("nav-button-span");
 const heroImage = document.getElementById("hero-image");
+const teamSmallNav = document.getElementById("team-small-nav-point");
 
 $(window).scroll( function() {
     let scrolledHeight = $(window).scrollTop();
     addBack2Top(scrolledHeight);
     smallHeaderNoContactBar(scrolledHeight);
-    console.log(scrolledHeight);
+
+    // console.log(whereAmI(back2top).top);
 });
 
 navButton.addEventListener('click', function() {
@@ -34,30 +36,63 @@ function addBack2Top(distToTop) {
 }
 
 function smallHeaderNoContactBar(distToTop) {
-    let heroImageBottom = isMyBottomPastTheTop(heroImage);
-    if (heroImageBottom === true) {
-        regNav.classList.add("navHolderSquished");
-        contactBar.classList.add("contactBarGoAway");
+    if (heroImage) {
+        let heroImageBottom = isMyBottomPastTheTop(heroImage);
+        if (heroImageBottom === true) {
+            regNav.classList.add("navHolderSquished");
+            contactBar.classList.add("contactBarGoAway");
+        }
+        else {
+            regNav.classList.remove("navHolderSquished");
+            contactBar.classList.remove("contactBarGoAway");
+        }
     }
-    else {
-        regNav.classList.remove("navHolderSquished");
-        contactBar.classList.remove("contactBarGoAway");
+    if (teamSmallNav) {
+        let h3TopPastNav = isMyTopPastTheNav(teamSmallNav);
+        if (h3TopPastNav === true) {
+            regNav.classList.add("navHolderSquished");
+            contactBar.classList.add("contactBarGoAway");
+        }
+        else {
+            regNav.classList.remove("navHolderSquished");
+            contactBar.classList.remove("contactBarGoAway");
+        }
     }
+
 }
 
 function isMyBottomPastTheTop(elem) {
     let screentop = $(window).scrollTop();
-    // let screenbottom = docViewTop + $(window).height();    screen view bottom
-    let targElem = {
-        top: ($(elem).offset().top)-120,
-        bottom: (($(elem).offset().top)-60) + $(elem).height()
-    };
-    if (targElem.bottom < screentop) {
-        targElem.status = true;
+    let targElem = whereAmI(elem).bottom;
+    let targElemStatus;
+
+    if (targElem < screentop) {
+        targElemStatus = true;
     }
     else if (targElem.top <= screentop && targElem.bottom > screentop) {
-        targElem.status = false;
+        targElemStatus = false;
     }
 
-    return targElem.status;
+    return targElemStatus;
+}
+
+function isMyTopPastTheNav(elem) {
+    let elemPos = whereAmI(elem);
+    let navPos = whereAmI(regNav);
+    let status;
+    if (elemPos.top < navPos.bottom) {
+        status = true;
+    }
+    else if (elemPos.top > navPos.bottom) {
+        status = false;
+    }
+    return status;
+}
+
+function whereAmI(elem) {
+    let targElem = {
+        top: ($(elem).offset().top),
+        bottom: (($(elem).offset().top) + $(elem).height())
+    };
+    return targElem;
 }

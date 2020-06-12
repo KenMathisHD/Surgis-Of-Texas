@@ -6,8 +6,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
-    background-color: black;
-    padding: 15% 5% 2.5%;
+    background: black;
+    padding: 5% 5% 2.5%;
     color: white;
     
     >div {
@@ -44,7 +44,7 @@
 
         .logosholder {
             position: relative;
-            padding: 5px;
+            padding: 5px 0;
             text-align: center;
 
             a {
@@ -75,8 +75,9 @@
     }
 }
 .copyright-box {
-    background-color: black;
+    background: black;
     color: white;
+    padding: 0 0 0 10px;
 
     span {
         font-size: 12px;
@@ -102,102 +103,95 @@
         }
     }
 }
-@media (min-width: 576px) {
 
-}
 @media (min-width: 768px) {
+    .bottomNav {
+        >div {
+            flex: 50%;
 
+            h5 {
+                font-size: 28px;
+            }
+            ul {
+                li {
+                    font-size: 20px;
+                    padding: 1px 0;
+                }
+            }
+        }
+    }
+    .copyright-box {
+        span {
+            font-size: 16px;
+        }
+    }
 }
-@media (min-width: 992px) {
-    
-}
+
 
 @media (min-width: 1200px) {
     .bottomNav {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-between;
-        background: black;
         min-height: 250px;
-        margin: 0 auto;
-        padding: 15% 5% 2.5%;
-        color: white;
         
-        #sec1 {
-            order: 1;
-        }
-        #sec2 {
-            order: 3;
-        }
-        #sec3 {
-            order: 2;
-        }
-        #sec4 {
-            order: 4;
-        }
-        div {
-            position: relative;
-            flex: 0 0 24%;
-            padding: 0 5px;
+        >div {
+            flex: 0 0 25%;
+            text-align: left;
+
             h5 {
-                font-size: 20px;
+                font-size: 24px;
             }
     
             ul {
-                padding: 0;
-                margin: 0;
-                list-style: none;
-                
                 li {
-                    font-size: 14px;
+                    font-size: 16px;
                     padding: 1.5px 0;
                     a {
-                        text-decoration: none;
-                        color: white;
-    
-                        &:hover {
-                            color: lightgray;
-                        }
+                        font-size: 16px;
                     }
                 }
             }
     
             .logosholder {
-                position: relative;
-                padding: 20px 0;
+                padding: 1px 0;
+                text-align: left;
                 a {
-                    display: inline-block;
-                    width: 45px;
-                    padding-top: 10px;
-                    margin-right: 10px;
-                    img {
-                        width: 100%;
-                        border-radius: 35%;
-                    }
+                    padding: 10px 0 0;
+                    margin: 0 10px 0 0;
+                }
+            }
+        }
+
+        #sec1 {
+            display: none;
+            order: 1;
+        }
+        #sec2 {
+            order: 2;
+        }
+        #sec3 {
+            order: 3;
+        }
+        #sec4 {
+            order: 1;
+            flex: 45%;
+            margin: 0 4% 0 0;
+            padding: 15px 10px 0 5px;
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                li {
+                    flex: 50%;
                 }
             }
         }
     
-        .firmLicense {
-            ul {
-                margin-right: 25%;
-            }
-        }
-    
         .copyright-box {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
             span {
                 font-size: 12px;
-            }
-            #copyright {
-                padding-right: 5px;
-                margin-right: 5px;
-                border-right: 2px solid white;
             }
         }
     }

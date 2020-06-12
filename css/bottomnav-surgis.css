@@ -6,8 +6,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
-  background-color: black;
-  padding: 15% 5% 2.5%;
+  background: black;
+  padding: 5% 5% 2.5%;
   color: white;
 }
 .bottomNav > div {
@@ -38,7 +38,7 @@
 }
 .bottomNav > div .logosholder {
   position: relative;
-  padding: 5px;
+  padding: 5px 0;
   text-align: center;
 }
 .bottomNav > div .logosholder a {
@@ -64,8 +64,9 @@
   order: 1;
 }
 .copyright-box {
-  background-color: black;
+  background: black;
   color: white;
+  padding: 0 0 0 10px;
 }
 .copyright-box span {
   font-size: 12px;
@@ -82,84 +83,74 @@
     font-size: 16px;
   }
 }
+@media (min-width: 768px) {
+  .bottomNav > div {
+    flex: 50%;
+  }
+  .bottomNav > div h5 {
+    font-size: 28px;
+  }
+  .bottomNav > div ul li {
+    font-size: 20px;
+    padding: 1px 0;
+  }
+  .copyright-box span {
+    font-size: 16px;
+  }
+}
 @media (min-width: 1200px) {
   .bottomNav {
-    position: relative;
+    justify-content: space-between;
+    min-height: 250px;
+  }
+  .bottomNav > div {
+    flex: 0 0 25%;
+    text-align: left;
+  }
+  .bottomNav > div h5 {
+    font-size: 24px;
+  }
+  .bottomNav > div ul li {
+    font-size: 16px;
+    padding: 1.5px 0;
+  }
+  .bottomNav > div ul li a {
+    font-size: 16px;
+  }
+  .bottomNav > div .logosholder {
+    padding: 1px 0;
+    text-align: left;
+  }
+  .bottomNav > div .logosholder a {
+    padding: 10px 0 0;
+    margin: 0 10px 0 0;
+  }
+  .bottomNav #sec1 {
+    display: none;
+    order: 1;
+  }
+  .bottomNav #sec2 {
+    order: 2;
+  }
+  .bottomNav #sec3 {
+    order: 3;
+  }
+  .bottomNav #sec4 {
+    order: 1;
+    flex: 45%;
+    margin: 0 4% 0 0;
+    padding: 15px 10px 0 5px;
+  }
+  .bottomNav #sec4 ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: black;
-    min-height: 250px;
-    margin: 0 auto;
-    padding: 15% 5% 2.5%;
-    color: white;
   }
-  .bottomNav #sec1 {
-    order: 1;
-  }
-  .bottomNav #sec2 {
-    order: 3;
-  }
-  .bottomNav #sec3 {
-    order: 2;
-  }
-  .bottomNav #sec4 {
-    order: 4;
-  }
-  .bottomNav div {
-    position: relative;
-    flex: 0 0 24%;
-    padding: 0 5px;
-  }
-  .bottomNav div h5 {
-    font-size: 20px;
-  }
-  .bottomNav div ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-  .bottomNav div ul li {
-    font-size: 14px;
-    padding: 1.5px 0;
-  }
-  .bottomNav div ul li a {
-    text-decoration: none;
-    color: white;
-  }
-  .bottomNav div ul li a:hover {
-    color: lightgray;
-  }
-  .bottomNav div .logosholder {
-    position: relative;
-    padding: 20px 0;
-  }
-  .bottomNav div .logosholder a {
-    display: inline-block;
-    width: 45px;
-    padding-top: 10px;
-    margin-right: 10px;
-  }
-  .bottomNav div .logosholder a img {
-    width: 100%;
-    border-radius: 35%;
-  }
-  .bottomNav .firmLicense ul {
-    margin-right: 25%;
-  }
-  .bottomNav .copyright-box {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  .bottomNav #sec4 ul li {
+    flex: 50%;
   }
   .bottomNav .copyright-box span {
     font-size: 12px;
-  }
-  .bottomNav .copyright-box #copyright {
-    padding-right: 5px;
-    margin-right: 5px;
-    border-right: 2px solid white;
   }
 }
