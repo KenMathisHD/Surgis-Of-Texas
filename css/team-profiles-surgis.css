@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   background-color: white;
-  padding: 150px 150px;
+  padding: 35px 0;
 }
 .teamProfilesCont .teamProfiles {
   display: flex;
@@ -12,15 +12,15 @@
 }
 .teamProfilesCont .teamProfiles .profile {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: stretch;
-  padding: 25px 0;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 25px;
 }
 .teamProfilesCont .teamProfiles .profile img {
-  width: 200px;
-  height: 200px;
-  margin: 0 35px 0 0;
+  width: 180px;
+  height: 180px;
+  margin: 0 0 35px 0;
   border: 2px solid black;
 }
 .teamProfilesCont .teamProfiles .profile > div {
@@ -28,12 +28,55 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
+  text-align: center;
 }
 .teamProfilesCont .teamProfiles .profile > div span {
   display: block;
   font-size: 20px;
+  padding-bottom: 15px;
 }
 .teamProfilesCont .teamProfiles .profile > div p {
   display: block;
   font-size: 16px;
+}
+@media (min-width: 1200px) {
+  .teamProfilesCont {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    padding: 150px 150px;
+  }
+  .teamProfilesCont .teamProfiles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+  .teamProfilesCont .teamProfiles .profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    padding: 25px 0;
+  }
+  .teamProfilesCont .teamProfiles .profile img {
+    width: 200px;
+    height: 200px;
+    margin: 0 35px 0 0;
+    border: 2px solid black;
+  }
+  .teamProfilesCont .teamProfiles .profile > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .teamProfilesCont .teamProfiles .profile > div span {
+    display: block;
+    font-size: 20px;
+  }
+  .teamProfilesCont .teamProfiles .profile > div p {
+    display: block;
+    font-size: 16px;
+  }
 }

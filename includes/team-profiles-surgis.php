@@ -2,7 +2,7 @@
 
     <div class="teamProfilesCont">
         <div class="teamProfiles">
-            <div class="profile">
+            <div id="lyd-mcc-prof" class="profile">
                 <img src="/img/lydMcCloskey.jpg" alt="">
                 <div>
                     <span>Lydia McCloskey, President and Co-Founder</span>
@@ -13,7 +13,7 @@
                         audiobooks for various authors. </p>
                 </div>
             </div>
-            <div class="profile">
+            <div id="phi-ham-prof" class="profile">
                 <img src="/img/philHampton.jpg" alt="">
                 <div>
                     <span>Philip V. Hampton, RPLS, Vice-President and Co-Founder</span>
@@ -24,7 +24,7 @@
                         state of Texas with his specialized list of certifications.</p>
                 </div>
             </div>
-            <div class="profile">
+            <div id="kim-mar-prof" class="profile">
                 <img src="/img/kimMartin.jpg" alt="">
                 <div>
                     <span>Kimberly Martin, Project Manager</span>

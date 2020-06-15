@@ -11,8 +11,6 @@ $(window).scroll( function() {
     let scrolledHeight = $(window).scrollTop();
     addBack2Top(scrolledHeight);
     smallHeaderNoContactBar(scrolledHeight);
-
-    // console.log(whereAmI(back2top).top);
 });
 
 navButton.addEventListener('click', function() {
@@ -26,7 +24,6 @@ back2top.addEventListener('click', function() {
 
 
 function addBack2Top(distToTop) {
-    console.log(distToTop);
     if (distToTop > 80) {
         back2top.classList.add('addtoback2top');
     }

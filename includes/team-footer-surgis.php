@@ -4,6 +4,7 @@
   <script src="/js/plugins.js"></script>
   <script src="/js/main.js"></script>
   <script src="/js/header-surgis.js"></script>
+  <script src="/js/team-hero-surgis.js"></script>
 
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
