@@ -10,7 +10,7 @@
                     <a href=""><span>Lydia McCloskey, President</span><img src="/img/lydMcCloskey.jpg" alt=""></a>
                 </div>
                 <div class="rowOfTwo">
-                    <a href=""><span>Philip V. Hampton, RPLS and Vice President</span><img src="/img/philHampton.jpg" alt=""></a>
+                    <a href=""><span>Philip V. Hampton, RPLS</span><img src="/img/philHampton.jpg" alt=""></a>
                     <a href=""><span>Kimberly Martin, Project Manager</span><img src="/img/kimMartin.jpg" alt=""></a>
                 </div>
                 <div class="surgisPlumb">
