@@ -6,7 +6,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 75px 0;
+  padding: 25px 0 45px;
 }
 .projects-word-index h5 {
   position: relative;
@@ -25,40 +25,26 @@
   height: 3px;
   background-color: white;
 }
-.projects-word-index a {
-  padding: 15px 25px;
-  font-size: 25px;
-  font-weight: 500;
-  color: white;
-  text-decoration: none;
-  border: 2px solid white;
-  border-radius: 25px;
-  transition: ease-in-out 350ms;
-}
-.projects-word-index a:hover {
-  background-color: goldenrod;
-  color: black;
-  border-color: #ffffff;
-}
 .projects-grid-index {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: stretch;
-  margin: 0 0.25vw;
 }
 .projects-grid-index .background-wrap-projects-index {
-  flex: 0 0 24.75%;
-  min-height: 250px;
-  margin-bottom: 0.25vw;
+  flex: 0 0 80vw;
+  height: 80vw;
+  margin-bottom: 25vw;
   position: relative;
   overflow: hidden;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  border: 3px solid white;
   border-radius: 25px;
+  transition: ease-in-out 350ms;
 }
 .projects-grid-index .background-wrap-projects-index #img1 {
   background-image: url("/img/constructionsurvey.jpg");
@@ -93,12 +79,21 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: ease-in-out 350ms;
   z-index: 4;
+  transform: scale(1);
+  transition: ease-in-out 350ms;
 }
 .projects-grid-index .background-wrap-projects-index .anchorHoverProjectsIndex {
-  position: relative;
-  max-width: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12.5%;
   z-index: 6;
   color: white;
   text-align: center;
@@ -107,16 +102,35 @@
 }
 .projects-grid-index .background-wrap-projects-index .anchorHoverProjectsIndex h6 {
   padding-bottom: 10px;
+  font-size: 20px;
 }
 .projects-grid-index .background-wrap-projects-index .anchorHoverProjectsIndex a {
+  pointer-events: none;
   padding: 10px 15px;
   background-color: goldenrod;
+  font-size: 16px;
   color: white;
   text-decoration: none;
   transition: ease-in-out 250ms;
 }
 .projects-grid-index .background-wrap-projects-index .anchorHoverProjectsIndex a:hover {
   color: black;
+}
+.projects-grid-index .background-wrap-projects-index:before {
+  content: "\e145";
+  position: relative;
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-family: 'Material Icons';
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 5;
+  opacity: 1;
+  transition: ease-in-out 350ms;
 }
 .projects-grid-index .background-wrap-projects-index:after {
   content: "";
@@ -136,6 +150,116 @@
 .projects-grid-index .background-wrap-projects-index:hover .anchorHoverProjectsIndex {
   opacity: 1;
 }
+.projects-grid-index .background-wrap-projects-index:hover:before {
+  opacity: 0;
+}
 .projects-grid-index .background-wrap-projects-index:hover:after {
   background-color: rgba(0, 0, 0, 0.6);
+}
+.projects-word-bottom-index {
+  padding: 0 0 25vw;
+  text-align: center;
+}
+.projects-word-bottom-index a {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 25px;
+  transition: ease-in-out 250ms;
+}
+.projects-word-bottom-index a:hover {
+  background-color: goldenrod;
+  color: black;
+  border-color: rgba(0, 0, 0, 0);
+}
+@media (min-width: 400px) {
+  .projects-word-index {
+    padding: 40px 0 60px;
+  }
+  .projects-word-index h5 {
+    font-size: 40px;
+  }
+  .projects-grid-index .background-wrap-projects-index {
+    flex: 0 0 70vw;
+    height: 70vw;
+    margin-bottom: 12.5vw;
+  }
+  .projects-word-bottom-index {
+    padding: 0 0 12.5vw;
+  }
+}
+@media (min-width: 576px) {
+  .projects-word-index {
+    padding: 50px 0 70px;
+  }
+}
+@media (min-width: 768px) {
+  .projects-grid-index {
+    justify-content: center;
+  }
+  .projects-grid-index .background-wrap-projects-index {
+    flex: 0 0 40vw;
+    height: 40vw;
+    margin: 0 2.5vw 5vw;
+  }
+  .projects-word-bottom-index {
+    padding: 5vw 0 10vw;
+  }
+  .projects-word-bottom-index a {
+    padding: 10px 20px;
+    font-size: 25px;
+  }
+}
+@media (min-width: 992px) {
+  .projects-grid-index .background-wrap-projects-index {
+    flex: 0 0 30vw;
+    height: 30vw;
+    margin: 0 1vw 2vw;
+  }
+  .projects-word-bottom-index {
+    padding: 5vw 0 10vw;
+  }
+  .projects-word-bottom-index a {
+    padding: 10px 20px;
+    font-size: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .projects-cont-index .projects-word-index {
+    padding: 75px 0;
+  }
+  .projects-cont-index .projects-word-index h5 {
+    font-size: 35px;
+  }
+  .projects-cont-index .projects-grid-index {
+    justify-content: space-around;
+    margin: 0 0.1vw;
+  }
+  .projects-cont-index .projects-grid-index .background-wrap-projects-index {
+    flex: 0 0 25%;
+    height: 25vw;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+  }
+  .projects-cont-index .projects-grid-index .background-wrap-projects-index .anchorHoverProjectsIndex {
+    padding: 0 30%;
+  }
+  .projects-cont-index .projects-grid-index .background-wrap-projects-index .anchorHoverProjectsIndex a {
+    pointer-events: initial;
+  }
+  .projects-cont-index .projects-grid-index .background-wrap-projects-index .anchorHoverProjectsIndex a:hover {
+    color: black;
+  }
+  .projects-cont-index .projects-grid-index .background-wrap-projects-index:before {
+    display: none;
+  }
+  .projects-cont-index .projects-word-bottom-index {
+    padding: 150px 0 25px;
+  }
+  .projects-cont-index .projects-word-bottom-index a {
+    padding: 15px 30px;
+  }
 }

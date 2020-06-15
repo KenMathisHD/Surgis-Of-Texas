@@ -21,48 +21,54 @@
                     <span>Boundary & Subdivision Surveys</span>
                     <img src="/img/boundarysurvey.jpg" alt="">
                     <p>Learn more about boundary and subdivision surveys</p>
+                    <a class="learnMoreServicesLinkIn" href="">Learn More</a>
                 </div>
-                <a class="learnMoreServicesLink" href="">Learn More</a>
+                <a class="learnMoreServicesLinkOut" href="">Learn More</a>
             </div>
             <div>
                 <div>
                     <span>Topographic Surveys</span>
                     <img src="/img/toposurvey.jpg" alt="">
                     <p>Learn more about topographic surveys</p>
+                    <a class="learnMoreServicesLinkIn" href="">Learn More</a>
                 </div>
-                <a class="learnMoreServicesLink" href="">Learn More</a>
+                <a class="learnMoreServicesLinkOut" href="">Learn More</a>
             </div>
             <div>
                 <div>
                     <span>Construction Staking</span>
                     <img src="/img/constructionsurvey.jpg" alt="">
                     <p>Learn more about construction staking</p>
+                    <a class="learnMoreServicesLinkIn" href="">Learn More</a>
                 </div>
-                <a class="learnMoreServicesLink" href="">Learn More</a>
+                <a class="learnMoreServicesLinkOut" href="">Learn More</a>
             </div>
             <div>
                 <div>
                     <span>ALTA & TSPS Surveys</span>
                     <img src="/img/subdivisionsurvey.jpg" alt="">
                     <p>Learn more about ALTA surveys</p>
+                    <a class="learnMoreServicesLinkIn" href="">Learn More</a>
                 </div>
-                <a class="learnMoreServicesLink" href="">Learn More</a>
+                <a class="learnMoreServicesLinkOut" href="">Learn More</a>
             </div>
             <div>
                 <div>
                     <span>Tree & Location Surveys</span>
                     <img src="/img/locationsurvey.jpg" alt="">
                     <p>Learn more about tree and location surveys</p>
+                    <a class="learnMoreServicesLinkIn" href="">Learn More</a>
                 </div>
-                <a class="learnMoreServicesLink" href="">Learn More</a>
+                <a class="learnMoreServicesLinkOut" href="">Learn More</a>
             </div>
             <div>
                 <div>
                     <span>FEMA Flood Certificates</span>
                     <img src="/img/flood-cert-box.jpg" alt="">
                     <p>Learn more about FEMA flood certificates</p>
+                    <a class="learnMoreServicesLinkIn" href="">Learn More</a>
                 </div>
-                <a class="learnMoreServicesLink" href="">Learn More</a>
+                <a class="learnMoreServicesLinkOut" href="">Learn More</a>
             </div>
         </div>
 

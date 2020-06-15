@@ -38,7 +38,7 @@
 }
 .contactBar {
   position: relative;
-  padding: 5px 0;
+  padding: 2.5px 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -48,8 +48,8 @@
   transition: ease-in-out 350ms;
 }
 .contactBar div {
-  max-height: 25px;
-  font-size: 18px;
+  max-height: 22.5px;
+  font-size: 16px;
   transition: ease-in-out 350ms;
 }
 .contactBar div span {
@@ -76,16 +76,57 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .navHolder {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  padding: 5px 15px;
+  padding: 5px 10px;
+  transition: ease-in-out 350ms;
+}
+.navHolder:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
   background: linear-gradient(to bottom, rgba(50, 50, 50, 0.5) 0%, rgba(50, 50, 50, 0.5) 40%, rgba(50, 50, 50, 0.5) 64%, rgba(30, 30, 30, 0.4) 90%, rgba(30, 30, 30, 0) 100%);
+  z-index: 1;
+  opacity: 1;
+  transition: ease-in-out 350ms;
+}
+.navHolder:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  background: linear-gradient(to bottom, rgba(50, 50, 50, 0.99) 0%, rgba(50, 50, 50, 0.99) 40%, rgba(50, 50, 50, 0.99) 64%, rgba(30, 30, 30, 0.89) 90%, rgba(30, 30, 30, 0) 100%);
+  z-index: 1;
+  opacity: 0;
   transition: ease-in-out 350ms;
 }
 .navHolder a {
   text-decoration: none;
+}
+.navHolder button {
+  z-index: 2;
+}
+.navHolder div {
+  z-index: 2;
+}
+.navHolder ul {
+  z-index: 2;
+}
+.navHolderSquished:before {
+  opacity: 0;
+}
+.navHolderSquished:after {
+  opacity: 1;
 }
 .navLogo {
   position: relative;
@@ -93,7 +134,7 @@
   flex-direction: row;
   align-items: center;
   flex-wrap: nowrap;
-  margin-bottom: 2.5px;
+  margin-bottom: 5px;
   padding: 10px 20px 10px 10px;
   background: radial-gradient(ellipse closest-side, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.3) 35%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0.1) 91%, rgba(255, 255, 255, 0) 100%);
 }
@@ -121,6 +162,7 @@
 }
 .navLogo a .wordsLogo span {
   position: relative;
+  font-size: 14px;
   font-family: Papyrus, Tahoma, sans-serif;
   text-shadow: 2px 2px 4px black, 2px -2px 4px black, -2px 2px 4px black;
   color: white;
@@ -258,15 +300,12 @@
   line-height: 50px;
   transition: ease-in-out 250ms;
 }
-.back2top:hover a:before {
-  font-size: 45px;
-}
 .addtoback2top {
   transform: translateY(0px);
 }
 @media (min-width: 576px) {
   .contactBar {
-    padding: 5px 0;
+    padding: 2.5px 0;
   }
   .contactBar div {
     max-height: 25px;
@@ -278,7 +317,7 @@
     height: 18px;
   }
   .navHolder {
-    height: 70px;
+    height: 80px;
   }
   .navLogo {
     margin-bottom: 5px;
@@ -295,11 +334,12 @@
 }
 @media (min-width: 768px) {
   .navHolder {
-    height: 85px;
+    height: 90px;
+    padding: 5px 15px;
   }
   .navLogo a img {
     position: relative;
-    width: 85px;
+    width: 80px;
     z-index: 26;
   }
   .navLogo a .wordsLogo span {
@@ -327,14 +367,24 @@
     padding: 10px 0;
   }
   .navHolder {
-    height: 100px;
+    height: 110px;
+    padding: 10px 15px;
   }
-  .navHolderSquished {
-    height: 90px;
+  .navHolder:hover {
     transition: ease-in-out 350ms;
   }
+  .navHolderSquished {
+    height: 100px;
+    transition: ease-in-out 350ms;
+  }
+  .navHolderSquished:before {
+    opacity: 0;
+  }
+  .navHolderSquished:after {
+    opacity: 1;
+  }
   .navLogo {
-    margin-bottom: 7.5px;
+    margin-bottom: 5px;
   }
   .navLogo a img {
     width: 100px;
@@ -379,7 +429,8 @@
 @media (min-width: 1200px) {
   .navHolder {
     height: 125px;
-    padding: 20px 15px;
+    margin-bottom: 5px;
+    padding: 0 20px;
     background: linear-gradient(to bottom, rgba(90, 90, 90, 0.2) 0%, rgba(70, 70, 70, 0.2) 40%, rgba(50, 50, 50, 0.2) 64%, rgba(30, 30, 30, 0.2) 90%, rgba(30, 30, 30, 0) 100%);
   }
   .navHolderSquished {
@@ -390,7 +441,7 @@
     margin: 0;
   }
   .navLogo a img {
-    width: 112.5px;
+    width: 125px;
   }
   .navLogo a .wordsLogo span {
     font-size: 25px;

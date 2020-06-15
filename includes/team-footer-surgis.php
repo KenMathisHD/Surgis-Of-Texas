@@ -4,8 +4,6 @@
   <script src="/js/plugins.js"></script>
   <script src="/js/main.js"></script>
   <script src="/js/header-surgis.js"></script>
-  <script src="/js/woman-owned.js"></script>
-  <script src="/js/projects-index.js"></script>
 
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->

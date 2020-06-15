@@ -3,6 +3,7 @@
     width: 100%;
     text-align: center;
     position: relative;
+
     .colorOverImage {
         position: absolute;
         top: 0;
@@ -14,39 +15,174 @@
     }
     img {
         position: relative;
-        width: 100%;
         z-index: 19;
+
     }
     .heroWords {
         position: absolute;
-        top: 25%;
-        left: 6%;
-        z-index: 25;
-        width: 38%;
-        padding-right: 25px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         color: white;
-        text-align: left;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        z-index: 25;
+        padding: 0 20px;
+        
         span {
             position: relative;
-            font-size: 28px;
+            font-size: 20px;
+            line-height: 27.5px;
         }
         p {
-            padding-top: 20px;
             position: relative;
-            font-size: 16px;
+            font-size: 15px;
+            line-height: 24px;
+            margin-top: 15px;
         }
-        &:before {
-            content: "";
-            display: inline-block;
-            position: absolute;
-            top: 0;
-            right: -8px;
-            bottom: 0;
-            width: 8px;
-            background-color: goldenrod;
-            z-index: 25;
+    }
+}
 
+
+
+@media (max-width: 991px) {
+    .heroImageHolder {
+        background-image: url(/img/ImageNearNav2.jpg);
+        background-position: 60%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+
+        img {
+            max-height: 800px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .heroImageHolder {
+        img {
+            max-height: 700px;
+        }
+    }
+}
+@media (max-width: 399px) {
+    .heroImageHolder {
+        img {
+            max-height: 600px;
+        }
+    }
+}
+
+
+@media (min-width: 400px) {
+    .heroImageHolder {
+        .heroWords {
+            padding: 0 35px;
+    
+            span {
+                font-size: 23px;
+                line-height: 30px;
+            }
+            p {
+                font-size: 18px;
+                line-height: 28px;
+                margin-top: 18px;
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .heroImageHolder {
+        .heroWords {
+            padding: 0 35px;
+    
+            span {
+                font-size: 28px;
+                line-height: 35px;
+            }
+            p {
+                font-size: 20px;
+                line-height: 28px;
+                margin-top: 35px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .heroImageHolder {
+        .heroWords {
+            padding: 0 75px;
+    
+            span {
+                font-size: 32px;
+                line-height: 40px;
+            }
+            p {
+                font-size: 22px;
+                line-height: 35px;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .heroImageHolder {
+        background-image: none;
+        img {
+            width: 100%;
+        }
+        .heroWords {
+            top: 25%;
+            left: 6%;
+            bottom: auto;
+            right: auto;
+            display: block;
+            width: 38%;
+            padding-right: 25px;
+            text-align: left;
+            span {
+                font-size: 28px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 28.5px;
+            }
+            &:before {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                top: 0;
+                right: -8px;
+                bottom: 0;
+                width: 8px;
+                background-color: goldenrod;
+                z-index: 25;
+    
+            }
+        }
+    }
+
+}
+
+// @media (min-width: 1200px) {
+
+// }
+
+@media (min-width: 1600px) {
+    .heroImageHolder {
+        .heroWords {
+            span {
+                font-size: 30px;
+            }
+            p {
+                font-size: 20px;
+            }
         }
     }
 }
