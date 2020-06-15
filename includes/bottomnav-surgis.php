@@ -15,10 +15,14 @@
             </ul>
         </div>
         <div id="sec2" class="firmLicense">
-            <h5>License</h5>
+            <h5>Certifications</h5>
             <ul>
                 <li>Texas Board of Professional Engineers and Land Surveyors</li>
                 <li>Firm License #10193840</li>
+                <li>NIGP Code: 925-86</li>
+                <li>TxDOT Certified</li>
+                <li>South Texas Regional Certification</li>
+                <li>WBE, SBE, ESBE</li>
             </ul>
         </div>
         <div id="sec3">
