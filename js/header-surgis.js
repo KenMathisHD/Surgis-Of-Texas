@@ -6,9 +6,16 @@ const back2top = document.getElementById("back2top");
 const navButtonSpan = document.getElementById("nav-button-span");
 const heroImage = document.getElementById("hero-image");
 const teamSmallNav = document.getElementById("team-small-nav-point");
+const contactUsPage = document.getElementById("contact-us");
+
+
+let scrolledHeight = $(window).scrollTop();
+addBack2Top(scrolledHeight);
+smallHeaderNoContactBar(scrolledHeight);
+areWeOnTheNavPageNow();
 
 $(window).scroll( function() {
-    let scrolledHeight = $(window).scrollTop();
+    scrolledHeight = $(window).scrollTop();
     addBack2Top(scrolledHeight);
     smallHeaderNoContactBar(scrolledHeight);
 });
@@ -56,6 +63,21 @@ function smallHeaderNoContactBar(distToTop) {
         }
     }
 
+}
+
+function areWeOnTheNavPageNow() {
+    if (contactUsPage) {
+        regNav.classList.add("navHolderSquishedNoLag");
+        contactBar.classList.add("contactBarGoAwayNoLag");
+        giveMeSomeSpaceNavBar(contactUsPage);
+        // regNav.style.transition = "ease-in-out 00ms";
+        // contactBar.style.transition = "ease-in-out 00ms";
+    }
+}
+
+function giveMeSomeSpaceNavBar(elem) {
+    let navBottom = whereAmI(regNav).bottom;
+    elem.style.marginTop = (navBottom+10)+"px";
 }
 
 function isMyBottomPastTheTop(elem) {

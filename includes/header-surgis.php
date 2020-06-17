@@ -33,10 +33,9 @@
 
             <ul id="regular-nav" class="regularNav">
                 <li><a href="">About Us</a></li>
-                <li><a href="/certifications-surgis.php">Certifications</a></li>
                 <li><a href="">Projects</a></li>
                 <li><a href="/our-team-surgis.php">Our Team</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="/contact-surgis.php">Contact Us</a></li>
                 <li style="border-right:0px;"><a href="">Links</a></li>
             </ul>
         </nav>
@@ -47,10 +46,9 @@
         
         <ul id="mobile-nav" class="mobileNav">
             <li><a href="">About Us</a></li>
-            <li><a href="/certifications-surgis.php">Certifications</a></li>
             <li><a href="">Projects</a></li>
             <li><a href="/our-team-surgis.php">Our Team</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li><a href="/contact-surgis.php">Contact Us</a></li>
             <li><a href="">Links</a></li>
         </ul>
         

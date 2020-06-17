@@ -138,6 +138,14 @@
         opacity: 1;
     }
 }
+.navHolderSquishedNoLag {
+    &:before {
+        opacity: 0;
+    }
+    &:after {
+        opacity: 1;
+    }
+}
 .navLogo {
     position: relative;
     display: flex;
@@ -426,6 +434,16 @@
             opacity: 1;
         }
     }
+    .navHolderSquishedNoLag {
+        height: 100px;
+
+        &:before {
+            opacity: 0;
+        }
+        &:after {
+            opacity: 1;
+        }
+    }
     .navLogo {
         margin-bottom: 5px;
         a {
@@ -492,6 +510,10 @@
         height: 110px;
         padding: 0 15px;
     }
+    .navHolderSquishedNoLag {
+        height: 110px;
+        padding: 0 15px;
+    }
     .navLogo {
         margin: 0;
         a {
@@ -549,6 +571,18 @@
 .contactBarGoAway {
     padding: 0;
     transition: ease-in-out 350ms;
+
+    div {
+        max-height: 0px;
+        span {
+            &:before {
+                height: 0;
+            }
+        }
+    }
+}
+.contactBarGoAwayNoLag {
+    display: none;
 
     div {
         max-height: 0px;
