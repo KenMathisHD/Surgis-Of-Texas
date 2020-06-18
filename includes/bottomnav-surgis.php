@@ -7,11 +7,10 @@
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">About Us</a></li>
-                <li><a href="">Certifications</a></li>
+                <li><a href="">Services</a></li>
                 <li><a href="">Projects</a></li>
                 <li><a href="">Our Team</a></li>
                 <li><a href="">Contact Us</a></li>
-                <li><a href="">Links</a></li>
             </ul>
         </div>
         <div id="sec2" class="firmLicense">
@@ -49,7 +48,7 @@
                 <li><a href="https://www.bexar.org/2950/Real-PropertyLand-Records">Bexar County Clerk</a></li>
                 <li><a href="https://www.sanantonio.gov/GIS">City of San Antonio GIS</a></li>
                 <li><a href="https://www.capcog.org/divisions/regional-planning-services#geographic">CAPCOG GIS</a></li>
-                <li><a href="">TxDOT ROW and Control</a></li>
+                <!-- <li><a href="">TxDOT ROW and Control</a></li> -->
                 <li><a href="https://www.nsps.us.com/page/ALTANSPSStandards">ALTA Land and Title Surveys</a></li>
                 <li><a href="https://westlat.com/">Westlat</a></li>
                 <li><a href="https://www.pobonline.com/">Point of Beginning Magazine</a></li>

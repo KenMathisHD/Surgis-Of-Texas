@@ -7,6 +7,7 @@ const navButtonSpan = document.getElementById("nav-button-span");
 const heroImage = document.getElementById("hero-image");
 const teamSmallNav = document.getElementById("team-small-nav-point");
 const contactUsPage = document.getElementById("contact-us");
+const ourServices = document.getElementById("our-services");
 
 
 let scrolledHeight = $(window).scrollTop();
@@ -54,6 +55,17 @@ function smallHeaderNoContactBar(distToTop) {
     if (teamSmallNav) {
         let h3TopPastNav = isMyTopPastTheNav(teamSmallNav);
         if (h3TopPastNav === true) {
+            regNav.classList.add("navHolderSquished");
+            contactBar.classList.add("contactBarGoAway");
+        }
+        else {
+            regNav.classList.remove("navHolderSquished");
+            contactBar.classList.remove("contactBarGoAway");
+        }
+    }
+    if (ourServices) {
+        let ourServPastNav = isMyTopPastTheNav(ourServices);
+        if (ourServPastNav === true) {
             regNav.classList.add("navHolderSquished");
             contactBar.classList.add("contactBarGoAway");
         }

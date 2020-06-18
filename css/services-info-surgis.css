@@ -1,0 +1,21 @@
+.servicesInfoCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 100px 12.5%;
+}
+.servicesInfoCont > div {
+  width: 100%;
+  text-align: left;
+  padding: 20px 0 40px;
+}
+.servicesInfoCont > div h5 {
+  padding: 0 0 15px 0;
+  font-size: 30px;
+}
+.servicesInfoCont > div p {
+  font-size: 18px;
+  line-height: 26px;
+}

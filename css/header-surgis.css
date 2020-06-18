@@ -412,6 +412,7 @@
     flex: 0 0 60%;
     display: flex;
     justify-content: space-between;
+    padding-right: 25px;
   }
   .regularNav li {
     display: flex;

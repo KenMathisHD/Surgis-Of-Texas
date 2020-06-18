@@ -1,0 +1,80 @@
+.servicesHeroCont {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-image: url("/img/services-hero-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-attachment: fixed;
+
+    .colorOverImage {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        background-color: rgba(30, 30, 30, 0.3);
+    }
+    .servicesCont {
+        position: relative;
+        width: 100%;
+        padding: 200px 10%;
+        z-index: 2;
+        text-align: center;
+
+        >h2 {
+            display: block;
+            font-size: 40px;
+            color: white;
+            text-shadow: 3px 4px 5px rgba(60, 60, 60, 1);
+
+
+
+            // text-shadow: 0px 1px 0 rgb(0,0,0), 0px -1px 0 rgb(0,0,0), 1px 0px 0 rgb(0,0,0), -1px 0px 0 rgb(0,0,0), 1px 1px 0 rgb(0,0,0), 1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0), -1px -1px 0 rgb(0,0,0), 0px 2px 0 rgb(0,0,0), 0px -2px 0 rgb(0,0,0), 2px 0px 0 rgb(0,0,0), -2px 0px 0 rgb(0,0,0), 2px 2px 0 rgb(0,0,0), 2px -2px 0 rgb(0,0,0), -2px 2px 0 rgb(0,0,0), -2px -2px 0 rgb(0,0,0);
+            // -webkit-text-shadow: 0px 1px 0 rgb(0,0,0), 0px -1px 0 rgb(0,0,0), 1px 0px 0 rgb(0,0,0), -1px 0px 0 rgb(0,0,0), 1px 1px 0 rgb(0,0,0), 1px -1px 0 rgb(0,0,0), -1px 1px 0 rgb(0,0,0), -1px -1px 0 rgb(0,0,0), 0px 2px 0 rgb(0,0,0), 0px -2px 0 rgb(0,0,0), 2px 0px 0 rgb(0,0,0), -2px 0px 0 rgb(0,0,0), 2px 2px 0 rgb(0,0,0), 2px -2px 0 rgb(0,0,0), -2px 2px 0 rgb(0,0,0), -2px -2px 0 rgb(0,0,0);
+            // -moz-text-shadow: 0px 1px 0 rgb(0,0,0), 0px -1px 0 rgb(0,0,0), 1px 0px 0 rgb(0,0,0), -1px 0px 0 rgb(0,0,0), 1px 1px 0 rgb(0,0,0), 1px -1px 0 rgb(0,0,0), -1px 1px 0 rgb(0,0,0), -1px -1px 0 rgb(0,0,0), 0px 2px 0 rgb(0,0,0), 0px -2px 0 rgb(0,0,0), 2px 0px 0 rgb(0,0,0), -2px 0px 0 rgb(0,0,0), 2px 2px 0 rgb(0,0,0), 2px -2px 0 rgb(0,0,0), -2px 2px 0 rgb(0,0,0), -2px -2px 0 rgb(0,0,0);
+        }
+        .services {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: stretch;
+            padding: 25px 0;
+
+            >a {
+                flex: 0 0 30%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 25px 0;
+                overflow: hidden;
+                text-decoration: none;
+                background-color: rgba(30,30,30,0.8);
+                overflow: hidden;
+                box-shadow: 5px 10px 15px 0 rgba(0,0,0,0.75);
+                
+
+                img {
+                    position: relative;
+                    width: 100%;
+                    flex-grow: 1;
+                    z-index: 2;
+                    box-shadow: 0 8px 15px 0 black;
+                }
+                span {
+                    position: relative;
+                    padding: 15px 5px;
+                    font-size: 20px;
+                    color: white;
+                    font-weight: 500;
+                    z-index: 1;
+                }
+            }
+        }
+
+    }
+}
