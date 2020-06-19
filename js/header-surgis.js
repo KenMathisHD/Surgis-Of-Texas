@@ -13,7 +13,7 @@ const ourServices = document.getElementById("our-services");
 let scrolledHeight = $(window).scrollTop();
 addBack2Top(scrolledHeight);
 smallHeaderNoContactBar(scrolledHeight);
-areWeOnTheNavPageNow();
+areWeOnTheMainPage();
 
 $(window).scroll( function() {
     scrolledHeight = $(window).scrollTop();
@@ -52,38 +52,43 @@ function smallHeaderNoContactBar(distToTop) {
             contactBar.classList.remove("contactBarGoAway");
         }
     }
-    if (teamSmallNav) {
-        let h3TopPastNav = isMyTopPastTheNav(teamSmallNav);
-        if (h3TopPastNav === true) {
-            regNav.classList.add("navHolderSquished");
-            contactBar.classList.add("contactBarGoAway");
-        }
-        else {
-            regNav.classList.remove("navHolderSquished");
-            contactBar.classList.remove("contactBarGoAway");
-        }
-    }
-    if (ourServices) {
-        let ourServPastNav = isMyTopPastTheNav(ourServices);
-        if (ourServPastNav === true) {
-            regNav.classList.add("navHolderSquished");
-            contactBar.classList.add("contactBarGoAway");
-        }
-        else {
-            regNav.classList.remove("navHolderSquished");
-            contactBar.classList.remove("contactBarGoAway");
-        }
-    }
+    // else if (heroImage === false) {
+    //     regNav.classList.add("navHolderSquished");
+    //     contactBar.classList.add("contactBarGoAway");
+    // }
+    // if (teamSmallNav) {
+    //     let h3TopPastNav = isMyTopPastTheNav(teamSmallNav);
+    //     if (h3TopPastNav === true) {
+    //         regNav.classList.add("navHolderSquished");
+    //         contactBar.classList.add("contactBarGoAway");
+    //     }
+    //     else {
+    //         regNav.classList.remove("navHolderSquished");
+    //         contactBar.classList.remove("contactBarGoAway");
+    //     }
+    // }
+    // if (ourServices) {
+    //     let ourServPastNav = isMyTopPastTheNav(ourServices);
+    //     if (ourServPastNav === true) {
+    //         regNav.classList.add("navHolderSquished");
+    //         contactBar.classList.add("contactBarGoAway");
+    //     }
+    //     else {
+    //         regNav.classList.remove("navHolderSquished");
+    //         contactBar.classList.remove("contactBarGoAway");
+    //     }
+    // }
 
 }
 
-function areWeOnTheNavPageNow() {
-    if (contactUsPage) {
+function areWeOnTheMainPage() {
+    if (heroImage) {
+        return true;
+    }
+    else {
         regNav.classList.add("navHolderSquishedNoLag");
         contactBar.classList.add("contactBarGoAwayNoLag");
-        giveMeSomeSpaceNavBar(contactUsPage);
-        // regNav.style.transition = "ease-in-out 00ms";
-        // contactBar.style.transition = "ease-in-out 00ms";
+        // giveMeSomeSpaceNavBar(contactUsPage);
     }
 }
 

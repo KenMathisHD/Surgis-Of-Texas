@@ -32,7 +32,7 @@
             </div>
 
             <ul id="regular-nav" class="regularNav">
-                <li><a href="">About Us</a></li>
+                <li><a href="/about-surgis.php">About Us</a></li>
                 <li><a href="/services-surgis.php">Services</a></li>
                 <li><a href="">Projects</a></li>
                 <li><a href="/our-team-surgis.php">Our Team</a></li>
@@ -45,7 +45,7 @@
     <nav>
         
         <ul id="mobile-nav" class="mobileNav">
-            <li><a href="">About Us</a></li>
+            <li><a href="/about-surgis.php">About Us</a></li>
             <li><a href="/services-surgis.php">Services</a></li>
             <li><a href="">Projects</a></li>
             <li><a href="/our-team-surgis.php">Our Team</a></li>
