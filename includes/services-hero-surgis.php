@@ -3,6 +3,7 @@
     <div class="servicesHeroCont">
         <div class="colorOverImage"></div>
         <!-- <img src="/img/services-hero-background.jpg" alt=""> -->
+        <div class="backgroundImageServicesHero"></div>
         <div class="servicesCont">
             <h2 id="our-services">Our Services</h2>
             <div class="services">

@@ -4,6 +4,8 @@
   <script src="/js/plugins.js"></script>
   <script src="/js/main.js"></script>
   <script src="/js/header-surgis.js"></script>
+
+  <script src="/js/team-hero-surgis.js"></script>
   
 <!-- API Key for map: AIzaSyDmQNCp5GwrajfEXCCLCCAXV88LosCnOmI -->
 

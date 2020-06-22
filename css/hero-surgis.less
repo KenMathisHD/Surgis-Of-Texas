@@ -11,12 +11,12 @@
         right: 0;
         bottom: 0;
         z-index: 20;
-        background-color: rgba(30, 30, 30, 0.5);
+        background-color: rgba(30, 30, 30, 0.3);
     }
     img {
         position: relative;
         z-index: 19;
-
+        filter: blur(0.5px);
     }
     .heroWords {
         position: absolute;
@@ -31,7 +31,10 @@
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         z-index: 25;
-        padding: 0 20px;
+        padding: 20px;
+        text-shadow: 0px 0px 10px rgba(0,0,0,1);
+        background-color: rgba(0,0,0,0.4);
+        box-shadow: 0 0 15px 25px rgba(0,0,0,0.4);
         
         span {
             position: relative;
@@ -51,14 +54,15 @@
 
 @media (max-width: 991px) {
     .heroImageHolder {
-        background-image: url(/img/ImageNearNav2.jpg);
-        background-position: 60%;
+        background-image: url(/img/mainHeroMaybe.jpeg);
+        background-position: 75%;
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
 
         img {
             max-height: 800px;
+            opacity: 0;
         }
     }
 }
@@ -117,7 +121,7 @@
 @media (min-width: 768px) {
     .heroImageHolder {
         .heroWords {
-            padding: 0 75px;
+            padding: 40px;
     
             span {
                 font-size: 32px;
@@ -126,6 +130,7 @@
             p {
                 font-size: 22px;
                 line-height: 35px;
+                margin-bottom: 0;
             }
         }
     }
@@ -136,6 +141,7 @@
         background-image: none;
         img {
             width: 100%;
+            opacity: 1;
         }
         .heroWords {
             top: 25%;
@@ -144,7 +150,7 @@
             right: auto;
             display: block;
             width: 38%;
-            padding-right: 25px;
+            padding: 35px 25px 35px 15px;
             text-align: left;
             span {
                 font-size: 28px;
@@ -170,18 +176,25 @@
 
 }
 
-// @media (min-width: 1200px) {
-
-// }
+@media (min-width: 1200px) {
+    .heroImageHolder {
+        .heroWords {
+            padding: 40px 30px 40px 25px;
+        }
+    }
+}
 
 @media (min-width: 1600px) {
     .heroImageHolder {
         .heroWords {
+            width: 42%;
             span {
-                font-size: 30px;
+                font-size: 37px;
+                line-height: 45px;
             }
             p {
-                font-size: 20px;
+                font-size: 25px;
+                line-height: 34px;
             }
         }
     }

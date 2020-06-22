@@ -2,10 +2,19 @@
   display: block;
   position: relative;
   width: 100%;
+}
+.servicesHeroCont .backgroundImageServicesHero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   background-image: url("/img/services-hero-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: blur(5px);
+  z-index: 1;
 }
 .servicesHeroCont .colorOverImage {
   position: absolute;
@@ -13,14 +22,14 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 1;
-  background-color: rgba(30, 30, 30, 0.3);
+  z-index: 2;
+  background-color: rgba(30, 30, 30, 0.1);
 }
 .servicesHeroCont .servicesCont {
   position: relative;
   width: 100%;
   padding: 100px 10% 50px;
-  z-index: 2;
+  z-index: 3;
   text-align: center;
 }
 .servicesHeroCont .servicesCont > h2 {
@@ -49,6 +58,7 @@
   background-color: rgba(30, 30, 30, 0.8);
   overflow: hidden;
   box-shadow: 5px 10px 15px 0 rgba(0, 0, 0, 0.75);
+  border: 3px solid white;
 }
 .servicesHeroCont .servicesCont .services > a img {
   position: relative;
@@ -64,6 +74,7 @@
   color: white;
   font-weight: 500;
   z-index: 1;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 @media (max-width: 400px) {
   .servicesHeroCont .servicesCont .services > a img {

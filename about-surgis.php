@@ -16,6 +16,10 @@ $includes = $path . "/includes/";                       //here we're taking the 
 
     <main>
         <?php include($includes . "about-top-surgis.php"); ?>
+        <?php include($includes . "about-about-surgis.php"); ?>
+        
+        <?php include($includes . "surgis-team-hero.php"); ?>
+        <?php include($includes . "team-profiles-surgis.php"); ?>
        
     </main>
 

@@ -7,7 +7,8 @@ const navButtonSpan = document.getElementById("nav-button-span");
 const heroImage = document.getElementById("hero-image");
 const teamSmallNav = document.getElementById("team-small-nav-point");
 const contactUsPage = document.getElementById("contact-us");
-const ourServices = document.getElementById("our-services");
+const servicesPage = document.getElementById("our-services");
+const aboutPage = document.getElementById("about");
 
 
 let scrolledHeight = $(window).scrollTop();
@@ -52,33 +53,6 @@ function smallHeaderNoContactBar(distToTop) {
             contactBar.classList.remove("contactBarGoAway");
         }
     }
-    // else if (heroImage === false) {
-    //     regNav.classList.add("navHolderSquished");
-    //     contactBar.classList.add("contactBarGoAway");
-    // }
-    // if (teamSmallNav) {
-    //     let h3TopPastNav = isMyTopPastTheNav(teamSmallNav);
-    //     if (h3TopPastNav === true) {
-    //         regNav.classList.add("navHolderSquished");
-    //         contactBar.classList.add("contactBarGoAway");
-    //     }
-    //     else {
-    //         regNav.classList.remove("navHolderSquished");
-    //         contactBar.classList.remove("contactBarGoAway");
-    //     }
-    // }
-    // if (ourServices) {
-    //     let ourServPastNav = isMyTopPastTheNav(ourServices);
-    //     if (ourServPastNav === true) {
-    //         regNav.classList.add("navHolderSquished");
-    //         contactBar.classList.add("contactBarGoAway");
-    //     }
-    //     else {
-    //         regNav.classList.remove("navHolderSquished");
-    //         contactBar.classList.remove("contactBarGoAway");
-    //     }
-    // }
-
 }
 
 function areWeOnTheMainPage() {
@@ -88,13 +62,21 @@ function areWeOnTheMainPage() {
     else {
         regNav.classList.add("navHolderSquishedNoLag");
         contactBar.classList.add("contactBarGoAwayNoLag");
-        // giveMeSomeSpaceNavBar(contactUsPage);
+        if (contactUsPage) {
+            giveMeSomeSpaceNavBar(contactUsPage);
+        }
+        // else if (servicesPage) {
+        //     giveMeSomeSpaceNavBar(servicesPage);
+        // }
+        // else if (aboutPage) {
+        //     giveMeSomeSpaceNavBar(aboutPage);
+        // }
     }
 }
 
 function giveMeSomeSpaceNavBar(elem) {
     let navBottom = whereAmI(regNav).bottom;
-    elem.style.marginTop = (navBottom+10)+"px";
+    elem.style.marginTop = (navBottom-20)+"px";
 }
 
 function isMyBottomPastTheTop(elem) {

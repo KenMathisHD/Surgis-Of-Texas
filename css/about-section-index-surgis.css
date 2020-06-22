@@ -91,7 +91,8 @@
   display: block;
   width: 100%;
   min-height: 180px;
-  padding: 10px 0 20px;
+  margin: 10px 0 20px;
+  border: 4px solid #696969;
 }
 .surveys .ourServices div div p {
   display: none;
