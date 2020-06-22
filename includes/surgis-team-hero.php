@@ -4,7 +4,7 @@
         <div class="colorOverImage"></div>
         <img src="/img/teams-background.jpg" alt="">
         <div class="teamCirclesCont">
-            <h3 id="team-small-nav-point">Meet Our Team</h3>
+            <h3 id="team-small-nav-point">We are SurGIS of Texas</h3>
             <div class="teamCircles">
                 <div>
                     <a href="#" id="lyd-mcc"><span>Lydia McCloskey, President</span><img src="/img/lydMcCloskey.jpg" alt=""></a>

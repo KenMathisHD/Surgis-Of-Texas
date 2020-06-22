@@ -1,0 +1,29 @@
+.aboutAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-color: white;
+  padding: 50px 150px;
+}
+.aboutAbout p {
+  font-size: 22px;
+  line-height: 34px;
+  color: black;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.aboutAbout a {
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 50px;
+  transition: ease-in-out 350ms;
+  text-shadow: 0px 0px 1px #000000;
+}
+.aboutAbout a:hover {
+  background-color: goldenrod;
+}
