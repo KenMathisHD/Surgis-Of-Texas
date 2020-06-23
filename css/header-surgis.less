@@ -138,6 +138,14 @@
         opacity: 1;
     }
 }
+.navHolderSquishedNoLag {
+    &:before {
+        opacity: 0;
+    }
+    &:after {
+        opacity: 1;
+    }
+}
 .navLogo {
     position: relative;
     display: flex;
@@ -426,6 +434,16 @@
             opacity: 1;
         }
     }
+    .navHolderSquishedNoLag {
+        height: 100px;
+
+        &:before {
+            opacity: 0;
+        }
+        &:after {
+            opacity: 1;
+        }
+    }
     .navLogo {
         margin-bottom: 5px;
         a {
@@ -445,6 +463,7 @@
         flex: 0 0 60%;
         display: flex;
         justify-content: space-between;
+        padding-right: 25px;
 
         li {
             display: flex;
@@ -489,6 +508,10 @@
         background: linear-gradient(to bottom, rgba(90, 90, 90, 0.2) 0%,rgba(70, 70, 70, 0.2) 40%,rgba(50, 50, 50, 0.2) 64%,rgba(30, 30, 30, 0.2) 90%, rgba(30, 30, 30, 0) 100%);
     }
     .navHolderSquished {
+        height: 110px;
+        padding: 0 15px;
+    }
+    .navHolderSquishedNoLag {
         height: 110px;
         padding: 0 15px;
     }
@@ -549,6 +572,18 @@
 .contactBarGoAway {
     padding: 0;
     transition: ease-in-out 350ms;
+
+    div {
+        max-height: 0px;
+        span {
+            &:before {
+                height: 0;
+            }
+        }
+    }
+}
+.contactBarGoAwayNoLag {
+    display: none;
 
     div {
         max-height: 0px;

@@ -1,0 +1,180 @@
+.servicesHeroCont {
+    display: block;
+    position: relative;
+    width: 100%;
+
+    .backgroundImageServicesHero {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-image: url("/img/services-hero-background.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(5px);
+        // brightness(120%)
+        z-index: 1;
+    }
+
+    .colorOverImage {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        background-color: rgba(30, 30, 30, 0.1);
+    }
+    .servicesCont {
+        position: relative;
+        width: 100%;
+        padding: 100px 10% 50px;
+        z-index: 3;
+        text-align: center;
+
+        >h2 {
+            display: block;
+            font-size: 40px;
+            color: white;
+            letter-spacing: 3px;
+            text-shadow: 3px 4px 5px rgba(60, 60, 60, 1);
+        }
+        .services {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: stretch;
+            padding: 25px 0;
+
+            >a {
+                flex: 0 0 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 10px 0 50px 0;
+                overflow: hidden;
+                text-decoration: none;
+                background-color: rgba(30,30,30,0.8);
+                overflow: hidden;
+                box-shadow: 5px 10px 15px 0 rgba(0,0,0,0.75);
+                border: 3px solid white;
+                
+
+                img {
+                    position: relative;
+                    width: 100%;
+                    flex-grow: 1;
+                    z-index: 2;
+                    box-shadow: 0 8px 15px 0 black;
+                }
+                span {
+                    position: relative;
+                    padding: 15px 5px;
+                    font-size: 20px;
+                    color: white;
+                    font-weight: 500;
+                    z-index: 1;
+                    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+                }
+            }
+        }
+
+    }
+}
+@media (max-width: 400px) {
+    .servicesHeroCont {
+        .servicesCont {
+            .services {
+                >a {
+                    img {
+                        min-height: 180px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .servicesHeroCont {
+        .servicesCont {
+            .services {
+                >a {
+                    span {
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    .servicesHeroCont {
+        .servicesCont {
+            padding: 155px 5% 50px;
+            
+            .services {
+                justify-content: space-between;
+                
+                >a {
+                    flex: 0 0 49%;
+
+                    span {
+                        padding: 25px 5px;
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 992px) {
+    .servicesHeroCont {
+        .servicesCont {
+            padding: 200px 5% 75px;
+
+            h2 { 
+                font-size: 50px;
+            }
+            .services {
+                padding: 40px 0;
+                >a {
+                    flex: 0 0 47.5%;
+
+                    span {
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .servicesHeroCont {
+        .servicesCont {
+            padding: 150px 10% 100px;
+    
+            >h2 {
+                font-size: 50px;
+            }
+            .services {
+                padding: 25px 0;
+    
+                >a {
+                    flex: 0 0 28%;
+                    margin: 25px 0;
+    
+                    span {
+                        padding: 15px 5px;
+                        font-size: 20px;
+                    }
+                }
+            }
+    
+        }
+    }
+}

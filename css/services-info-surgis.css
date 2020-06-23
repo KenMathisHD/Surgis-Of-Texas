@@ -1,0 +1,102 @@
+.servicesInfoCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 50px 7.5%;
+}
+.servicesInfoCont > div {
+  position: relative;
+  width: 100%;
+  padding: 20px 0 40px;
+  text-align: center;
+}
+.servicesInfoCont > div h5 {
+  font-size: 30px;
+}
+.servicesInfoCont > div img {
+  width: 100%;
+  margin: 20px 0;
+  border: 2px solid black;
+  overflow: hidden;
+}
+.servicesInfoCont > div p {
+  font-size: 16px;
+  line-height: 25px;
+}
+.servicesInfoCont > div a {
+  font-size: 16px;
+}
+@media (min-width: 400px) {
+  .servicesInfoCont > div {
+    padding: 40px 0;
+  }
+  .servicesInfoCont > div img {
+    margin: 30px 0;
+  }
+}
+@media (min-width: 768px) {
+  .servicesInfoCont > div {
+    text-align: left;
+  }
+  .servicesInfoCont > div h5 {
+    padding: 0 0 15px 0;
+    font-size: 35px;
+  }
+  .servicesInfoCont > div img {
+    width: 350px;
+    margin: 0 0 10px 10px;
+    float: right;
+  }
+  .servicesInfoCont > div p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .servicesInfoCont > div a {
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) {
+  .servicesInfoCont > div h5 {
+    font-size: 40px;
+  }
+  .servicesInfoCont > div img {
+    width: 400px;
+  }
+  .servicesInfoCont > div p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .servicesInfoCont > div a {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .servicesInfoCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 100px 12.5%;
+  }
+  .servicesInfoCont > div {
+    width: 100%;
+    text-align: left;
+    padding: 20px 0 100px;
+  }
+  .servicesInfoCont > div h5 {
+    padding: 0 0 15px 0;
+    font-size: 30px;
+  }
+  .servicesInfoCont > div img {
+    width: 400px;
+    float: right;
+    margin: 0 0 10px 20px;
+  }
+  .servicesInfoCont > div p {
+    font-size: 19px;
+    line-height: 32px;
+  }
+}

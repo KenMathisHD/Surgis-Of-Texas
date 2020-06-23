@@ -128,6 +128,12 @@
 .navHolderSquished:after {
   opacity: 1;
 }
+.navHolderSquishedNoLag:before {
+  opacity: 0;
+}
+.navHolderSquishedNoLag:after {
+  opacity: 1;
+}
 .navLogo {
   position: relative;
   display: flex;
@@ -383,6 +389,15 @@
   .navHolderSquished:after {
     opacity: 1;
   }
+  .navHolderSquishedNoLag {
+    height: 100px;
+  }
+  .navHolderSquishedNoLag:before {
+    opacity: 0;
+  }
+  .navHolderSquishedNoLag:after {
+    opacity: 1;
+  }
   .navLogo {
     margin-bottom: 5px;
   }
@@ -397,6 +412,7 @@
     flex: 0 0 60%;
     display: flex;
     justify-content: space-between;
+    padding-right: 25px;
   }
   .regularNav li {
     display: flex;
@@ -437,6 +453,10 @@
     height: 110px;
     padding: 0 15px;
   }
+  .navHolderSquishedNoLag {
+    height: 110px;
+    padding: 0 15px;
+  }
   .navLogo {
     margin: 0;
   }
@@ -472,5 +492,14 @@
   max-height: 0px;
 }
 .contactBarGoAway div span:before {
+  height: 0;
+}
+.contactBarGoAwayNoLag {
+  display: none;
+}
+.contactBarGoAwayNoLag div {
+  max-height: 0px;
+}
+.contactBarGoAwayNoLag div span:before {
   height: 0;
 }

@@ -2,8 +2,8 @@
 
     <div class="teamProfilesCont">
         <div class="teamProfiles">
-            <div class="profile">
-                <img src="/img/lydMcCloskey.jpg" alt="">
+            <div id="lyd-mcc-prof" class="profile">
+                <img src="/img/lydMcCloskey.jpg" alt="Lydia McCloskey Profile Picture">
                 <div>
                     <span>Lydia McCloskey, President and Co-Founder</span>
                     <p>Lydia McCloskey is the President and Co-Founder of SurGIS of Texas Corporation. Lydia 
@@ -13,8 +13,8 @@
                         audiobooks for various authors. </p>
                 </div>
             </div>
-            <div class="profile">
-                <img src="/img/philHampton.jpg" alt="">
+            <div id="phi-ham-prof" class="profile">
+                <img src="/img/philHampton.jpg" alt="Philip Hampton Profile Picture">
                 <div>
                     <span>Philip V. Hampton, RPLS, Vice-President and Co-Founder</span>
                     <p>Philip Hampton is the Vice President and Co-Founder of SurGIS of Texas Corporation, as 
@@ -22,10 +22,11 @@
                         belt, having started off surveying with his father at local golf courses in the Texas 
                         valley. At this time, Philip is one of only a handful of registered surveyors in the 
                         state of Texas with his specialized list of certifications.</p>
+                        <a href="">Learn more about Philip Hampton</a>
                 </div>
             </div>
-            <div class="profile">
-                <img src="/img/kimMartin.jpg" alt="">
+            <div id="kim-mar-prof" class="profile">
+                <img src="/img/kimMartin.jpg" alt="Kimberly Martin Profile Picture">
                 <div>
                     <span>Kimberly Martin, Project Manager</span>
                     <p>Kimberly "Kim" Martin is the Project Manager for SurGIS of Texas Corporation. Kim started 
@@ -33,7 +34,12 @@
                         date. However, she is not only a land surveyor - Kim currently possesses a Bachelors in 
                         Anthropology from UTSA and is pursuing a Bachelors degree in Civil Engineering in order to get 
                         her RPLS certification.</p>
+                        <a href="">Learn more about Kimberly Martin</a>
                 </div>
+            </div>
+            <div class="jobApplyCont">
+                <span>Looking for a job? Surveying Crew positions available now!</span>
+                <a href="mailto:Jobs@SurGIS-Texas.info"><div class="material-icons">work</div>Email your resume</a>
             </div>
         </div>
     </div>

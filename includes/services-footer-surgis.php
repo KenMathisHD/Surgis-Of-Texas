@@ -4,12 +4,13 @@
   <script src="/js/plugins.js"></script>
   <script src="/js/main.js"></script>
   <script src="/js/header-surgis.js"></script>
-  <script src="/js/team-hero-surgis.js"></script>
-
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmQNCp5GwrajfEXCCLCCAXV88LosCnOmI&callback=initMap"></script>
+  
+<!-- API Key for map: AIzaSyDmQNCp5GwrajfEXCCLCCAXV88LosCnOmI -->
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
+  <!-- <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script> -->

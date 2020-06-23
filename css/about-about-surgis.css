@@ -1,0 +1,137 @@
+.aboutAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  padding: 50px 8% 150px;
+}
+.aboutAbout img {
+  width: 200px;
+  padding: 40px 0 50px;
+}
+.aboutAbout h2 {
+  padding-bottom: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+.aboutAbout p {
+  padding: 15px 0;
+  font-size: 17px;
+  line-height: 28px;
+  color: black;
+  text-align: center;
+}
+.aboutAbout .commitments {
+  padding: 75px 20px 25px;
+  text-align: center;
+}
+.aboutAbout .aboutServices {
+  padding: 50px 0 0;
+  text-align: center;
+}
+.aboutAbout .aboutServices > p {
+  padding-bottom: 30px;
+}
+.aboutAbout .aboutServices .servButtonLink {
+  padding: 10px;
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 50px;
+  text-shadow: 0px 0px 1px #000000;
+  background-color: goldenrod;
+}
+@media (min-width: 400px) {
+  .aboutAbout {
+    padding: 50px 8.5% 150px;
+  }
+  .aboutAbout h2 {
+    font-size: 32.5px;
+  }
+  .aboutAbout p {
+    font-size: 19px;
+  }
+  .aboutAbout .aboutServices > p {
+    padding-bottom: 40px;
+  }
+  .aboutAbout .aboutServices .servButtonLink {
+    padding: 12.5px 15px;
+    font-size: 19px;
+  }
+}
+@media (min-width: 768px) {
+  .aboutAbout h2 {
+    padding-bottom: 10px;
+    font-size: 40px;
+  }
+  .aboutAbout p {
+    font-size: 21px;
+    line-height: 33px;
+  }
+  .aboutAbout .aboutServices > p {
+    padding-bottom: 50px;
+  }
+  .aboutAbout .aboutServices .servButtonLink {
+    padding: 15px 25px;
+    font-size: 22px;
+  }
+}
+@media (min-width: 992px) {
+  .aboutAbout h2 {
+    padding-bottom: 12.5px;
+    font-size: 42.5px;
+  }
+  .aboutAbout p {
+    font-size: 23px;
+    line-height: 35px;
+  }
+  .aboutAbout .commitments {
+    padding: 75px 75px 25px;
+  }
+  .aboutAbout .commitments > p {
+    line-height: 40px;
+  }
+  .aboutAbout .aboutServices > p {
+    padding-bottom: 60px;
+  }
+  .aboutAbout .aboutServices .servButtonLink {
+    padding: 20px 30px;
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .aboutAbout {
+    padding: 50px 150px 150px;
+  }
+  .aboutAbout img {
+    padding: 40px 0 50px;
+  }
+  .aboutAbout h2 {
+    padding-bottom: 25px;
+  }
+  .aboutAbout p {
+    padding: 15px 0;
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .aboutAbout .commitments {
+    padding: 100px 22.5% 50px;
+  }
+  .aboutAbout .aboutServices {
+    padding: 50px 2%;
+  }
+  .aboutAbout .aboutServices > p {
+    padding-bottom: 50px;
+  }
+  .aboutAbout .aboutServices .servButtonLink {
+    padding: 15px 25px;
+    font-size: 22px;
+    transition: ease-in-out 350ms;
+    background-color: rgba(218, 165, 32, 0);
+  }
+  .aboutAbout .aboutServices .servButtonLink:hover {
+    background-color: #daa520;
+  }
+}

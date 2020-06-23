@@ -13,13 +13,14 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main-surgis.css">
   <link rel="stylesheet" href="css/header-surgis.css">
-  <link rel="stylesheet" href="css/hero-surgis.css">
-  <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/bottomnav-surgis.css">
+  <link rel="stylesheet" href="css/about-top-surgis.css">
+  <link rel="stylesheet" href="css/about-about-surgis.css">
 
+  <link rel="stylesheet" href="css/team-hero-surgis.css">
+  <link rel="stylesheet" href="css/team-profiles-surgis.css">
+
+  <link rel="stylesheet" href="css/bottomnav-surgis.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
