@@ -34,7 +34,7 @@
             <ul id="regular-nav" class="regularNav">
                 <li><a href="/about-surgis.php">About Us</a></li>
                 <li><a href="/services-surgis.php">Services</a></li>
-                <li><a href="">Projects</a></li>
+                <li><a href="/projects-surgis.php">Projects</a></li>
                 <li><a href="/contact-surgis.php">Contact Us</a></li>
             </ul>
         </nav>
@@ -46,7 +46,7 @@
         <ul id="mobile-nav" class="mobileNav">
             <li><a href="/about-surgis.php">About Us</a></li>
             <li><a href="/services-surgis.php">Services</a></li>
-            <li><a href="">Projects</a></li>
+            <li><a href="/projects-surgis.php">Projects</a></li>
             <li><a href="/contact-surgis.php">Contact Us</a></li>
         </ul>
         

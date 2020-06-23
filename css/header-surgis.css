@@ -503,3 +503,9 @@
 .contactBarGoAwayNoLag div span:before {
   height: 0;
 }
+#make-a-thing-behind-reg-nav {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: black;
+}

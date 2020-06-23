@@ -9,7 +9,6 @@ const teamSmallNav = document.getElementById("team-small-nav-point");
 const contactUsPage = document.getElementById("contact-us");
 const servicesPage = document.getElementById("our-services");
 const aboutPage = document.getElementById("about");
-// const aboutWordsTop = document.getElementById("about-words-cont");
 
 
 let scrolledHeight = $(window).scrollTop();
@@ -66,12 +65,6 @@ function areWeOnTheMainPage() {
         if (contactUsPage) {
             giveMeSomeSpaceNavBar(contactUsPage);
         }
-        // else if (servicesPage) {
-        //     giveMeSomeSpaceNavBar(servicesPage);
-        // }
-        // else if (aboutPage) {
-        //     somePaddingToCenterWhatIsBelowNavBar(aboutPage);
-        // }
     }
 }
 

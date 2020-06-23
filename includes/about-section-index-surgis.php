@@ -19,7 +19,7 @@
             <div>
                 <div>
                     <span>Boundary & Subdivision Surveys</span>
-                    <img src="/img/boundarysurvey.jpg" alt="">
+                    <img src="/img/boundarysurvey.webp" alt="">
                     <p>Learn more about boundary and subdivision surveys</p>
                     <a class="learnMoreServicesLinkIn" href="">Learn More</a>
                 </div>

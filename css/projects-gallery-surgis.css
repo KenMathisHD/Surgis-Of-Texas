@@ -1,0 +1,59 @@
+.projectsGalleryGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+.projectsGalleryGrid > div {
+  flex: 0 0 25%;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+.projectsGalleryGrid > div > img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.projectsGalleryGrid > div > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  transition: ease-in-out 250ms;
+}
+.projectsGalleryGrid > div > div h6 {
+  text-align: center;
+  padding: 10px 0;
+  opacity: 0;
+  transition: ease-in-out 250ms;
+}
+.projectsGalleryGrid > div > div a {
+  text-align: center;
+  padding: 15px 25px;
+  background-color: goldenrod;
+  border: 3px solid white;
+  color: white;
+  text-decoration: none;
+  opacity: 0;
+  transition: ease-in-out 250ms;
+}
+.projectsGalleryGrid > div > div:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.projectsGalleryGrid > div > div:hover h6 {
+  opacity: 1;
+}
+.projectsGalleryGrid > div > div:hover a {
+  opacity: 1;
+}

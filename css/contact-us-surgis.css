@@ -31,6 +31,46 @@
 .contactUs > div ul li {
   font-size: 16px;
 }
+.contactUs > div ul .phoneCont {
+  position: relative;
+}
+.contactUs > div ul .phoneCont .phoneInner:after {
+  content: "\e0cd";
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  margin-top: -10px;
+  bottom: auto;
+  font-size: 20px;
+  color: black;
+  transform: rotate(-90deg);
+}
+.contactUs > div ul .faxCont {
+  position: relative;
+}
+.contactUs > div ul .faxCont .faxInner:after {
+  content: "\e8ad";
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  margin-top: -10px;
+  bottom: auto;
+  font-size: 20px;
+  color: black;
+}
+.contactUs > div ul .emailCont {
+  position: relative;
+}
+.contactUs > div ul .emailCont .emailInner:after {
+  content: "\e0be";
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  margin-top: -9px;
+  bottom: auto;
+  font-size: 20px;
+  color: black;
+}
 .contactUs > div p {
   padding: 0 0 35px 0;
   font-size: 16px;
