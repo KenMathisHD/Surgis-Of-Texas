@@ -2,7 +2,11 @@
     display: block;
     position: relative;
     width: 100%;
-
+    background-image: url(/img/teams-background.jpg);
+    background-position: 67.5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
 
     .colorOverImage {
         position: absolute;
@@ -16,6 +20,8 @@
     >img {
         position: relative;
         z-index: 1;
+        opacity: 0;
+        max-height: 600px;
     }
 
     .teamCirclesCont {
@@ -25,22 +31,25 @@
         right: 0;
         bottom: 0;
         z-index: 3;
-        padding-top: 115px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
 
 
         color: white;
 
         h3 {
-            padding-bottom: 35px;
+            padding: 0 15% 50px 15%;
             font-size: 25px;
             letter-spacing: 3px;
-            text-align: center;
         }
         .teamCircles {
             display: flex;
             flex-direction: column;
             align-items: center;
+            padding-bottom: 75px;
 
             >div {
                 >a {
@@ -73,6 +82,7 @@
                         width: 100%;
                         z-index: 1;
                         transform: rotate(-45deg) scale(1.4);
+                        filter: blur(4px);
                     }
                     &:after {
                         content: "";
@@ -120,51 +130,17 @@
     }
 }
 
-@media (max-width: 991px) {
-    .teamHeroCont {
-        background-image: url(/img/teams-background.jpg);
-        background-position: 70%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        overflow: hidden;
-
-        >img {
-            max-height: 900px;
-            opacity: 0;
-        }
-    }
-}
-@media (max-width: 767px) {
-    .teamHeroCont {
-        background-position: 65%;
-
-        img {
-            max-height: 750px;
-        }
-    }
-}
-@media (max-width: 575px) {
-    .teamHeroCont {
-        img {
-            max-height: 700px;
-        }
-    }
-}
-@media (max-width: 399px) {
-    .teamHeroCont {
-        background-position: 60%;
-        
-        img {
-            max-height: 600px;
-        }
-    }
-}
 
 @media (min-width: 400px) {
     .teamHeroCont {
+        background-position: 75%;
+
+        img {
+            max-height: 700px;
+        }
         .teamCirclesCont {
             h3 {
-                padding-bottom: 50px;
+                padding-bottom: 75px;
             }
             .teamCircles {
                 >div {
@@ -183,29 +159,32 @@
 }
 @media (min-width: 576px) {
     .teamHeroCont {
-        .teamCirclesCont {
-            padding-top: 135px;
-        }
+        background-position: 90%;
     }
 }
 @media (min-width: 768px) {
     .teamHeroCont {
-        .teamCirclesCont {
-            padding-top: 145px;
+        background-position: right;
 
+        >img {
+            max-height: 900px;
+            opacity: 0;
+        }
+        .teamCirclesCont {
             h3 {
-                padding-bottom: 60px;
                 font-size: 35px;
                 letter-spacing: 4px;
             }
             .teamCircles {
+                padding-bottom: 100px;
+
                 >div {
                     >a {
-                        width: 150px;
-                        height: 150px;
+                        width: 175px;
+                        height: 175px;
 
                         span {
-                            font-size: 20px;
+                            font-size: 24px;
                         }
                     }
                 }
@@ -224,24 +203,32 @@
         width: 100%;
         text-align: center;
 
+
         >img {
-            width: 100%;
-            opacity: 1;
+            display: none;
         }
 
         .teamCirclesCont {
-            padding-top: 175px;
+            position: relative;
+            padding: 90px 0 250px;
 
+            h3 {
+                padding: 25px 15% 90px;
+            }
             .teamCircles {
+                padding: 10px 0 25px;
                 >div {
                     margin: -10px 0;
 
                     a {
-                        width: 125px;
-                        height: 125px;
+                        width: 175px;
+                        height: 175px;
 
                         span {
                             opacity: 0;
+                        }
+                        img {
+                            filter: blur(0px);
                         }
                         &:after {
                             background: rgba(0, 0, 0, 0.2);
@@ -258,7 +245,7 @@
                 }
                 .rowOfTwo {
                     a {
-                        margin: 0 5vw;    
+                        margin: 0 6vw;    
                     }
 
                 }
@@ -269,9 +256,8 @@
 
 @media (min-width: 1200px) {
     .teamHeroCont {
-
         .teamCirclesCont {
-            padding-top: 150px;
+            padding: 75px 0 125px;
             color: white;
 
             h3 {
@@ -280,6 +266,7 @@
                 letter-spacing: 4px;
             }
             .teamCircles {
+                padding: 10px 0 25px;
                 >div {
                     >a {
                         height: 165px;
@@ -287,7 +274,7 @@
                         padding: 5px 15px;
     
                         span {
-                            font-size: 16px;
+                            font-size: 18px;
                             opacity: 0;
                             transition: ease-in-out 250ms;
                         }

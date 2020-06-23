@@ -9,6 +9,7 @@ const teamSmallNav = document.getElementById("team-small-nav-point");
 const contactUsPage = document.getElementById("contact-us");
 const servicesPage = document.getElementById("our-services");
 const aboutPage = document.getElementById("about");
+// const aboutWordsTop = document.getElementById("about-words-cont");
 
 
 let scrolledHeight = $(window).scrollTop();
@@ -69,7 +70,7 @@ function areWeOnTheMainPage() {
         //     giveMeSomeSpaceNavBar(servicesPage);
         // }
         // else if (aboutPage) {
-        //     giveMeSomeSpaceNavBar(aboutPage);
+        //     somePaddingToCenterWhatIsBelowNavBar(aboutPage);
         // }
     }
 }
@@ -77,6 +78,28 @@ function areWeOnTheMainPage() {
 function giveMeSomeSpaceNavBar(elem) {
     let navBottom = whereAmI(regNav).bottom;
     elem.style.marginTop = (navBottom-20)+"px";
+}
+
+// function somePaddingToCenterWhatIsBelowNavBar(elem) {
+//     let navBottom = whereAmI(regNav).bottom;
+//     let paddingTopElem = getMeSomePaddingTop(elem);
+//     let newPaddingTop = paddingTopElem+navBottom;
+//     console.log("there was "+navBottom+" and then "+paddingTopElem+" and now "+newPaddingTop);
+//     elem.style.marginTop = newPaddingTop+"px";
+//     let didItWork = getMeSomePaddingTop(elem);
+//     console.log("My padding is now "+didItWork);
+// }
+
+function getMeSomePaddingTop(elem) {
+    let padding = $(elem).css('padding-top');
+    let temp = takeNumbersFromString(padding);
+    return temp;
+}
+
+function takeNumbersFromString(str) {
+    let matches = str.match(/(\d+)/);   //  ******IMPORTANT*******      (/(\d+)/) is regular expression for extracting number from string, DO NOT CHANGE
+    let realNumber = parseInt(matches[0]);  //takes the new number only string portion and converts it into a whole number for mathematical use
+    return realNumber;
 }
 
 function isMyBottomPastTheTop(elem) {
