@@ -19,7 +19,7 @@
             <div>
                 <div>
                     <span>Boundary & Subdivision Surveys</span>
-                    <img src="/img/boundarysurvey.webp" alt="">
+                    <img src="/img/hillCountryCrossingSurvey.jpg" alt="">
                     <p>Learn more about boundary and subdivision surveys</p>
                     <a class="learnMoreServicesLinkIn" href="">Learn More</a>
                 </div>
@@ -28,7 +28,7 @@
             <div>
                 <div>
                     <span>Topographic Surveys</span>
-                    <img src="/img/toposurvey.jpg" alt="">
+                    <img src="/img/sawsTealHoustonSt.jpg" alt="">
                     <p>Learn more about topographic surveys</p>
                     <a class="learnMoreServicesLinkIn" href="">Learn More</a>
                 </div>
@@ -37,7 +37,7 @@
             <div>
                 <div>
                     <span>Construction Staking</span>
-                    <img src="/img/constructionsurvey.jpg" alt="">
+                    <img src="/img/constructionStaking uvaldeAnnex 120-110.jpg" alt="">
                     <p>Learn more about construction staking</p>
                     <a class="learnMoreServicesLinkIn" href="">Learn More</a>
                 </div>
@@ -46,7 +46,7 @@
             <div>
                 <div>
                     <span>ALTA & TSPS Surveys</span>
-                    <img src="/img/subdivisionsurvey.jpg" alt="">
+                    <img src="/img/gunther.jpg" alt="">
                     <p>Learn more about ALTA surveys</p>
                     <a class="learnMoreServicesLinkIn" href="">Learn More</a>
                 </div>
@@ -55,7 +55,7 @@
             <div>
                 <div>
                     <span>Tree & Location Surveys</span>
-                    <img src="/img/locationsurvey.jpg" alt="">
+                    <img src="/img/treeSurvey 128-02 256 Wells Springs.jpg" alt="">
                     <p>Learn more about tree and location surveys</p>
                     <a class="learnMoreServicesLinkIn" href="">Learn More</a>
                 </div>

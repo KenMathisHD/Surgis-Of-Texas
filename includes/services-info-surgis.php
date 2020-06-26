@@ -3,15 +3,15 @@
     <div class="servicesInfoCont">
         <div id="b-n-d-s">
             <h5>Boundary & Subdivision Surveys</h5>
-            <img src="/img/constructionsurvey.jpg" alt="">
-            <p>Here is some information on boudary surveys. This is placeholder text. Lorem ipsum dolor sit 
-                amet, consectetur adipiscing elit. Donec lobortis hendrerit porttitor. Nulla gravida pharetra 
-                hendrerit. Donec elementum elementum diam, et dignissim urna vulputate sit amet. Suspendisse 
-                potenti. Nam tempus lobortis nibh ut tristique. Pellentesque vitae est egestas, vehicula leo 
-                id, mollis augue. Mauris consequat gravida lectus ut iaculis. Pellentesque habitant morbi 
-                tristique senectus et netus et malesuada fames ac turpis egestas. Duis lorem libero, tempor 
-                id justo sed, ultricies consequat magna. Aenean ultrices vestibulum diam eget suscipit. Etiam 
-                quis metus tristique, euismod urna eget, imperdiet tortor.
+            <img src="/img/hillCountryCrossingSurvey.jpg" alt="">
+            <p>Boundary surveys are the most basic survey a land surveyor can perform - however, the information collected in a boundary survey is argualy the most 
+                important information a land surveyor can obtain. When conducting a boundary survey, a land surveyor will run the real property line, using information 
+                from the property deed and the real world property markers to guide them. In doing so, the surveyor has the ability to identify any discrepancies 
+                in the location of the physical property/boundary markers discovered in relation to the information supplied in the deed/original survey, and can 
+                set any property markers that are found to be missing or are unable to be located. This information is critical in any transfer of title, or when 
+                considering subdividing or adding improvements to a property. Running the property line also provides an opportunity for the surveyor to identify 
+                and locate any encroachments over the property line, which can be used by the property owner in determing what future conflicts can occur with 
+                neighboring land owners. 
                 <br>
                 <br>
                 Phasellus molestie porttitor turpis eget semper. Curabitur finibus erat sit amet mollis 
@@ -35,7 +35,7 @@
         </div>
         <div id="topo-s">
             <h5>Topographic Surveys</h5>
-            <img src="/img/flood-cert-box.jpg" alt="">
+            <img src="/img/sawsTealHoustonSt.jpg" alt="">
             <p>This is some info about topographic surveys. Lorem ipsum dolor sit 
                 amet, consectetur adipiscing elit. Donec lobortis hendrerit porttitor. Nulla gravida pharetra 
                 hendrerit. Donec elementum elementum diam, et dignissim urna vulputate sit amet. Suspendisse 
@@ -68,7 +68,7 @@
         </div>
         <div id="constr-s">
             <h5>Construction Staking</h5>
-            <img src="/img/ImageNearNav.jpg" alt="">
+            <img src="/img/constructionStaking uvaldeAnnex 120-110.jpg" alt="">
             <p>This is some info about construction staking. Lorem ipsum dolor sit 
                 amet, consectetur adipiscing elit. Donec lobortis hendrerit porttitor. Nulla gravida pharetra 
                 hendrerit. Donec elementum elementum diam, et dignissim urna vulputate sit amet. Suspendisse 
@@ -101,7 +101,7 @@
         </div>
         <div id="a-n-t-s">
             <h5>ALTA & TSPS Surveys</h5>
-            <img src="/img/ImageNearNav2.jpg" alt="">
+            <img src="/img/gunther.jpg" alt="">
             <p>This is some info about ALTA & TSPS surveys. Lorem ipsum dolor sit 
                 amet, consectetur adipiscing elit. Donec lobortis hendrerit porttitor. Nulla gravida pharetra 
                 hendrerit. Donec elementum elementum diam, et dignissim urna vulputate sit amet. Suspendisse 
@@ -134,7 +134,7 @@
         </div>
         <div id="t-n-l-s">
             <h5>Tree & Location Surveys</h5>
-            <img src="/img/placeholderImageNearNav.jpg" alt="">
+            <img src="/img/treeSurvey 128-02 256 Wells Springs.jpg" alt="">
             <p>This is some info about tree location surveys. Lorem ipsum dolor sit 
                 amet, consectetur adipiscing elit. Donec lobortis hendrerit porttitor. Nulla gravida pharetra 
                 hendrerit. Donec elementum elementum diam, et dignissim urna vulputate sit amet. Suspendisse 
@@ -167,7 +167,7 @@
         </div>
         <div id="fema-fl-s">
             <h5>FEMA Flood Certificates</h5>
-            <img src="/img/subdivisionsurvey.jpg" alt="">
+            <img src="/img/flood-cert-box.jpg" alt="">
             <p>This is some info about FEMA flood certificates. Lorem ipsum dolor sit 
                 amet, consectetur adipiscing elit. Donec lobortis hendrerit porttitor. Nulla gravida pharetra 
                 hendrerit. Donec elementum elementum diam, et dignissim urna vulputate sit amet. Suspendisse 
