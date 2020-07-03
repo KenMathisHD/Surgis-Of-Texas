@@ -10,8 +10,13 @@ exitButton.addEventListener("click", function () {
     poppedUpImage.src = " ";
     let jobsInfoHolder = $(imagePopup).find(".jobInfo");            //targets the div in popup with the class jobInfo
     let jobsInfo = jobsInfoHolder.find($("span"));                  //targets the spans in the div with the class jobInfo and puts them in an array to be accessed later
-    for (let i = 0; i < jobsInfo.length; i++) {                     //loops through the spans in the div with the class jobInfo
-        jobsInfo[i].innerHTML = " ";                                //resets all their innerHTML's to be empty
+    for (let s = 0; s < jobsInfo.length; s++) {                     //loops through the spans in the div with the class jobInfo
+        jobsInfo[s].innerHTML = " ";                                //resets all their innerHTML's to be empty
+    }
+    let jobPhotosHolder = $(imagePopup).find(".jobPhotos");
+    let jobPhotos = jobPhotosHolder.find($("img"));
+    for (let i = 0; i < jobPhotos.length; i++) {
+        jobPhotos[i].src = " ";
     }
 });
 
@@ -24,12 +29,21 @@ projectsGalleryGrid.addEventListener("click", function () {
             imagePopup.classList.add("imagePopIn");         //has the clicked image popup
             let notSeenDataHolder = $(byTheDivs[i]).find(".notSeenData");   //targets the div with class notSeenData
             let notSeenDataHolderSpans = notSeenDataHolder.find($("span")); //targets the spans in the div with the class notSeenData and puts them in an array to be accessed later
+            let notSeenDataHolderImages = notSeenDataHolder.find($("img")); //target the images in the div with the class notSeeData and puts them in an array to be accessed later
             let jobsInfoHolder = $(imagePopup).find(".jobInfo");            //targets the div in popup with the class jobInfo
             let jobsInfo = jobsInfoHolder.find($("span"));                  //targets the spans in the div with the class jobInfo and puts them in an array to be accessed later
             let spanDataArray = [];                         //array to hold the innerHTML from the spans with the targeted image
-            for (let i = 0; i < notSeenDataHolderSpans.length; i++) {   //loop through to collect the data
-                jobsInfo[i].innerHTML = notSeenDataHolderSpans[i].innerHTML; //grabbing the data from the spans in activated image and putting them into the spans in popup
+            for (let s = 0; s < notSeenDataHolderSpans.length; s++) {   //loop through to collect the data
+                jobsInfo[s].innerHTML = notSeenDataHolderSpans[s].innerHTML; //grabbing the data from the spans in activated image and putting them into the spans in popup
             }
+            let jobPhotosHolder = $(imagePopup).find(".jobPhotos");
+            let jobPhotos = jobPhotosHolder.find($("img"));
+            let imgDataArray = [];
+            console.log(notSeenDataHolderImages);
+            for (let i = 0; i < notSeenDataHolderImages.length; i++) {
+                jobPhotos[i].src = $(notSeenDataHolderImages[i]).attr('src');
+            }
+            console.log(jobPhotos);
         }
     }
 });

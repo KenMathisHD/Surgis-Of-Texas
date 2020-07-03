@@ -1,137 +1,304 @@
-.projectsGalleryGrid {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-    z-index: 2;
+// .projectsGalleryGrid {
+//     position: relative;
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     align-items: stretch;
+//     z-index: 2;
 
-    >div {
-        flex: 0 0 25%;
-        height: 250px;
-        position: relative;
-        overflow: hidden;
+//     >div {
+//         flex: 0 0 25%;
+//         height: 250px;
+//         position: relative;
+//         overflow: hidden;
 
-        >img {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
-            transform: scale(1.25);
-        }
-        .seen {
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            z-index: 2;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: rgba(0,0,0,0);
-            color: white;
-            transition: ease-in-out 250ms;
+//         >img {
+//             position: relative;
+//             width: 100%;
+//             height: 100%;
+//             z-index: 1;
+//             transform: scale(1.25);
+//         }
+//         .seen {
+//             position: absolute;
+//             top: 0;
+//             left: 0;
+//             bottom: 0;
+//             right: 0;
+//             z-index: 2;
+//             display: flex;
+//             flex-direction: column;
+//             justify-content: center;
+//             align-items: center;
+//             background-color: rgba(0,0,0,0);
+//             color: white;
+//             transition: ease-in-out 250ms;
 
-            h6 {
-                text-align: center;
-                padding: 10px 0;
-                opacity: 0;
-                transition: ease-in-out 250ms;
-            }
-            span {
-                text-align: center;
-                padding: 7.5px 25px;
-                background-color: goldenrod;
-                border: 3px solid white;
-                color: white;
-                text-decoration: none;
-                opacity: 0;
-                transition: ease-in-out 250ms;
-                cursor: pointer;
-            }
-            &:hover {
-                background-color: rgba(0, 0, 0, 0.6);
-                h6 {
-                    opacity: 1;
-                }
-                span {
-                    opacity: 1;
-                }
-            }
-        }
-        .notSeenData {
-            display: none;
-        }
-    }
-}
+//             h6 {
+//                 text-align: center;
+//                 padding: 10px 0;
+//                 opacity: 0;
+//                 transition: ease-in-out 250ms;
+//             }
+//             span {
+//                 text-align: center;
+//                 padding: 7.5px 25px;
+//                 background-color: goldenrod;
+//                 border: 3px solid white;
+//                 color: white;
+//                 text-decoration: none;
+//                 opacity: 0;
+//                 transition: ease-in-out 250ms;
+//                 cursor: pointer;
+//             }
+//             &:hover {
+//                 background-color: rgba(0, 0, 0, 0.6);
+//                 h6 {
+//                     opacity: 1;
+//                 }
+//                 span {
+//                     opacity: 1;
+//                 }
+//             }
+//         }
+//         .notSeenData {
+//             display: none;
+//         }
+//     }
+// }
 
-.imagePopupCont {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0,0,0,0.7);
-    z-index: 1;
-    opacity: 0;
-    transition: ease-in-out 350ms;
+// .imagePopupCont {
+//     position: fixed;
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+//     background-color: rgba(0,0,0,0.7);
+//     z-index: 1;
+//     opacity: 0;
+//     transition: ease-in-out 350ms;
 
-    .imagePopup {
+//     .imagePopup {
+//         position: relative;
+//         display: flex;
+//         flex-direction: row;
+//         flex-wrap: nowrap;
+//         justify-content: center;
+//         align-items: center;
+//         padding: 5%; 
+//         width: 100%;
+//         height: 100%;
+//         transition: ease-in-out 350ms;
+    
+//         a {
+//             position: absolute;
+//             top: 0;
+//             right: 0;
+//             width: 40px;
+//             font-size: 25px;
+//             color: white;
+//             text-align: center;
+//             padding: 5px;
+//             background-color: black;
+//         }
+//         >div {
+//             position: relative;
+//             flex: 0 0 65%;
+//             padding: 25px 0;
+//             z-index: 1;
+//             text-align: right;
+
+//             img {
+//                 max-width: 100%;
+//                 max-height: 80vh;
+//                 border: 3px solid white;
+//             }
+//         }
+//         .jobInfo {
+//             flex: 0 0 30%;
+//             position: relative;
+//             display: flex;
+//             flex-wrap: wrap;
+//             flex-direction: column;
+//             justify-content: center;
+//             align-items: center;
+//             z-index: 2;
+
+//             span {
+//                 padding: 0 2.5px 5px 2.5px;
+//                 color: white;
+//             }
+//         }
+//     }
+// }
+
+
+@media (min-width: 1200px) {
+    .projectsGalleryGrid {
         position: relative;
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
-        padding: 5%; 
-        width: 100%;
-        height: 100%;
-        transition: ease-in-out 350ms;
+        align-items: stretch;
+        z-index: 2;
     
-        a {
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 40px;
-            font-size: 25px;
-            color: white;
-            text-align: center;
-            padding: 5px;
-            background-color: black;
-        }
         >div {
+            flex: 0 0 25%;
+            height: 250px;
             position: relative;
-            flex: 0 0 65%;
-            padding: 25px 0;
-            z-index: 1;
-            text-align: right;
-
-            img {
-                max-width: 100%;
-                max-height: 80vh;
-                border: 3px solid white;
+            overflow: hidden;
+    
+            >img {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                transform: scale(1.25);
+            }
+            .seen {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                z-index: 2;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(0,0,0,0);
+                color: white;
+                transition: ease-in-out 250ms;
+    
+                h6 {
+                    text-align: center;
+                    padding: 10px 0;
+                    opacity: 0;
+                    transition: ease-in-out 250ms;
+                }
+                span {
+                    text-align: center;
+                    padding: 7.5px 25px;
+                    background-color: goldenrod;
+                    border: 3px solid white;
+                    color: white;
+                    text-decoration: none;
+                    opacity: 0;
+                    transition: ease-in-out 250ms;
+                    cursor: pointer;
+                }
+                &:hover {
+                    background-color: rgba(0, 0, 0, 0.6);
+                    h6 {
+                        opacity: 1;
+                    }
+                    span {
+                        opacity: 1;
+                    }
+                }
+            }
+            .notSeenData {
+                display: none;
             }
         }
-        .jobInfo {
-            flex: 0 0 30%;
+    }
+    
+    .imagePopupCont {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.7);
+        z-index: 1;
+        opacity: 0;
+        transition: ease-in-out 350ms;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1% 5% 0;
+        border: 2px solid blue;
+    
+        .imagePopup {
+            align-self: center;
             position: relative;
             display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
+            flex-direction: row;
+            flex-wrap: nowrap;
             justify-content: center;
             align-items: center;
-            z-index: 2;
-
-            span {
-                padding: 0 2.5px 5px 2.5px;
+            transition: ease-in-out 350ms;
+            border: 2px solid yellow;
+            width: 100%;
+        
+            >span {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 40px;
+                font-size: 25px;
                 color: white;
+                text-align: center;
+                padding: 5px;
+                background-color: black;
+                cursor: pointer;
+            }
+            .mainImage {
+                position: relative;
+                max-width: 65%;
+                height: 80vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-self: center;
+    
+                >img {
+                    max-width: 100%;
+                    max-height: 100%;
+                    border: 3px solid white;
+                }
+            }
+            .jobInfo {
+                flex: 0 0 30%;
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                z-index: 2;
+                
+                span {
+                    text-align: center;
+                    padding: 0 2.5px 5px 2.5px;
+                    color: white;
+                }
+            }
+        }
+        .jobPhotos {
+            align-self: flex-end;
+            position: relative;
+            width: 100%;
+            height: 75px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            padding: 0 0 10px 0;
+
+            img {
+                height: 100%;
+                margin: 0 10px;
             }
         }
     }
 }
+
+
 
 .imagePopIn {
     z-index: 99;
