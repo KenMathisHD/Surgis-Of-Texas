@@ -8,9 +8,12 @@
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <span>Helotes Slim Addition</span>
-                <span>Helotes, TX</span>
-                <span>Tree Location, Boundary, ALTA and Topographic Survey</span>
+                <input type="hidden" name="text" category="place" textContent="Helotes Slim Addition">
+                <input type="hidden" name="text" category="citystate" textContent="Helotes, TX">
+                <input type="hidden" name="text" category="surveytype" textContent="Tree Location, Boundary, ALTA and Topographic Survey">
+                <input type="hidden" name="image" imageSrc="/img/slimALTA.jpg">
+                <input type="hidden" name="image" imageSrc="/img/slimP1.jpg">
+                <!-- <input type="hidden" name="image" imageSrc="/img/slimP2.jpg"> -->
             </div>
         </div>
         <div name="divImg" tabindex="0">
@@ -20,9 +23,9 @@
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <span>Cantera Hills Subdivision</span>
-                <span>Grey Forest, TX</span>
-                <span>Boundary Survey</span>
+                <input type="hidden" name="text" category="place" textContent="Cantera Hills Subdivision">
+                <input type="hidden" name="text" category="citystate" textContent="Grey Fores, TX">
+                <input type="hidden" name="text" category="surveytype" textContent="Boundary Survey">
             </div>
         </div>
         <div name="divImg" tabindex="0">
@@ -32,9 +35,9 @@
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <span>Houston Street</span>
-                <span>San Antonio, TX</span>
-                <span>ALTA/ACSM Land Title Survey</span>
+                <input type="hidden" name="text" category="place" textContent="Houston Street">
+                <input type="hidden" name="text" category="citystate" textContent="San Antonio, TX">
+                <input type="hidden" name="text" category="surveytype" textContent="ALTA/ACSM Land Title Survey">
             </div>
         </div>
         <div name="divImg" tabindex="0">
@@ -44,9 +47,9 @@
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <span>Dessau Rd</span>
-                <span>Austin, TX</span>
-                <span>Boundary, As-built, Improvements and Utilities Survey</span>
+                <input type="hidden" name="text" category="place" textContent="Dessau Rd">
+                <input type="hidden" name="text" category="citystate" textContent="Austin, TX">
+                <input type="hidden" name="text" category="surveytype" textContent="Boundary, As-built, Improvements and Utilities Survey">
             </div>
         </div>
         <div name="divImg" tabindex="0">
@@ -56,9 +59,9 @@
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <span>Driskell Subdivision</span>
-                <span>Helotes, TX</span>
-                <span>Boundary and Improvements Survey</span>
+                <input type="hidden" name="text" category="place" textContent="Driskell Subdivision">
+                <input type="hidden" name="text" category="citystate" textContent="Helotes, TX">
+                <input type="hidden" name="text" category="surveytype" textContent="Boundary and Improvements Survey">
             </div>
         </div>
         <div name="divImg" tabindex="0">
@@ -68,9 +71,9 @@
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <span>Annabelle Ranch Subdivision</span>
-                <span>San Antonio, TX</span>
-                <span>Topographic and Tree Location Survey</span>
+                <input type="hidden" name="text" category="place" textContent="Annabelle Ranch Subdivision">
+                <input type="hidden" name="text" category="citystate" textContent="San Antonio, TX">
+                <input type="hidden" name="text" category="surveytype" textContent="Topographic and Tree Location Survey">
             </div>
         </div>
         <div name="divImg" tabindex="0">
@@ -80,9 +83,9 @@
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <span>WIlliam Kelley Survey No. 35</span>
-                <span>Bandera, TX</span>
-                <span>Boundary Survey</span>        <!--109-04, not 109-01-->
+                <input type="hidden" name="text" category="place" textContent="WIlliam Kelley Survey No. 35">
+                <input type="hidden" name="text" category="citystate" textContent="Bandera, TX">
+                <input type="hidden" name="text" category="surveytype" textContent="Boundary Survey">       <!--109-04, not 109-01-->
             </div>
         </div>
         <div name="divImg" tabindex="0">
@@ -92,9 +95,9 @@
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <span>Uvalde County Annex</span>
-                <span>Hondo, TX</span>
-                <span>Construction Staking</span>
+                <input type="hidden" name="text" category="place" textContent="Uvalde County Annex">
+                <input type="hidden" name="text" category="citystate" textContent="Hondo, TX">
+                <input type="hidden" name="text" category="surveytype" textContent="Construction Staking">
             </div>
         </div>
         <div name="divImg" tabindex="0">
@@ -104,9 +107,9 @@
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <span>E Houston St</span>
-                <span>San Antonio, TX</span>
-                <span>Topographic Survey</span>
+                <input type="hidden" name="text" category="place" textContent="E Houston St">
+                <input type="hidden" name="text" category="citystate" textContent="San Antonio, TX">
+                <input type="hidden" name="text" category="surveytype" textContent="Topographic Survey">
             </div>
         </div>
         <div name="divImg" tabindex="0">
@@ -116,9 +119,9 @@
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <span>Bear Springs Subdivision</span>
-                <span>Mico, TX</span>
-                <span>Boundary Survey</span>
+                <input type="hidden" name="text" category="place" textContent="Bear Springs Subdivision">
+                <input type="hidden" name="text" category="citystate" textContent="Mico, TX">
+                <input type="hidden" name="text" category="surveytype" textContent="Boundary Survey">
             </div>
         </div>
         <div name="divImg" tabindex="0">
@@ -128,24 +131,23 @@
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <span>Highland Park</span>
-                <span>San Antonio, TX</span>
-                <span>Topographic and Improvements Survey</span>
+                <input type="hidden" name="text" category="place" textContent="Highland Park">
+                <input type="hidden" name="text" category="citystate" textContent="San Antonio, TX">
+                <input type="hidden" name="text" category="surveytype" textContent="Topographic and Improvements Survey">
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/shavanoParkTreeTopoP1.jpg" alt="">
+            <img name="mainImg" src="/img/shavanoParkTreeTopoP1.jpg" alt="">
             <div class="seen">
                 <h6>Shavano Park, San Antonio, Texas</h6>
-                <span>View Project</span>
+                <span name="marty">View Project</span>
             </div>
-            <div class="notSeenData">
-                <span>Huntingon Subdivision</span>
-                <span>San Antonio, TX</span>
-                <span>Boundary, Tree and Topographic Survey</span>
-                <img src="/img/shavanoParkTreeTopoP2.jpg" alt="">
-                <img src="/img/shavanoParkTreeTopoP3.jpg" alt="">
-                <img src="/img/shavanoParkTreeTopoP2.jpg" alt="">
+            <div class="notSeenData" name="gotMe">
+                <input type="hidden" name="text" category="place" textContent="Huntingon Subdivision">
+                <input type="hidden" name="text" category="citystate" textContent="San Antonio, TX">
+                <input type="hidden" name="text" category="surveytype" textContent="Boundary, Tree and Topographic Survey">
+                <input type="hidden" name="image" imageSrc="/img/shavanoParkTreeTopoP3.jpg">
+                <input type="hidden" name="image" imageSrc="/img/shavanoParkTreeTopoP2.jpg">
             </div>
         </div>
 
@@ -170,9 +172,15 @@
             </div>
         </div>
         <div class="jobPhotos">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="/img/download.png" alt="">
+            <img src="/img/download.png" alt="">
+            <img src="/img/download.png" alt="">
+        </div>
+        <div id="arrow-left" class="arrowLeft">
+            <span><</span>
+        </div>
+        <div id="arrow-right" class="arrowRight">
+        <span>></span>
         </div>
     </div>
 

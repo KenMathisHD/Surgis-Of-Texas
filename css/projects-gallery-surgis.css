@@ -80,7 +80,6 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 1% 5% 0;
-    border: 2px solid blue;
   }
   .imagePopupCont .imagePopup {
     align-self: center;
@@ -91,7 +90,6 @@
     justify-content: center;
     align-items: center;
     transition: ease-in-out 350ms;
-    border: 2px solid yellow;
     width: 100%;
   }
   .imagePopupCont .imagePopup > span {
@@ -129,11 +127,13 @@
     justify-content: center;
     align-items: center;
     z-index: 2;
+    padding: 0 10px;
   }
   .imagePopupCont .imagePopup .jobInfo span {
     text-align: center;
     padding: 0 2.5px 5px 2.5px;
     color: white;
+    font-size: 20px;
   }
   .imagePopupCont .jobPhotos {
     align-self: flex-end;
@@ -150,6 +150,36 @@
   .imagePopupCont .jobPhotos img {
     height: 100%;
     margin: 0 10px;
+  }
+  .imagePopupCont .arrowLeft,
+  .imagePopupCont .arrowRight {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    margin-top: -30px;
+    width: 4.5%;
+    height: 60px;
+    color: white;
+    font-size: 30px;
+    border: 1px solid grey;
+    transition: ease-in-out 150ms;
+    cursor: pointer;
+  }
+  .imagePopupCont .arrowLeft span,
+  .imagePopupCont .arrowRight span {
+    cursor: pointer;
+  }
+  .imagePopupCont .arrowLeft:hover,
+  .imagePopupCont .arrowRight:hover {
+    border: 1px solid white;
+  }
+  .imagePopupCont .arrowLeft {
+    left: 0;
+  }
+  .imagePopupCont .arrowRight {
+    right: 0;
   }
 }
 .imagePopIn {

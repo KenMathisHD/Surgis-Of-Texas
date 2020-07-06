@@ -220,7 +220,6 @@
         flex-wrap: wrap;
         justify-content: center;
         padding: 1% 5% 0;
-        border: 2px solid blue;
     
         .imagePopup {
             align-self: center;
@@ -231,7 +230,6 @@
             justify-content: center;
             align-items: center;
             transition: ease-in-out 350ms;
-            border: 2px solid yellow;
             width: 100%;
         
             >span {
@@ -270,11 +268,13 @@
                 justify-content: center;
                 align-items: center;
                 z-index: 2;
+                padding: 0 10px;
                 
                 span {
                     text-align: center;
                     padding: 0 2.5px 5px 2.5px;
                     color: white;
+                    font-size: 20px;
                 }
             }
         }
@@ -294,6 +294,34 @@
                 height: 100%;
                 margin: 0 10px;
             }
+        }
+        .arrowLeft, .arrowRight {
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 50%;
+            margin-top: -30px;
+            width: 4.5%;
+            height: 60px;
+            color: white;
+            font-size: 30px;
+            border: 1px solid grey;
+            transition: ease-in-out 150ms;
+            cursor: pointer;
+
+            span {
+                cursor: pointer;
+            }
+            &:hover {
+                border: 1px solid white;
+            }
+        }
+        .arrowLeft {
+            left: 0;
+        }
+        .arrowRight {
+            right: 0;
         }
     }
 }
