@@ -13,7 +13,7 @@
                 <input type="hidden" name="text" category="surveytype" textContent="Tree Location, Boundary, ALTA and Topographic Survey">
                 <input type="hidden" name="image" imageSrc="/img/slimALTA.jpg">
                 <input type="hidden" name="image" imageSrc="/img/slimP1.jpg">
-                <!-- <input type="hidden" name="image" imageSrc="/img/slimP2.jpg"> -->
+                <input type="hidden" name="image" imageSrc="/img/slimP2.jpg">
             </div>
         </div>
         <div name="divImg" tabindex="0">
@@ -171,7 +171,7 @@
                 <span>Job Type</span>
             </div>
         </div>
-        <div class="jobPhotos">
+        <div id="job-photos" class="jobPhotos">
             <img src="/img/download.png" alt="">
             <img src="/img/download.png" alt="">
             <img src="/img/download.png" alt="">

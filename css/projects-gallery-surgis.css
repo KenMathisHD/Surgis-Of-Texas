@@ -185,5 +185,4 @@
 .imagePopIn {
   z-index: 99;
   opacity: 1;
-  transition: ease-in-out 350ms;
 }

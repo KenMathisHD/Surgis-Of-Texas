@@ -89,6 +89,10 @@ arrowRight.addEventListener("click", function () {
 projectsGalleryGrid.addEventListener("click", function () {
     for (let i = 0; i < byTheDivs.length; i++) {          //loops through the elements with the name defined in byTheDivs
         if (document.activeElement == byTheDivs[i]) {     //checks if the current div in the loop is the active element
+            let imgSrc = $(byTheDivs[i]).find('img').attr('src'); //gets the image source for the image child of the active div (i.e. the clicked image)
+            poppedUpImage.src = imgSrc;                     //sets the source for the popup image as the source for the image in the active div (i.e. the clicked image)
+            imagePopup.classList.add("imagePopIn");         //has the clicked image popup
+
             let notSeeData = byTheDivs[i].getElementsByClassName("notSeenData")[0].getElementsByTagName("input");
             for (let i = 0; i < notSeeData.length; i++) {
                 if (notSeeData[i].getAttribute("name") == "text") {
@@ -102,11 +106,8 @@ projectsGalleryGrid.addEventListener("click", function () {
             formatTextArr();
             displayTextArr();
             formatImageArr(byTheDivs[i]);
+            howManyImages();
             displayImageArr();
-
-            let imgSrc = $(byTheDivs[i]).find('img').attr('src'); //gets the image source for the image child of the active div (i.e. the clicked image)
-            poppedUpImage.src = imgSrc;                     //sets the source for the popup image as the source for the image in the active div (i.e. the clicked image)
-            imagePopup.classList.add("imagePopIn");         //has the clicked image popup
 
             break;
         }
@@ -223,4 +224,42 @@ function goLeftInfo() {
     }
 
     return leftData.nextSpot;
+}
+
+function howManyImages() {
+    let howMany = 0;
+    if (jobPhotos.length > imageArr.length) {           //remove image tags
+        howMany = (jobPhotos.length)-(imageArr.length);
+        let temp = (jobPhotos.length)-1;
+        for (let i = howMany; i > 0; i--) {
+            removeAnElement(jobPhotos[temp]);
+            temp--;
+        }
+    }
+    else if (jobPhotos.length < imageArr.length) {      //add image tags
+        howMany = (imageArr.length)-(jobPhotos.length);
+        for (let i = 0; i < howMany; i++) {
+            addAnElement("job-photos", "img");
+        }
+    }
+    else {
+        howmany = 0;
+    }
+}
+
+// credit for add and remove element functions goes to https://www.abeautifulsite.net/adding-and-removing-elements-on-the-fly-using-javascript
+
+function addAnElement(parentId, elementTag) {
+    // Adds an element to the document
+    var p = document.getElementById(parentId);
+    var newElement = document.createElement(elementTag);
+    // newElement.setAttribute('id', elementId);
+    // newElement.innerHTML = html;
+    p.appendChild(newElement);
+}
+
+function removeAnElement(element) {
+    // Removes an element from the document
+    // var element = document.getElementById(elementId);
+    element.parentNode.removeChild(element);
 }
