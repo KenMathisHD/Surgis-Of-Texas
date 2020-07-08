@@ -34,24 +34,24 @@
                 <li>Email: <a href="mailto:info@surgis-texas.com" target="_blank">info@surgis-texas.com</a></li>
             </ul>
             <div class="logosholder">
-                <a href="https://www.facebook.com/SurGIS/" target="_blank"><img src="/img/facebooklogo.png" alt="facebook link to SurGIS of Texas Corp"></a>
-                <a href="https://www.instagram.com/surgisoftexascorporation/?hl=en" target="_blank"><img src="/img/instagram.jpg" alt="instagram link to SurGIS of Texas Corp"></a>
+                <a href="https://www.facebook.com/SurGIS/" target="_blank" rel="noopener"><img src="/img/facebooklogo.png" alt="facebook link to SurGIS of Texas Corp"></a>
+                <a href="https://www.instagram.com/surgisoftexascorporation/?hl=en" target="_blank" rel="noopener"><img src="/img/instagram.jpeg" alt="instagram link to SurGIS of Texas Corp"></a>
             </div>
         </div>
         <div id="sec4">
             <h5>Recommended Links</h5>
             <ul>
-                <li><a href="https://www.tsps.org/default.aspx">Texas Society of Professional Land Surveyors</a></li>
-                <li><a href="https://txls.texas.gov/">Texas Board of Prof. Engineers & Land Surveyors</a></li>
-                <li><a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/">Texas Appraisal Districts</a></li>
-                <li><a href="https://msc.fema.gov/portal/home">FEMA Flood Maps</a></li>
-                <li><a href="https://www.bexar.org/2950/Real-PropertyLand-Records">Bexar County Clerk</a></li>
-                <li><a href="https://www.sanantonio.gov/GIS">City of San Antonio GIS</a></li>
-                <li><a href="https://www.capcog.org/divisions/regional-planning-services#geographic">CAPCOG GIS</a></li>
+                <li><a href="https://www.tsps.org/default.aspx" target="_blank" rel="noopener">Texas Society of Professional Land Surveyors</a></li>
+                <li><a href="https://txls.texas.gov/" target="_blank" rel="noopener">Texas Board of Prof. Engineers & Land Surveyors</a></li>
+                <li><a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/" target="_blank" rel="noopener">Texas Appraisal Districts</a></li>
+                <li><a href="https://msc.fema.gov/portal/home" target="_blank" rel="noopener">FEMA Flood Maps</a></li>
+                <li><a href="https://www.bexar.org/2950/Real-PropertyLand-Records" target="_blank" rel="noopener">Bexar County Clerk</a></li>
+                <li><a href="https://www.sanantonio.gov/GIS" target="_blank" rel="noopener">City of San Antonio GIS</a></li>
+                <li><a href="https://www.capcog.org/divisions/regional-planning-services#geographic" target="_blank" rel="noopener">CAPCOG GIS</a></li>
                 <!-- <li><a href="">TxDOT ROW and Control</a></li> -->
-                <li><a href="https://www.nsps.us.com/page/ALTANSPSStandards">ALTA Land and Title Surveys</a></li>
-                <li><a href="https://westlat.com/">Westlat</a></li>
-                <li><a href="https://www.pobonline.com/">Point of Beginning Magazine</a></li>
+                <li><a href="https://www.nsps.us.com/page/ALTANSPSStandards" target="_blank" rel="noopener">ALTA Land and Title Surveys</a></li>
+                <li><a href="https://westlat.com/" target="_blank" rel="noopener">Westlat</a></li>
+                <li><a href="https://www.pobonline.com/" target="_blank" rel="noopener">Point of Beginning Magazine</a></li>
             </ul>
         </div>
 

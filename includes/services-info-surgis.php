@@ -3,7 +3,7 @@
     <div class="servicesInfoCont">
         <div id="b-n-d-s">
             <h5>Boundary & Subdivision Surveys</h5>
-            <img src="/img/hillCountryCrossingSurvey.jpg" alt="">
+            <img src="/img/hillCountryCrossingSurvey.jpeg" alt="">
             <p>Boundary surveys are the most basic survey a land surveyor can perform - however, the information collected in a boundary survey is argualy the most 
                 important information a land surveyor can obtain. When conducting a boundary survey, a land surveyor will run the real property line, using information 
                 from the property deed and the real world property markers to guide them. In doing so, the surveyor has the ability to identify any discrepancies 
@@ -14,15 +14,7 @@
                 neighboring land owners. 
                 <br>
                 <br>
-                Phasellus molestie porttitor turpis eget semper. Curabitur finibus erat sit amet mollis 
-                accumsan. Nam vitae rutrum velit, sit amet vestibulum leo. Donec ultricies auctor ipsum, 
-                varius ultricies ante fermentum nec. Aliquam luctus justo diam, a facilisis velit condimentum 
-                eget. Curabitur laoreet fringilla libero vitae rutrum. Pellentesque dignissim consequat neque 
-                in ultrices. Nam nec pretium velit. Phasellus a placerat velit. Curabitur vitae nulla nisi. 
-                Curabitur molestie lectus quis nulla feugiat, quis cursus nisl viverra. In consectetur dui eu 
-                augue bibendum, quis condimentum purus porta. Sed id nisl et augue gravida condimentum a quis 
-                enim. Integer vitae tincidunt urna. Nunc viverra neque nec nisl porta, ut scelerisque tellus 
-                rutrum.
+                Our surveyors have over 45 years of experience with boundary surveys, 
                 <br>
                 <br>
                 Nullam congue, mauris vitae pretium eleifend, eros sapien vulputate felis, sed bibendum ligula 
@@ -35,7 +27,7 @@
         </div>
         <div id="topo-s">
             <h5>Topographic Surveys</h5>
-            <img src="/img/sawsTealHoustonSt.jpg" alt="">
+            <img src="/img/sawsTealHoustonSt.jpeg" alt="">
             <p>This is some info about topographic surveys. Lorem ipsum dolor sit 
                 amet, consectetur adipiscing elit. Donec lobortis hendrerit porttitor. Nulla gravida pharetra 
                 hendrerit. Donec elementum elementum diam, et dignissim urna vulputate sit amet. Suspendisse 
@@ -68,7 +60,7 @@
         </div>
         <div id="constr-s">
             <h5>Construction Staking</h5>
-            <img src="/img/constructionStaking uvaldeAnnex 120-110.jpg" alt="">
+            <img src="/img/constructionStaking uvaldeAnnex 120-110.jpeg" alt="">
             <p>This is some info about construction staking. Lorem ipsum dolor sit 
                 amet, consectetur adipiscing elit. Donec lobortis hendrerit porttitor. Nulla gravida pharetra 
                 hendrerit. Donec elementum elementum diam, et dignissim urna vulputate sit amet. Suspendisse 
@@ -101,7 +93,7 @@
         </div>
         <div id="a-n-t-s">
             <h5>ALTA & TSPS Surveys</h5>
-            <img src="/img/gunther.jpg" alt="">
+            <img src="/img/gunther.jpeg" alt="">
             <p>This is some info about ALTA & TSPS surveys. Lorem ipsum dolor sit 
                 amet, consectetur adipiscing elit. Donec lobortis hendrerit porttitor. Nulla gravida pharetra 
                 hendrerit. Donec elementum elementum diam, et dignissim urna vulputate sit amet. Suspendisse 
@@ -134,7 +126,7 @@
         </div>
         <div id="t-n-l-s">
             <h5>Tree & Location Surveys</h5>
-            <img src="/img/treeSurvey 128-02 256 Wells Springs.jpg" alt="">
+            <img src="/img/treeSurvey 128-02 256 Wells Springs.jpeg" alt="">
             <p>This is some info about tree location surveys. Lorem ipsum dolor sit 
                 amet, consectetur adipiscing elit. Donec lobortis hendrerit porttitor. Nulla gravida pharetra 
                 hendrerit. Donec elementum elementum diam, et dignissim urna vulputate sit amet. Suspendisse 
@@ -167,7 +159,7 @@
         </div>
         <div id="fema-fl-s">
             <h5>FEMA Flood Certificates</h5>
-            <img src="/img/flood-cert-box.jpg" alt="">
+            <img src="/img/flood-cert-box.jpeg" alt="">
             <p>This is some info about FEMA flood certificates. Lorem ipsum dolor sit 
                 amet, consectetur adipiscing elit. Donec lobortis hendrerit porttitor. Nulla gravida pharetra 
                 hendrerit. Donec elementum elementum diam, et dignissim urna vulputate sit amet. Suspendisse 

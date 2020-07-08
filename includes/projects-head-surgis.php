@@ -18,8 +18,5 @@
   <link rel="stylesheet" href="css/projects-gallery-surgis.css">
 
   <link rel="stylesheet" href="css/bottomnav-surgis.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">

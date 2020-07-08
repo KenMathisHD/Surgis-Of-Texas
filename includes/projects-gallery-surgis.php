@@ -2,7 +2,7 @@
 
     <div id="projects-gallery-grid" class="projectsGalleryGrid">
         <div name="divImg" tabindex="0">
-            <img src="/img/slimTOPO.jpg" alt="" id="test-image">
+            <img src="/img/slimTOPO.jpeg" alt="" id="test-image">
             <div class="seen">
                 <h6>Helotes Slim Addition, Helotes, Texas</h6>
                 <span>View Project</span>
@@ -11,13 +11,15 @@
                 <input type="hidden" name="text" category="place" textContent="Helotes Slim Addition">
                 <input type="hidden" name="text" category="citystate" textContent="Helotes, TX">
                 <input type="hidden" name="text" category="surveytype" textContent="Tree Location, Boundary, ALTA and Topographic Survey">
-                <input type="hidden" name="image" imageSrc="/img/slimALTA.jpg">
-                <input type="hidden" name="image" imageSrc="/img/slimP1.jpg">
-                <input type="hidden" name="image" imageSrc="/img/slimP2.jpg">
+                <input type="hidden" name="image" imageSrc="/img/slimALTA.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/slimP1.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/slimP2.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/shavanoParkTreeTopoP3.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/shavanoParkTreeTopoP2.jpeg">
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/canteraHillsBoundary.jpg" alt="">
+            <img src="/img/canteraHillsBoundary.jpeg" alt="">
             <div class="seen">
                 <h6>Grey Forest, Texas</h6>
                 <span>View Project</span>
@@ -29,7 +31,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/gunther.jpg" alt="">
+            <img src="/img/gunther.jpeg" alt="">
             <div class="seen">
                 <h6>Houston Street, San Antonio, Texas</h6>
                 <span>View Project</span>
@@ -41,7 +43,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/chineese church.jpg" alt="">
+            <img src="/img/chineese_church.jpeg" alt="">
             <div class="seen">
                 <h6>Dessau Rd, Austin, Texas</h6>
                 <span>View Project</span>
@@ -53,7 +55,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/hillCountryCrossingSurvey.jpg" alt="">
+            <img src="/img/hillCountryCrossingSurvey.jpeg" alt="">
             <div class="seen">
                 <h6>Driskell Subdivision, Helotes, Texas</h6>
                 <span>View Project</span>
@@ -65,7 +67,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/annabelleRanch.jpg" alt="">
+            <img src="/img/annabelleRanch.jpeg" alt="">
             <div class="seen">
                 <h6>Annabelle Ranch, San Antonio, Texas</h6>
                 <span>View Project</span>
@@ -77,7 +79,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/jureczki3.jpg" alt="">
+            <img src="/img/jureczki3.jpeg" alt="">
             <div class="seen">
                 <h6>William Kelley Survey No. 35, Bandera, Texas</h6>
                 <span>View Project</span>
@@ -86,10 +88,12 @@
                 <input type="hidden" name="text" category="place" textContent="WIlliam Kelley Survey No. 35">
                 <input type="hidden" name="text" category="citystate" textContent="Bandera, TX">
                 <input type="hidden" name="text" category="surveytype" textContent="Boundary Survey">       <!--109-04, not 109-01-->
+                <input type="hidden" name="image" imageSrc="/img/jureczki2.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/jureczki.jpeg">
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/uvaldeAnnex .jpg" alt="">
+            <img src="/img/uvaldeAnnex.jpeg" alt="">
             <div class="seen">
                 <h6>Uvalde County Annex, Hondo, Texas</h6>
                 <span>View Project</span>
@@ -101,7 +105,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/sawsTealHoustonSt.jpg" alt="">
+            <img src="/img/sawsTealHoustonSt.jpeg" alt="">
             <div class="seen">
                 <h6>E Houston St, San Antonio, Texas</h6>
                 <span>View Project</span>
@@ -113,7 +117,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/bearsprings.jpeg" alt="">
+            <img src="/img/sawsTealHoustonSt.jpeg" alt="">
             <div class="seen">
                 <h6>Bear Springs Subdision, Medina, Texas</h6>
                 <span>View Project</span>
@@ -125,7 +129,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/hammondAve.jpg" alt="">
+            <img src="/img/hammondAve.jpeg" alt="">
             <div class="seen">
                 <h6>Highland Park, San Antonio, Texas</h6>
                 <span>View Project</span>
@@ -137,7 +141,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img name="mainImg" src="/img/shavanoParkTreeTopoP1.jpg" alt="">
+            <img name="mainImg" src="/img/shavanoParkTreeTopoP1.jpeg" alt="">
             <div class="seen">
                 <h6>Shavano Park, San Antonio, Texas</h6>
                 <span name="marty">View Project</span>
@@ -146,8 +150,8 @@
                 <input type="hidden" name="text" category="place" textContent="Huntingon Subdivision">
                 <input type="hidden" name="text" category="citystate" textContent="San Antonio, TX">
                 <input type="hidden" name="text" category="surveytype" textContent="Boundary, Tree and Topographic Survey">
-                <input type="hidden" name="image" imageSrc="/img/shavanoParkTreeTopoP3.jpg">
-                <input type="hidden" name="image" imageSrc="/img/shavanoParkTreeTopoP2.jpg">
+                <input type="hidden" name="image" imageSrc="/img/shavanoParkTreeTopoP3.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/shavanoParkTreeTopoP2.jpeg">
             </div>
         </div>
 
@@ -160,27 +164,31 @@
 
 
     <div id="image-popup" class="imagePopupCont">
-        <div class="imagePopup">
-            <span id="exit-button">X</span>
-            <div class="mainImage">
-                <img src="" alt="" id="popped-up-image">
+        <div class="innerCont">
+            <div class="imagePopup">
+                <span id="exit-button">X</span>
+                <div class="mainImage">
+                    <img src="/img/1x1.jpeg" alt="" id="popped-up-image">
+                </div>
+                <div class="jobInfo">
+                    <span>Job Name</span>
+                    <span>Job Address</span>
+                    <span style="width: 100%;">Job Type</span>
+                </div>
             </div>
-            <div class="jobInfo">
-                <span>Job Name</span>
-                <span>Job Address</span>
-                <span>Job Type</span>
+            <div id="job-photos" class="jobPhotos">
+                <img src="/img/1x1.jpeg" alt="">
+                <img src="/img/1x1.jpeg" alt="">
+                <img src="/img/1x1.jpeg" alt="">
             </div>
-        </div>
-        <div id="job-photos" class="jobPhotos">
-            <img src="/img/download.png" alt="">
-            <img src="/img/download.png" alt="">
-            <img src="/img/download.png" alt="">
-        </div>
-        <div id="arrow-left" class="arrowLeft">
-            <span><</span>
-        </div>
-        <div id="arrow-right" class="arrowRight">
-        <span>></span>
+            <div class="arrowsHolder">
+                <div id="arrow-left" class="arrowLeft">
+                    <div><</div>
+                </div>
+                <div id="arrow-right" class="arrowRight">
+                    <div>></div>
+                </div>
+            </div>
         </div>
     </div>
 

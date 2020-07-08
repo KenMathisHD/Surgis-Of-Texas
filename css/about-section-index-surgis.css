@@ -40,7 +40,7 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: url("/img/BlackTopographyBackground.jpg");
+  background-image: url("/img/BlackTopographyBackground.jpeg");
   background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,6 +93,7 @@
   min-height: 180px;
   margin: 10px 0 20px;
   border: 4px solid #696969;
+  object-fit: cover;
 }
 .surveys .ourServices div div p {
   display: none;

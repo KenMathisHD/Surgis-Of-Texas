@@ -19,7 +19,7 @@
         </div>
 
         <div class="woman-image">
-            <img src="/img/lydiaprofpicplaceholder.jpg" alt="Image of Lydia McCloskey">
+            <img src="/img/lydiaprofpicplaceholder.jpeg" alt="Image of Lydia McCloskey">
         </div>
     </div>
 

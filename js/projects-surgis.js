@@ -13,14 +13,16 @@ let textArr = [];
 
 exitButton.addEventListener("click", function () {
     imagePopup.classList.remove("imagePopIn");
-    poppedUpImage.src = " ";
+    poppedUpImage.src = "/img/1x1.jpeg";
     for (let s = 0; s < jobsInfo.length; s++) {                     //loops through the spans in the div with the class jobInfo
         jobsInfo[s].innerHTML = " ";                                //resets all their innerHTML's to be empty
         textArr = [];                                               //resets textArr to empty
     }
     for (let i = 0; i < jobPhotos.length; i++) {                    //loops through the images in the div with the class jobInfo
-        jobPhotos[i].src = " ";                                     //resets all their sources to be whatever
+        jobPhotos[i].src = "/img/1x1.jpeg";                                     //resets all their sources to be whatever
         imageArr = [];                                              //resets imageArr to empty
+        jobPhotos[i].classList.add("lastImg");
+        jobPhotos[i].classList.remove("currentImgWStyle");
     }
 });
 
@@ -28,13 +30,20 @@ arrowLeft.addEventListener("click", function () {
     let next = goLeftInfo();
     let nextSrc = imageArr[next];
     poppedUpImage.src = nextSrc;
-
+    // jobPhotos[next].classList.add("currentImgWStyle");
+    // jobPhotos[next].classList.remove("lastImg");
+    // jobPhotos[next+1].classList.add("lastImg");
+    // jobPhotos[next+1].classList.remove("currentImgWStyle");
 });
 
 arrowRight.addEventListener("click", function () {
     let next = goRightInfo();
     let nextSrc = imageArr[next];
     poppedUpImage.src = nextSrc;
+    // jobPhotos[next].classList.add("currentImgWStyle");
+    // jobPhotos[next].classList.remove("lastImg");
+    // jobPhotos[next-1].classList.add("lastImg");
+    // jobPhotos[next-1].classList.remove("currentImgWStyle");
 });
 
 
@@ -149,6 +158,8 @@ function displayImageArr() {
     for (let i = 0; i < jobPhotos.length; i++) {
         jobPhotos[i].src = imageArr[i];
     }
+    jobPhotos[0].classList.remove("lastImg");
+    jobPhotos[0].classList.add("currentImgWStyle");
 }
 
 function goRightInfo() {
@@ -176,10 +187,18 @@ function goRightInfo() {
                 if (rightData.distanceToEnd == 0) {
                     rightData.atEnd = true;
                     rightData.nextSpot = 0;
+                    jobPhotos[(jobPhotos.length-1)].classList.remove("currentImgWStyle");
+                    jobPhotos[(jobPhotos.length-1)].classList.add("lastImg");
+                    jobPhotos[rightData.nextSpot].classList.remove("lastImg");
+                    jobPhotos[rightData.nextSpot].classList.add("currentImgWStyle");
                 }
                 else if (rightData.distanceToEnd > 0) {
                     rightData.atEnd = false;
                     rightData.nextSpot = (rightData.currentPlace)+1;
+                    jobPhotos[rightData.nextSpot-1].classList.remove("currentImgWStyle");
+                    jobPhotos[rightData.nextSpot-1].classList.add("lastImg");
+                    jobPhotos[rightData.nextSpot].classList.remove("lastImg");
+                    jobPhotos[rightData.nextSpot].classList.add("currentImgWStyle");
                 }
                 break;
             }
@@ -190,6 +209,7 @@ function goRightInfo() {
 }
 
 function goLeftInfo() {
+
     let leftData = {
         currentImg: poppedUpImage.getAttribute("src"), //source of current image shown in poppedUpImage
         currentPlace: 0,
@@ -213,10 +233,18 @@ function goLeftInfo() {
                 if (leftData.distanceToEnd == leftData.photosLength) {
                     leftData.atEnd = true;
                     leftData.nextSpot = leftData.photosLength;
+                    jobPhotos[0].classList.remove("currentImgWStyle");
+                    jobPhotos[0].classList.add("lastImg");
+                    jobPhotos[leftData.nextSpot].classList.remove("lastImg");
+                    jobPhotos[leftData.nextSpot].classList.add("currentImgWStyle");
                 }
                 else if (leftData.distanceToEnd < leftData.photosLength) {
                     leftData.atEnd = false;
                     leftData.nextSpot = leftData.currentPlace-1;
+                    jobPhotos[leftData.nextSpot+1].classList.remove("currentImgWStyle");
+                    jobPhotos[leftData.nextSpot+1].classList.add("lastImg");
+                    jobPhotos[leftData.nextSpot].classList.remove("lastImg");
+                    jobPhotos[leftData.nextSpot].classList.add("currentImgWStyle");
                 }
                 break;
             }

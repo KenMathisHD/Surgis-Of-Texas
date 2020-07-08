@@ -47,16 +47,16 @@
   transition: ease-in-out 350ms;
 }
 .projects-grid-index .background-wrap-projects-index #img1 {
-  background-image: url("/img/jkr.jpg");
+  background-image: url("/img/jureczki3.jpeg");
 }
 .projects-grid-index .background-wrap-projects-index #img2 {
-  background-image: url("/img/hillCountryCrossing.jpg");
+  background-image: url("/img/hillCountryCrossingSurvey.jpeg");
 }
 .projects-grid-index .background-wrap-projects-index #img3 {
-  background-image: url("/img/slimChickens.jpg");
+  background-image: url("/img/slimTOPO.jpeg");
 }
 .projects-grid-index .background-wrap-projects-index #img4 {
-  background-image: url("/img/uvaldeAnnex .jpg");
+  background-image: url("/img/uvaldeAnnex.jpeg");
 }
 .projects-grid-index .background-wrap-projects-index .imgBackgroudProjectGrid {
   position: absolute;
