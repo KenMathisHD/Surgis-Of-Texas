@@ -5,6 +5,7 @@ const exitButton = document.getElementById("exit-button");
 const byTheDivs = document.getElementsByName("divImg");
 const arrowLeft = document.getElementById("arrow-left");
 const arrowRight = document.getElementById("arrow-right");
+const arrowsHolder = document.getElementById("arrows-holder");
 let jobsInfo = imagePopup.getElementsByClassName("jobInfo")[0].getElementsByTagName("span");
 let jobPhotos = imagePopup.getElementsByClassName("jobPhotos")[0].getElementsByTagName("img");
 let imageArr = [];
@@ -117,6 +118,7 @@ projectsGalleryGrid.addEventListener("click", function () {
             formatImageArr(byTheDivs[i]);
             howManyImages();
             displayImageArr();
+            arrowsGoneOrNot();
 
             break;
         }
@@ -160,6 +162,16 @@ function displayImageArr() {
     }
     jobPhotos[0].classList.remove("lastImg");
     jobPhotos[0].classList.add("currentImgWStyle");
+}
+
+function arrowsGoneOrNot() {
+    let temp = imageArr.length;
+    if (temp == 1) {
+        arrowsHolder.style.display = "none";
+    }
+    else if (temp > 1) {
+        arrowsHolder.style.display = "flex";
+    }
 }
 
 function goRightInfo() {

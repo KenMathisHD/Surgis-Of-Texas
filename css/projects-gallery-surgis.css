@@ -1,3 +1,388 @@
+.projectsGalleryGrid {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  z-index: 2;
+}
+.projectsGalleryGrid > div {
+  flex: 0 0 50%;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.projectsGalleryGrid > div > img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  transform: scale(1.25);
+}
+.projectsGalleryGrid > div .seen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  transition: ease-in-out 250ms;
+}
+.projectsGalleryGrid > div .seen h6 {
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 5px;
+  opacity: 1;
+  transition: ease-in-out 250ms;
+  height: 60px;
+}
+.projectsGalleryGrid > div .seen span {
+  text-align: center;
+  padding: 7.5px 25px;
+  background-color: goldenrod;
+  border: 3px solid white;
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+  transition: ease-in-out 250ms;
+  cursor: pointer;
+}
+.projectsGalleryGrid > div .notSeenData {
+  display: none;
+}
+.imagePopupCont {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1;
+  opacity: 0;
+  transition: ease-in-out 350ms;
+}
+.imagePopupCont .innerCont {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 1% 5vw 0;
+}
+.imagePopupCont .innerCont .imagePopup {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out 250ms;
+  height: 100%;
+  padding: 50px 5vw 120px;
+}
+.imagePopupCont .innerCont .imagePopup .mainImage {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.imagePopupCont .innerCont .imagePopup .mainImage > img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 3px solid white;
+}
+.imagePopupCont .innerCont .imagePopup .jobInfo {
+  flex: 0 0 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  padding: 0 10px;
+}
+.imagePopupCont .innerCont .imagePopup .jobInfo span {
+  text-align: center;
+  padding: 1px 1px;
+  color: white;
+  font-size: 16px;
+}
+.imagePopupCont .innerCont .jobPhotos {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-height: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px 20px;
+}
+.imagePopupCont .innerCont .jobPhotos img {
+  max-width: 100%;
+  max-height: 45px;
+  margin: 2.5px;
+  border: 4px solid rgba(218, 165, 32, 0);
+}
+.imagePopupCont .innerCont .arrowsHolder {
+  position: fixed;
+  bottom: 160px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  height: 80px;
+  margin-top: -40px;
+}
+.imagePopupCont .innerCont .arrowsHolder .arrowLeft,
+.imagePopupCont .innerCont .arrowsHolder .arrowRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  background-color: black;
+  border: 1px solid white;
+}
+.imagePopupCont .innerCont .arrowsHolder .arrowLeft:before,
+.imagePopupCont .innerCont .arrowsHolder .arrowRight:before {
+  content: '\e316';
+  font-family: 'Material Icons';
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  line-height: 60px;
+}
+.imagePopupCont .innerCont .arrowsHolder .arrowLeft:before {
+  transform: rotate(-90deg);
+}
+.imagePopupCont .innerCont .arrowsHolder .arrowRight:before {
+  transform: rotate(90deg);
+}
+.imagePopupCont .innerCont #exit-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border: 2px solid white;
+  cursor: pointer;
+  z-index: 25;
+}
+.imagePopupCont .innerCont #exit-button:before {
+  content: '\e14c';
+  font-family: 'Material Icons';
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+}
+@media all and (orientation: portrait) and (min-width: 400px) {
+  .projectsGalleryGrid > div {
+    height: 225px;
+  }
+  .projectsGalleryGrid > div .seen h6,
+  .projectsGalleryGrid > div .seen span {
+    font-size: 18px;
+  }
+  .imagePopupCont .innerCont .imagePopup {
+    padding: 50px 5vw 145px;
+  }
+  .imagePopupCont .innerCont .imagePopup .jobInfo {
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+  .imagePopupCont .innerCont .imagePopup .jobInfo span {
+    font-size: 18px;
+    margin: 0 5px;
+  }
+  .imagePopupCont .innerCont .jobPhotos {
+    max-height: 145px;
+    padding: 20px;
+  }
+  .imagePopupCont .innerCont .jobPhotos img {
+    max-height: 50px;
+    margin: 5px;
+  }
+  .imagePopupCont .innerCont #exit-button {
+    width: 50px;
+    height: 50px;
+  }
+  .imagePopupCont .innerCont #exit-button:before {
+    font-size: 30px;
+  }
+}
+@media all and (orientation: portrait) and (min-width: 768px) {
+  .projectsGalleryGrid > div {
+    height: 275px;
+  }
+  .projectsGalleryGrid > div .seen h6 {
+    height: 75px;
+    padding: 10px;
+    font-size: 24px;
+  }
+  .projectsGalleryGrid > div .seen span {
+    font-size: 24px;
+  }
+  .imagePopupCont .innerCont .imagePopup {
+    padding: 50px 5vw 210px;
+  }
+  .imagePopupCont .innerCont .imagePopup .jobInfo {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .imagePopupCont .innerCont .imagePopup .jobInfo span {
+    font-size: 26px;
+  }
+  .imagePopupCont .innerCont .jobPhotos {
+    max-height: 230px;
+    padding: 25px;
+  }
+  .imagePopupCont .innerCont .jobPhotos img {
+    max-height: 80px;
+    margin: 10px 5px;
+  }
+  .imagePopupCont .innerCont .arrowsHolder {
+    bottom: 240px;
+  }
+  .imagePopupCont .innerCont .arrowsHolder .arrowLeft:before,
+  .imagePopupCont .innerCont .arrowsHolder .arrowRight:before {
+    font-size: 40px;
+  }
+  .imagePopupCont .innerCont #exit-button {
+    width: 70px;
+    height: 70px;
+  }
+  .imagePopupCont .innerCont #exit-button:before {
+    font-size: 35px;
+  }
+}
+@media all and (orientation: portrait) and (min-width: 992px) {
+  .projectsGalleryGrid > div {
+    flex: 0 0 33%;
+    height: 325px;
+  }
+  .projectsGalleryGrid > div .seen h6 {
+    height: 85px;
+    font-size: 26px;
+  }
+  .projectsGalleryGrid > div .seen span {
+    font-size: 26px;
+  }
+  .imagePopupCont .innerCont .imagePopup {
+    padding: 50px 5vw 250px;
+  }
+  .imagePopupCont .innerCont .imagePopup .jobInfo {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .imagePopupCont .innerCont .imagePopup .jobInfo span {
+    font-size: 28px;
+  }
+  .imagePopupCont .innerCont .jobPhotos {
+    max-height: 280px;
+    padding: 20px;
+  }
+  .imagePopupCont .innerCont .jobPhotos img {
+    max-height: 110px;
+    margin: 10px 5px;
+  }
+  .imagePopupCont .innerCont .arrowsHolder {
+    bottom: 310px;
+    height: 100px;
+    margin-top: -50px;
+  }
+  .imagePopupCont .innerCont .arrowsHolder .arrowLeft:before,
+  .imagePopupCont .innerCont .arrowsHolder .arrowRight:before {
+    font-size: 50px;
+  }
+  .imagePopupCont .innerCont #exit-button {
+    width: 90px;
+    height: 90px;
+  }
+  .imagePopupCont .innerCont #exit-button:before {
+    font-size: 45px;
+  }
+}
+@media all and (orientation: landscape) and (min-width: 500px) {
+  .imagePopupCont .innerCont .imagePopup {
+    padding: 0 5vw 70px;
+    flex-direction: column-reverse;
+  }
+  .imagePopupCont .innerCont .imagePopup .jobInfo {
+    flex-direction: row;
+    align-content: center;
+  }
+  .imagePopupCont .innerCont .imagePopup .jobInfo span {
+    margin: 0 5px;
+  }
+  .imagePopupCont .innerCont .jobPhotos {
+    max-height: 70px;
+    padding: 10px 20px;
+  }
+  .imagePopupCont .innerCont .jobPhotos img {
+    max-height: 35px;
+  }
+  .imagePopupCont .innerCont .arrowsHolder {
+    height: 50px;
+    margin-top: -25px;
+  }
+}
+@media all and (orientation: landscape) and (min-width: 600px) {
+  .imagePopupCont .innerCont .imagePopup {
+    padding: 0 5vw 80px;
+  }
+}
+@media all and (orientation: landscape) and (min-width: 992px) {
+  .imagePopupCont .innerCont .imagePopup {
+    padding: 0 5vw 140px;
+    flex-direction: column-reverse;
+  }
+  .imagePopupCont .innerCont .imagePopup .jobInfo {
+    flex-direction: row;
+    align-content: center;
+  }
+  .imagePopupCont .innerCont .imagePopup .jobInfo span {
+    margin: 0 5px;
+    font-size: 24px;
+  }
+  .imagePopupCont .innerCont .jobPhotos {
+    max-height: 150px;
+    padding: 10px 20px;
+  }
+  .imagePopupCont .innerCont .jobPhotos img {
+    max-height: 55px;
+  }
+  .imagePopupCont .innerCont .arrowsHolder {
+    bottom: 50%;
+    height: 80px;
+    margin-bottom: -40px;
+  }
+  .imagePopupCont .innerCont .arrowsHolder .arrowLeft:before,
+  .imagePopupCont .innerCont .arrowsHolder .arrowRight:before {
+    font-size: 50px;
+  }
+  .imagePopupCont .innerCont #exit-button {
+    width: 70px;
+    height: 70px;
+  }
+  .imagePopupCont .innerCont #exit-button:before {
+    font-size: 40px;
+  }
+}
 @media (min-width: 1200px) {
   .projectsGalleryGrid {
     position: relative;
@@ -66,132 +451,67 @@
   .projectsGalleryGrid > div .notSeenData {
     display: none;
   }
-  .imagePopupCont {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1;
-    opacity: 0;
-    transition: ease-in-out 350ms;
-    border: 2px solid green;
-  }
-  .imagePopupCont .innerCont {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    height: 100vh;
-    padding: 1% 5vw 0;
-    border: 4px solid yellow;
-  }
   .imagePopupCont .innerCont .imagePopup {
-    position: relative;
-    display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    transition: ease-in-out 350ms;
-    height: 100vh;
-    border: 2px solid red;
+    justify-content: space-around;
     padding: 50px 5vw 110px;
   }
-  .imagePopupCont .innerCont .imagePopup > span {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 40px;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    background-color: black;
-    cursor: pointer;
-  }
   .imagePopupCont .innerCont .imagePopup .mainImage {
-    position: relative;
-    max-width: 80%;
-    max-height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
+    flex: 0 0 65%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
   }
-  .imagePopupCont .innerCont .imagePopup .mainImage > img {
-    max-width: 100%;
-    max-height: 100%;
-    border: 3px solid white;
+  .imagePopupCont .innerCont .imagePopup .mainImage img {
+    height: auto;
+    width: auto;
   }
   .imagePopupCont .innerCont .imagePopup .jobInfo {
-    flex: 0 0 30%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
+    flex: 0 0 35%;
     padding: 0 10px;
   }
   .imagePopupCont .innerCont .imagePopup .jobInfo span {
-    text-align: center;
     padding: 0 2.5px 5px 2.5px;
-    color: white;
-    font-size: 20px;
+    font-size: 24px;
   }
   .imagePopupCont .innerCont .jobPhotos {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 75px;
-    display: flex;
-    flex-direction: row;
+    height: 90px;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
     padding: 0 0 10px 0;
   }
   .imagePopupCont .innerCont .jobPhotos img {
-    height: 100%;
+    max-height: 100%;
     margin: 0 10px;
-    border: 4px solid rgba(218, 165, 32, 0);
   }
-  .imagePopupCont .innerCont .arrowLeft,
-  .imagePopupCont .innerCont .arrowRight {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .imagePopupCont .innerCont .arrowsHolder {
     top: 50%;
-    margin-top: -30px;
-    width: 4.5%;
     height: 60px;
-    color: white;
+    margin-top: -30px;
+  }
+  .imagePopupCont .innerCont .arrowsHolder .arrowLeft,
+  .imagePopupCont .innerCont .arrowsHolder .arrowRight {
+    width: 4.5%;
+    border: 2px solid grey;
+    transition: ease-in-out 200ms;
+    cursor: pointer;
+    text-align: center;
+  }
+  .imagePopupCont .innerCont .arrowsHolder .arrowLeft:before,
+  .imagePopupCont .innerCont .arrowsHolder .arrowRight:before {
     font-size: 30px;
-    border: 1px solid grey;
-    transition: ease-in-out 150ms;
-    cursor: pointer;
+    line-height: 60px;
   }
-  .imagePopupCont .innerCont .arrowLeft span,
-  .imagePopupCont .innerCont .arrowRight span {
-    cursor: pointer;
+  .imagePopupCont .innerCont .arrowsHolder .arrowLeft:hover,
+  .imagePopupCont .innerCont .arrowsHolder .arrowRight:hover {
+    border-color: white;
   }
-  .imagePopupCont .innerCont .arrowLeft:hover,
-  .imagePopupCont .innerCont .arrowRight:hover {
-    border: 1px solid white;
-  }
-  .imagePopupCont .innerCont .arrowLeft {
-    left: 0;
-  }
-  .imagePopupCont .innerCont .arrowRight {
-    right: 0;
+  .imagePopupCont .innerCont > span {
+    width: 40px;
+    font-size: 25px;
+    padding: 5px;
   }
 }
 .imagePopIn {
