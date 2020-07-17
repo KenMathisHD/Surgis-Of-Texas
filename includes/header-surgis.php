@@ -23,7 +23,7 @@
             <div class="navLogo">
                 <div class="logoBackground"></div>    
                 <a href="/index.php">
-                    <img src="/img/logo5.png" alt="Surgis Plumbob Logo">
+                    <img src="/img/logo5-1.png" alt="Surgis Plumbob Logo">
                     <div class="wordsLogo">
                         <span>SurGIS of</span>
                         <span>Texas</span>

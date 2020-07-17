@@ -13,7 +13,7 @@
                             company in 2012, she and her husband have been surveying for 8 years all across Texas. 
                             Lydia is also an audiobook narrator, with several of her narrations available for 
                             listening on Audible.</p>
-                            <a href="/our-team-surgis.php#lyd-mcc-prof">See more</a>
+                            <a href="/about-surgis.php#lyd-mcc-prof">See more</a>
                     </div>
             </div>
         </div>

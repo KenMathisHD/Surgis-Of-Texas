@@ -115,14 +115,14 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/sawsTealHoustonSt.jpeg" alt="">
+            <img src="/img/Avenue-K.jpeg" alt="">
             <div class="seen">
-                <h6>Bear Springs Subdision, Medina, Texas</h6>
+                <h6>A.C. Bulack Survey, Medina County, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <input type="hidden" name="text" category="place" textContent="Bear Springs Subdivision, ">
-                <input type="hidden" name="text" category="citystate" textContent="Mico, TX, ">
+                <input type="hidden" name="text" category="place" textContent="A.C. Bulack Survey No. 186, ">
+                <input type="hidden" name="text" category="citystate" textContent="Medina County, TX, ">
                 <input type="hidden" name="text" category="surveytype" textContent="Boundary Survey">
             </div>
         </div>

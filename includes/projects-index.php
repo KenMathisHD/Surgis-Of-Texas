@@ -9,28 +9,28 @@
                 <div id="img1" class="imgBackgroudProjectGrid"></div>
                 <div id="pvm1" name="divpvm" class="anchorHoverProjectsIndex" tabindex="0">
                     <h6>William Kelley Survey No. 35, Bandera, Texas</h6>
-                    <a href="" id="pvm-anchor-1">View Project</a>
+                    <a href="/projects-surgis.php" id="pvm-anchor-1">View Project</a>
                 </div>
             </div>
             <div class="background-wrap-projects-index">
                 <div id="img2" class="imgBackgroudProjectGrid"></div>
                 <div id="pvm2" name="divpvm" class="anchorHoverProjectsIndex" tabindex="0">
                     <h6>Driskell Subdivision, Helotes, Texas</h6>
-                    <a href="" id="pvm-anchor-2">View Project</a>
+                    <a href="/projects-surgis.php" id="pvm-anchor-2">View Project</a>
                 </div>
             </div>
             <div class="background-wrap-projects-index">
                 <div id="img3" class="imgBackgroudProjectGrid"></div>
                 <div id="pvm3" name="divpvm" class="anchorHoverProjectsIndex" tabindex="0">
                     <h6>Helotes Slim Addition, Helotes, Texas</h6>
-                    <a href="" id="pvm-anchor-3">View Project</a>
+                    <a href="/projects-surgis.php" id="pvm-anchor-3">View Project</a>
                 </div>
             </div>
             <div class="background-wrap-projects-index">
                 <div id="img4" class="imgBackgroudProjectGrid"></div>
                 <div id="pvm4" name="divpvm" class="anchorHoverProjectsIndex" tabindex="0">
                     <h6>Uvalde County Annex, Hondo, Texas</h6>
-                    <a href="" id="pvm-anchor-4">View Project</a>
+                    <a href="/projects-surgis.php" id="pvm-anchor-4">View Project</a>
                 </div>
             </div>
             <!-- <div class="background-wrap-projects-index">

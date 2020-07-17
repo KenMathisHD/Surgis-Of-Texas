@@ -36,3 +36,12 @@ popup.addEventListener("transitionend", function() {
 popup.addEventListener("transitioncancel", function() {
     popupTrigger.style.opacity = 1;
 });
+
+
+
+
+// aBnds.addEventListener('click', function() {
+//     let navHeight = regNav.scrollHeight;
+//     let elemTop = (whereAmI(bnds).top)-navHeight;
+//     $("html, body").animate({ scrollTop: elemTop }, "slow");
+// });
