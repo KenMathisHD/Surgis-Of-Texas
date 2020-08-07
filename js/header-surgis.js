@@ -9,7 +9,7 @@ const teamSmallNav = document.getElementById("team-small-nav-point");
 const contactUsPage = document.getElementById("contact-us");
 const servicesPage = document.getElementById("our-services");
 const aboutPage = document.getElementById("about");
-// const aboutWordsTop = document.getElementById("about-words-cont");
+let navHeight = 0;
 
 
 let scrolledHeight = $(window).scrollTop();
@@ -66,29 +66,15 @@ function areWeOnTheMainPage() {
         if (contactUsPage) {
             giveMeSomeSpaceNavBar(contactUsPage);
         }
-        // else if (servicesPage) {
-        //     giveMeSomeSpaceNavBar(servicesPage);
-        // }
-        // else if (aboutPage) {
-        //     somePaddingToCenterWhatIsBelowNavBar(aboutPage);
-        // }
     }
 }
 
 function giveMeSomeSpaceNavBar(elem) {
     let navBottom = whereAmI(regNav).bottom;
-    elem.style.marginTop = (navBottom-20)+"px";
+    let navTop = whereAmI(regNav).top;
+    navHeight = navBottom-navTop;
+    elem.style.marginTop = (navHeight-20)+"px";
 }
-
-// function somePaddingToCenterWhatIsBelowNavBar(elem) {
-//     let navBottom = whereAmI(regNav).bottom;
-//     let paddingTopElem = getMeSomePaddingTop(elem);
-//     let newPaddingTop = paddingTopElem+navBottom;
-//     console.log("there was "+navBottom+" and then "+paddingTopElem+" and now "+newPaddingTop);
-//     elem.style.marginTop = newPaddingTop+"px";
-//     let didItWork = getMeSomePaddingTop(elem);
-//     console.log("My padding is now "+didItWork);
-// }
 
 function getMeSomePaddingTop(elem) {
     let padding = $(elem).css('padding-top');

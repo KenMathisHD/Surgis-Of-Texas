@@ -6,10 +6,10 @@
     <div class="heroWords">
 
         <span>Professional Surveyors with Integrity</span>
-        <p>This is placeholder text
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-        aliquip ex ea commodo consequat.
+        <p>Our surveyors have experience with multiple survey types, having done work all across Texas. Give us a call today to get a quote for your survey.
+        <br>
+        <br>
+            <a href="/contact-surgis.php">Contact Us</a>
         </p>
 
     </div>

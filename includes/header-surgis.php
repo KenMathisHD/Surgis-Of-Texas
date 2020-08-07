@@ -23,7 +23,7 @@
             <div class="navLogo">
                 <div class="logoBackground"></div>    
                 <a href="/index.php">
-                    <img src="/img/logo5.png" alt="Surgis Plumbob Logo">
+                    <img src="/img/logo5-1.png" alt="Surgis Plumbob Logo">
                     <div class="wordsLogo">
                         <span>SurGIS of</span>
                         <span>Texas</span>
@@ -34,7 +34,7 @@
             <ul id="regular-nav" class="regularNav">
                 <li><a href="/about-surgis.php">About Us</a></li>
                 <li><a href="/services-surgis.php">Services</a></li>
-                <li><a href="">Projects</a></li>
+                <li><a href="/projects-surgis.php">Projects</a></li>
                 <li><a href="/contact-surgis.php">Contact Us</a></li>
             </ul>
         </nav>
@@ -46,7 +46,7 @@
         <ul id="mobile-nav" class="mobileNav">
             <li><a href="/about-surgis.php">About Us</a></li>
             <li><a href="/services-surgis.php">Services</a></li>
-            <li><a href="">Projects</a></li>
+            <li><a href="/projects-surgis.php">Projects</a></li>
             <li><a href="/contact-surgis.php">Contact Us</a></li>
         </ul>
         

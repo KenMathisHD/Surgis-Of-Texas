@@ -1,4 +1,5 @@
 .contactUs {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +12,7 @@
   padding: 15px 0;
   border-bottom: 2px solid black;
 }
-.contactUs > div {
+.contactUs .contactInfo {
   align-self: center;
   display: flex;
   flex-direction: row;
@@ -20,7 +21,7 @@
   align-items: flex-start;
   padding: 30px 0 0;
 }
-.contactUs > div ul {
+.contactUs .contactInfo ul {
   flex: 0 0 100%;
   padding: 0;
   margin: 0;
@@ -28,13 +29,79 @@
   text-decoration: none;
   order: 2;
 }
-.contactUs > div ul li {
+.contactUs .contactInfo ul li {
   font-size: 16px;
 }
-.contactUs > div p {
+.contactUs .contactInfo ul .phoneCont {
+  position: relative;
+}
+.contactUs .contactInfo ul .phoneCont .phoneInner:after {
+  content: "\e0cd";
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  margin-top: -10px;
+  bottom: auto;
+  font-size: 20px;
+  color: black;
+  transform: rotate(-90deg);
+}
+.contactUs .contactInfo ul .faxCont {
+  position: relative;
+}
+.contactUs .contactInfo ul .faxCont .faxInner:after {
+  content: "\e8ad";
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  margin-top: -10px;
+  bottom: auto;
+  font-size: 20px;
+  color: black;
+}
+.contactUs .contactInfo ul .emailCont {
+  position: relative;
+}
+.contactUs .contactInfo ul .emailCont .emailInner:after {
+  content: "\e0be";
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  margin-top: -9px;
+  bottom: auto;
+  font-size: 20px;
+  color: black;
+}
+.contactUs .contactInfo p {
   padding: 0 0 35px 0;
   font-size: 16px;
   order: 1;
+}
+.contactUs .findUs {
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.contactUs .findUs a span {
+  position: relative;
+  color: black;
+  text-align: center;
+}
+.contactUs .findUs a div {
+  text-align: center;
+}
+.contactUs .findUs a div:after {
+  content: "\e316";
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  margin-left: -17.5px;
+  transform: rotate(180deg);
+  font-size: 35px;
+  text-align: center;
 }
 @media (min-width: 576px) {
   .contactUs {
@@ -45,14 +112,14 @@
   .contactUs {
     padding: 60px 12.5% 125px;
   }
-  .contactUs > div ul {
+  .contactUs .contactInfo ul {
     flex: 0 0 50%;
     order: 1;
   }
-  .contactUs > div ul li {
+  .contactUs .contactInfo ul li {
     font-size: 20px;
   }
-  .contactUs > div p {
+  .contactUs .contactInfo p {
     flex: 0 0 50%;
     font-size: 20px;
     order: 2;
@@ -78,7 +145,7 @@
     padding: 15px 10px;
     border-bottom: 2px solid black;
   }
-  .contactUs > div {
+  .contactUs .contactInfo {
     align-self: center;
     display: flex;
     flex-direction: row;
@@ -87,27 +154,27 @@
     align-items: flex-start;
     padding: 30px 0 0;
   }
-  .contactUs > div ul {
+  .contactUs .contactInfo ul {
     flex: 0 0 50%;
     padding: 0;
     margin: 0;
     list-style: none;
     text-decoration: none;
   }
-  .contactUs > div ul li {
+  .contactUs .contactInfo ul li {
     font-size: 18px;
   }
-  .contactUs > div ul li .phoneNFax {
+  .contactUs .contactInfo ul li .phoneNFax {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
   }
-  .contactUs > div ul li .phoneNFax .phone {
+  .contactUs .contactInfo ul li .phoneNFax .phone {
     position: relative;
   }
-  .contactUs > div ul li .phoneNFax .phone:after {
+  .contactUs .contactInfo ul li .phoneNFax .phone:after {
     content: "";
     display: inline-block;
     position: absolute;
@@ -117,7 +184,7 @@
     width: 3px;
     background-color: black;
   }
-  .contactUs > div p {
+  .contactUs .contactInfo p {
     font-size: 18px;
   }
 }

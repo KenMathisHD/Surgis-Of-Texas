@@ -34,7 +34,7 @@
   left: 0;
   right: 0;
   bottom: auto;
-  z-index: 99;
+  z-index: 50;
 }
 .contactBar {
   position: relative;
@@ -249,7 +249,7 @@
   top: 0;
   left: 0;
   bottom: 0;
-  z-index: 90;
+  z-index: 49;
   padding: 98px 0 0 0;
   margin: 0;
   display: flex;
@@ -282,7 +282,7 @@
 }
 .back2top {
   position: fixed;
-  z-index: 120;
+  z-index: 20;
   bottom: 35px;
   right: 35px;
   border-radius: 9px;
@@ -481,7 +481,7 @@
     font-size: 25px;
   }
   .regularNav li a {
-    font-size: 20px;
+    font-size: 22.5px;
   }
 }
 .contactBarGoAway {
@@ -502,4 +502,10 @@
 }
 .contactBarGoAwayNoLag div span:before {
   height: 0;
+}
+#make-a-thing-behind-reg-nav {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: black;
 }

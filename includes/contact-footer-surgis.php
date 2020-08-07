@@ -5,6 +5,7 @@
   <script src="/js/main.js"></script>
   <script src="/js/header-surgis.js"></script>
   <script src="/js/map-marker-surgis.js"></script>
+  <script src="/js/contact-us.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmQNCp5GwrajfEXCCLCCAXV88LosCnOmI&callback=initMap"></script>
   
 <!-- API Key for map: AIzaSyDmQNCp5GwrajfEXCCLCCAXV88LosCnOmI -->

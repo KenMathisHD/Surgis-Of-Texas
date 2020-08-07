@@ -1,0 +1,118 @@
+.projectsTopCont {
+    position: relative;
+    width: 100%;
+    
+    .imageBackgroundBlurred {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-image: url("/img/projectsBackgroundTop.jpeg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        filter: blur(2.5px);
+        z-index: 1;
+    }
+    .projectsTopWordsCont {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 2;
+        padding: 75px 25px 25px;
+    }
+    h2 {
+        font-size: 25px;
+        color: white;
+    }
+    span {
+        font-size: 15px;
+        color: white;
+        text-align: center;
+    }
+}
+
+@media (min-width: 400px) {
+    .projectsTopCont {
+        .projectsTopWordsCont {
+            padding: 85px 25px 25px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        span {
+            font-size: 18px;
+        }
+    }
+}
+@media (min-width: 768px) {
+    .projectsTopCont {
+        .projectsTopWordsCont {
+            padding: 110px 25px 25px;
+        }
+        h2 {
+            font-size: 35px;
+        }
+        span {
+            font-size: 24px;
+        }
+    }
+}
+@media (min-width: 992px) {
+    .projectsTopCont {
+        .projectsTopWordsCont {
+            padding: 120px 25px 35px;
+        }
+        h2 {
+            font-size: 40px;
+        }
+        span {
+            font-size: 28px;
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .projectsTopCont {
+        position: relative;
+        width: 100%;
+        
+        .imageBackgroundBlurred {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-image: url("/img/projectsBackgroundTop.jpeg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            filter: blur(2.5px);
+            z-index: 1;
+        }
+        .projectsTopWordsCont {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 2;
+            padding: 115px 25px 25px;
+        }
+        h2 {
+            font-size: 40px;
+            color: white;
+        }
+        span {
+            font-size: 22px;
+            color: white;
+            text-align: center;
+        }
+    }
+}
