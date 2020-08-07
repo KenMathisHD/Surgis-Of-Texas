@@ -22,7 +22,6 @@
                         belt, having started off surveying with his father at local golf courses in the Texas 
                         valley. At this time, Philip is one of only a handful of registered surveyors in the 
                         state of Texas with his specialized list of certifications.</p>
-                        <a href="">Learn more about Philip Hampton</a>
                 </div>
             </div>
             <div id="kim-mar-prof" class="profile">
@@ -34,7 +33,6 @@
                         date. However, she is not only a land surveyor - Kim currently possesses a Bachelors in 
                         Anthropology from UTSA and is pursuing a Bachelors degree in Civil Engineering in order to get 
                         her RPLS certification.</p>
-                        <a href="">Learn more about Kimberly Martin</a>
                 </div>
             </div>
             <div class="jobApplyCont">

@@ -22,7 +22,7 @@
                 tortor, consectetur at tortor pretium, facilisis tincidunt diam. Morbi mollis diam vestibulum 
                 turpis gravida, vulputate blandit nibh sollicitudin.</p> -->
                 <!-- <p>Our surveyors have experience with both small and large scale boundary surveys.</p> -->
-                <a href="">See some of our boundary and subdivision projects.</a>
+                <a href="/projects-surgis.php">See some of our boundary and subdivision projects.</a>
         </div>
         <div id="topo-s">
             <h5>Topographic Surveys</h5>
@@ -52,7 +52,7 @@
                 euismod lacus, et scelerisque elit nisi eget magna. Phasellus at neque justo. Vivamus velit 
                 tortor, consectetur at tortor pretium, facilisis tincidunt diam. Morbi mollis diam vestibulum 
                 turpis gravida, vulputate blandit nibh sollicitudin.</p> -->
-                <a href="">See some of our topographic survey projects.</a>
+                <a href="/projects-surgis.php">See some of our topographic survey projects.</a>
 
         </div>
         <div id="constr-s">
@@ -90,7 +90,7 @@
                 euismod lacus, et scelerisque elit nisi eget magna. Phasellus at neque justo. Vivamus velit 
                 tortor, consectetur at tortor pretium, facilisis tincidunt diam. Morbi mollis diam vestibulum 
                 turpis gravida, vulputate blandit nibh sollicitudin.</p> -->
-                <a href="">See some of our construction staking projects.</a>
+                <a href="/projects-surgis.php">See some of our construction staking projects.</a>
 
         </div>
         <div id="a-n-t-s">
@@ -125,7 +125,7 @@
                 euismod lacus, et scelerisque elit nisi eget magna. Phasellus at neque justo. Vivamus velit 
                 tortor, consectetur at tortor pretium, facilisis tincidunt diam. Morbi mollis diam vestibulum 
                 turpis gravida, vulputate blandit nibh sollicitudin.</p> -->
-                <a href="">See some of our ALTA and TSPS projects.</a>
+                <a href="/projects-surgis.php">See some of our ALTA and TSPS projects.</a>
 
         </div>
         <div id="t-n-l-s">
@@ -158,7 +158,7 @@
                 euismod lacus, et scelerisque elit nisi eget magna. Phasellus at neque justo. Vivamus velit 
                 tortor, consectetur at tortor pretium, facilisis tincidunt diam. Morbi mollis diam vestibulum 
                 turpis gravida, vulputate blandit nibh sollicitudin.</p> -->
-                <a href="">See some of our tree and location projects.</a>
+                <a href="/projects-surgis.php">See some of our tree and location projects.</a>
 
         </div>
         <div id="fema-fl-s">
@@ -188,7 +188,7 @@
                 euismod lacus, et scelerisque elit nisi eget magna. Phasellus at neque justo. Vivamus velit 
                 tortor, consectetur at tortor pretium, facilisis tincidunt diam. Morbi mollis diam vestibulum 
                 turpis gravida, vulputate blandit nibh sollicitudin.</p> -->
-                <a href="">See some of our fema flood certificate projects.</a>
+                <a href="/projects-surgis.php">See some of our fema flood certificate projects.</a>
 
         </div>
     </div>

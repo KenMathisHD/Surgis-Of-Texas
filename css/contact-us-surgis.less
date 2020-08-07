@@ -1,4 +1,5 @@
 .contactUs {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +13,7 @@
         padding: 15px 0;
         border-bottom: 2px solid black;
     }
-    >div {
+    .contactInfo {
         align-self: center;
         display: flex;
         flex-direction: row;
@@ -88,6 +89,36 @@
             order: 1;
         }
     }
+
+    .findUs {
+        position: absolute;
+        bottom: 35px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        
+        a {
+            span {
+                position: relative;
+                color: black;
+                text-align: center;
+            }
+            div {
+                text-align: center;
+                &:after {
+                    content: "\e316";
+                    display: block;
+                    position: absolute;
+                    bottom: -30px;
+                    left: 50%;
+                    margin-left: -17.5px;
+                    transform: rotate(180deg);
+                    font-size: 35px;
+                    text-align: center;
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 576px) {
@@ -99,7 +130,7 @@
     .contactUs {
         padding: 60px 12.5% 125px;
 
-        >div {
+        .contactInfo {
             ul {
                 flex: 0 0 50%;
                 order: 1;
@@ -138,7 +169,7 @@
             padding: 15px 10px;
             border-bottom: 2px solid black;
         }
-        >div {
+        .contactInfo {
             align-self: center;
             display: flex;
             flex-direction: row;
