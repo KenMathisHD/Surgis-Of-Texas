@@ -6,14 +6,14 @@
 
         <h2>Our Story</h2>
 
-        <p>SurGIS of Texas Corporation is a woman-owned land surveying HUB located in Helotes, TX, right outside of loop 1604. It was founded in 2012 by 
+        <p>SurGIS of Texas Corporation is a woman-owned state certified land surveying HUB located in Helotes, TX, right outside of loop 1604. It was founded in 2012 by 
             Lydia McCloskey (President) and her husband Philip Hampton (Vice-President, Lead RPLS) because they felt there were too many organizations out there which 
             looked at surveying as an add-on or a lost leader to their Engineering department. Those types of organizations don't understand that customers enjoy a 
             company that deals with their survey, whatever the type, as if it is the foundation of their project. Surveying is an art and is the oldest profession in 
             the world - why would you treat it like a second class division?</p>
 
         <p>This is why SurGIS of Texas has such focus on bringing integrity back to land surveying. Every survey we complete is done with the understanding that this is 
-            the base of our clients project. Everything done afterwards, wether it be transferring a land title, putting in a new well or building a courthouse is 
+            the base of our clients project. Everything done afterwards, whether it be transferring a land title, putting in a new well or building a courthouse is 
             reliant upon the information in our survey being accurate. With over 45 years of land surveying experience, and having served hundreds of clients, both 
             private and government entities, all across Texas, we understand the need for accuracy and integrity in our work and we ensure it guides us in every decision 
             we make.</p>
@@ -35,10 +35,13 @@
             <h2>Our Services</h2>
             
             <p>Today, we offer a variety of land surveying services such as Tree and Location, As-Builts, Topographic, Boundary and Subdivision, Construction Staking, 
-                ALTA & TSPS, FEMA Flood Certificates, Right of Way and more. No matter the project, we ensure we take the time and care to get it done right the 
+                ALTA & TSPS, FEMA Flood Certificates, Right of Way and more. 
+                <br>
+                <br>
+                No matter the project, we ensure we take the time and care to get it done right the 
                 first time. Please feel free to <a href="/contact-surgis.php">contact us</a> for a quote or if you have any questions about the surveys we provide.</p>
     
-            <a href="/services-surgis.php" class="servButtonLink">Check out the services we offer</a>
+            <a href="/services-surgis.php" class="servButtonLink">Learn more about our services</a>
         </div>
 
     </div>

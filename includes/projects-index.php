@@ -64,7 +64,7 @@
         </div>
 
         <div class="projects-word-bottom-index">
-            <a href="/projects-surgis.php">See more of our work</a>
+            <a href="/projects-surgis.php">More Sample Projects</a>
         </div>
     </div>
 

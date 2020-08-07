@@ -46,31 +46,30 @@
             font-size: 15px;
             line-height: 24px;
             margin-top: 15px;
+        }
+        a {
+            position: relative;
+            text-decoration: none;
+            color: white;
+            transition: 200ms;
 
-            a {
-                position: relative;
-                text-decoration: none;
-                color: white;
-                transition: 200ms;
+            &:before {
+                content: "";
+                position: absolute;
+                display: block;
+                bottom: -3px;
+                left: 0;
+                height: 3px;
+                right: 100%;
+                background-color: white;
+                opacity: 0;
+                transition: ease-in-out 200ms;
+            }
 
+            &:hover {
                 &:before {
-                    content: "";
-                    position: absolute;
-                    display: block;
-                    bottom: -3px;
-                    left: 0;
-                    height: 3px;
-                    right: 100%;
-                    background-color: white;
-                    opacity: 0;
-                    transition: ease-in-out 200ms;
-                }
-
-                &:hover {
-                    &:before {
-                        opacity: 1;
-                        right: 0;
-                    }
+                    opacity: 1;
+                    right: 0;
                 }
             }
         }
@@ -157,7 +156,7 @@
             p {
                 font-size: 22px;
                 line-height: 35px;
-                margin-bottom: 0;
+                margin-top: 0;
             }
         }
     }
@@ -180,24 +179,24 @@
             padding: 35px 25px 35px 15px;
             text-align: left;
             span {
-                font-size: 28px;
+                font-size: 22px;
             }
             p {
-                font-size: 16px;
+                font-size: 15.5px;
                 line-height: 28.5px;
             }
-            &:before {
-                content: "";
-                display: inline-block;
-                position: absolute;
-                top: 0;
-                right: -8px;
-                bottom: 0;
-                width: 8px;
-                background-color: goldenrod;
-                z-index: 25;
+            // &:before {
+            //     content: "";
+            //     display: inline-block;
+            //     position: absolute;
+            //     top: 0;
+            //     right: -8px;
+            //     bottom: 0;
+            //     width: 8px;
+            //     background-color: goldenrod;
+            //     z-index: 25;
     
-            }
+            // }
         }
     }
 
@@ -206,7 +205,14 @@
 @media (min-width: 1200px) {
     .heroImageHolder {
         .heroWords {
-            padding: 40px 30px 40px 25px;
+            padding: 20px 15px 20px 12.5px;
+
+            p {
+                margin-top: 15px;
+            }
+            a {
+                font-size: 18px;
+            }
         }
     }
 }

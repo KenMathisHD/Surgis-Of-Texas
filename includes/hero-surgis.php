@@ -6,11 +6,8 @@
     <div class="heroWords">
 
         <span>Professional Surveyors with Integrity</span>
-        <p>Our surveyors have experience with multiple survey types, having done work all across Texas. Give us a call today to get a quote for your survey.
-        <br>
-        <br>
-            <a href="/contact-surgis.php">Contact Us</a>
-        </p>
+        <p>Our surveyors have experience with multiple survey types, having done work all across Texas. Give us a call today to get a quote for your survey.</p>
+        <a href="/contact-surgis.php">Contact Us</a>
 
     </div>
 </div>

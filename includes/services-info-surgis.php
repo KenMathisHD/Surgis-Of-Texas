@@ -11,8 +11,6 @@
                 set any property markers that are found to be missing or are unable to be located. This information is critical in any transfer of title, or when 
                 considering subdividing or adding improvements to a property. Running the property line also provides an opportunity for the surveyor to identify 
                 and locate any encroachments over the property line, which can be used to determine what future conflicts might occur with neighboring land owners.  </p>
-                <br>
-                <br>
                 <!-- <br>
                 <br>
                 Nullam congue, mauris vitae pretium eleifend, eros sapien vulputate felis, sed bibendum ligula 
@@ -22,7 +20,7 @@
                 tortor, consectetur at tortor pretium, facilisis tincidunt diam. Morbi mollis diam vestibulum 
                 turpis gravida, vulputate blandit nibh sollicitudin.</p> -->
                 <!-- <p>Our surveyors have experience with both small and large scale boundary surveys.</p> -->
-                <a href="/projects-surgis.php">See some of our boundary and subdivision projects.</a>
+                <a href="/projects-surgis.php"> >Boundary and subdivision projects.</a>
         </div>
         <div id="topo-s">
             <h5>Topographic Surveys</h5>
@@ -52,7 +50,7 @@
                 euismod lacus, et scelerisque elit nisi eget magna. Phasellus at neque justo. Vivamus velit 
                 tortor, consectetur at tortor pretium, facilisis tincidunt diam. Morbi mollis diam vestibulum 
                 turpis gravida, vulputate blandit nibh sollicitudin.</p> -->
-                <a href="/projects-surgis.php">See some of our topographic survey projects.</a>
+                <a href="/projects-surgis.php"> >Topographic survey projects.</a>
 
         </div>
         <div id="constr-s">
@@ -90,7 +88,7 @@
                 euismod lacus, et scelerisque elit nisi eget magna. Phasellus at neque justo. Vivamus velit 
                 tortor, consectetur at tortor pretium, facilisis tincidunt diam. Morbi mollis diam vestibulum 
                 turpis gravida, vulputate blandit nibh sollicitudin.</p> -->
-                <a href="/projects-surgis.php">See some of our construction staking projects.</a>
+                <a href="/projects-surgis.php"> >Construction staking projects.</a>
 
         </div>
         <div id="a-n-t-s">
@@ -125,7 +123,7 @@
                 euismod lacus, et scelerisque elit nisi eget magna. Phasellus at neque justo. Vivamus velit 
                 tortor, consectetur at tortor pretium, facilisis tincidunt diam. Morbi mollis diam vestibulum 
                 turpis gravida, vulputate blandit nibh sollicitudin.</p> -->
-                <a href="/projects-surgis.php">See some of our ALTA and TSPS projects.</a>
+                <a href="/projects-surgis.php"> >ALTA and TSPS projects.</a>
 
         </div>
         <div id="t-n-l-s">
@@ -158,7 +156,7 @@
                 euismod lacus, et scelerisque elit nisi eget magna. Phasellus at neque justo. Vivamus velit 
                 tortor, consectetur at tortor pretium, facilisis tincidunt diam. Morbi mollis diam vestibulum 
                 turpis gravida, vulputate blandit nibh sollicitudin.</p> -->
-                <a href="/projects-surgis.php">See some of our tree and location projects.</a>
+                <a href="/projects-surgis.php"> >Tree and location projects.</a>
 
         </div>
         <div id="fema-fl-s">
@@ -188,7 +186,7 @@
                 euismod lacus, et scelerisque elit nisi eget magna. Phasellus at neque justo. Vivamus velit 
                 tortor, consectetur at tortor pretium, facilisis tincidunt diam. Morbi mollis diam vestibulum 
                 turpis gravida, vulputate blandit nibh sollicitudin.</p> -->
-                <a href="/projects-surgis.php">See some of our fema flood certificate projects.</a>
+                <a href="/projects-surgis.php"> >FEMA flood certificate projects.</a>
 
         </div>
     </div>

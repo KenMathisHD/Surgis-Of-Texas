@@ -1,5 +1,5 @@
 .projects-cont-index {
-  background-color: #000000;
+  background-color: white;
 }
 .projects-word-index {
   display: flex;
@@ -13,7 +13,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 35px;
   font-weight: 500;
-  color: white;
+  color: black;
 }
 .projects-word-index h5:before {
   content: "";
@@ -23,7 +23,7 @@
   left: 0;
   right: 0;
   height: 3px;
-  background-color: white;
+  background-color: black;
 }
 .projects-grid-index {
   display: flex;
@@ -42,7 +42,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 3px solid white;
+  border: 2px solid black;
   border-radius: 25px;
   transition: ease-in-out 350ms;
 }
@@ -145,22 +145,19 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 .projects-word-bottom-index {
-  padding: 0 0 25vw;
   text-align: center;
 }
 .projects-word-bottom-index a {
   padding: 10px 20px;
   font-size: 20px;
-  color: white;
+  color: black;
   text-decoration: none;
-  border: 2px solid white;
+  border: 2px solid black;
   border-radius: 25px;
   transition: ease-in-out 250ms;
 }
 .projects-word-bottom-index a:hover {
   background-color: goldenrod;
-  color: black;
-  border-color: rgba(0, 0, 0, 0);
 }
 @media (min-width: 400px) {
   .projects-word-index {
@@ -193,7 +190,7 @@
     margin: 0 2.5vw 5vw;
   }
   .projects-word-bottom-index {
-    padding: 5vw 0 10vw;
+    padding: 5vw 0;
   }
   .projects-word-bottom-index a {
     padding: 10px 20px;
@@ -207,7 +204,7 @@
     margin: 0 1vw 2vw;
   }
   .projects-word-bottom-index {
-    padding: 5vw 0 10vw;
+    padding: 5vw 0;
   }
   .projects-word-bottom-index a {
     padding: 10px 20px;
@@ -229,8 +226,11 @@
     flex: 0 0 25%;
     height: 25vw;
     margin: 0;
-    border: none;
+    border-right: 0px;
     border-radius: 0;
+  }
+  .projects-cont-index .projects-grid-index .background-wrap-projects-index #img4 {
+    border-right: 2px solid black;
   }
   .projects-cont-index .projects-grid-index .background-wrap-projects-index .anchorHoverProjectsIndex {
     padding: 0 30%;
@@ -245,7 +245,7 @@
     display: none;
   }
   .projects-cont-index .projects-word-bottom-index {
-    padding: 150px 0 25px;
+    padding: 100px 0;
   }
   .projects-cont-index .projects-word-bottom-index a {
     padding: 15px 30px;
