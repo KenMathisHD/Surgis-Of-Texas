@@ -42,7 +42,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
   border-radius: 25px;
   transition: ease-in-out 350ms;
 }
@@ -57,6 +56,18 @@
 }
 .projects-grid-index .background-wrap-projects-index #img4 {
   background-image: url("/img/uvaldeAnnex.jpeg");
+}
+.projects-grid-index .background-wrap-projects-index #img5 {
+  background-image: url("/img/bearsprings.jpeg");
+}
+.projects-grid-index .background-wrap-projects-index #img6 {
+  background-image: url("/img/canteraHills.jpeg");
+}
+.projects-grid-index .background-wrap-projects-index #img7 {
+  background-image: url("/img/shavanoParkHuntington.jpeg");
+}
+.projects-grid-index .background-wrap-projects-index #img8 {
+  background-image: url("/img/hammondAve.jpeg");
 }
 .projects-grid-index .background-wrap-projects-index .imgBackgroudProjectGrid {
   position: absolute;

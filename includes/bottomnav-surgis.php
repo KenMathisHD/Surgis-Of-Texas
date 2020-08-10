@@ -41,18 +41,18 @@
         <div id="sec4">
             <h5>Recommended Links</h5>
             <ul>
-                <li><a href="https://txls.texas.gov/" target="_blank" rel="noopener">Tx Board of Prof Eng & Land Surveyors</a></li>
+                    <li><a href="https://txls.texas.gov/" target="_blank" rel="noopener">Tx Board of Prof Eng & Land Surveyors</a></li>
                 <li><a href="https://www.tsps.org/default.aspx" target="_blank" rel="noopener">Tx Society of Prof Land Surveyors</a></li>
-                <li><a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/" target="_blank" rel="noopener">Texas Appraisal Districts</a></li>
+                    <li><a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/" target="_blank" rel="noopener">Texas Appraisal Districts</a></li>
                 <li><a href="https://msc.fema.gov/portal/home" target="_blank" rel="noopener">FEMA Flood Maps</a></li>
                 <li><a href="https://www.bexar.org/2950/Real-PropertyLand-Records" target="_blank" rel="noopener">Bexar County Clerk</a></li>
                 <li><a href="https://www.sanantonio.gov/GIS" target="_blank" rel="noopener">City of San Antonio GIS</a></li>
-                <li><a href="">Comal County Clerk</a></li>
-                <li><a href="https://www.capcog.org/divisions/regional-planning-services#geographic" target="_blank" rel="noopener">CAPCOG GIS</a></li>
+                    <li><a href="https://www.co.comal.tx.us/cck/plats.htm">Comal County Clerk</a></li>
+                    <li><a href="https://www.capcog.org/divisions/regional-planning-services#geographic" target="_blank" rel="noopener">CAPCOG GIS</a></li>
                 <!-- <li><a href="">TxDOT ROW and Control</a></li> -->
-                <li><a href="">Medina County Clerk</a></li>
-                <li><a href="https://www.nsps.us.com/page/ALTANSPSStandards" target="_blank" rel="noopener">NSPS/ALTA Survey Standards</a></li>
-                <li><a href="https://westlat.com/" target="_blank" rel="noopener">Westlat</a></li>
+                    <li><a href="http://www.medinacountytexas.org/page/medina.County.Clerk">Medina County Clerk</a></li>
+                    <li><a href="https://www.nsps.us.com/page/ALTANSPSStandards" target="_blank" rel="noopener">NSPS/ALTA Survey Standards</a></li>
+                    <li><a href="https://westlat.com/" target="_blank" rel="noopener">Westlat</a></li>
                 <li><a href="https://www.pobonline.com/" target="_blank" rel="noopener">Point of Beginning Magazine</a></li>
             </ul>
         </div>

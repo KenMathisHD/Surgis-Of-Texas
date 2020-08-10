@@ -4,7 +4,7 @@
         <div name="divImg" tabindex="0">
             <img src="/img/slimTOPO.jpeg" alt="" id="test-image">
             <div class="seen">
-                <h6>Helotes Slim Addition, Helotes, Texas</h6>
+                <h6>Helotes Slim Addition, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
@@ -17,21 +17,22 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/canteraHillsBoundary.jpeg" alt="">
+            <img src="/img/canteraHills.jpeg" alt="">
             <div class="seen">
-                <h6>Grey Forest, Texas</h6>
+                <h6>Cantera Hills, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
                 <input type="hidden" name="text" category="place" textContent="Cantera Hills Subdivision, ">
                 <input type="hidden" name="text" category="citystate" textContent="Grey Fores, TX, ">
                 <input type="hidden" name="text" category="surveytype" textContent="Boundary Survey">
+                <input type="hidden" name="image" imageSrc="/img/canteraHillsBoundary.jpeg">
             </div>
         </div>
         <div name="divImg" tabindex="0">
             <img src="/img/gunther.jpeg" alt="">
             <div class="seen">
-                <h6>Houston Street, San Antonio, Texas</h6>
+                <h6>Houston Street, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
@@ -43,7 +44,7 @@
         <div name="divImg" tabindex="0">
             <img src="/img/chineese_church.jpeg" alt="">
             <div class="seen">
-                <h6>Dessau Rd, Austin, Texas</h6>
+                <h6>Dessau Rd, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
@@ -55,7 +56,7 @@
         <div name="divImg" tabindex="0">
             <img src="/img/hillCountryCrossingSurvey.jpeg" alt="">
             <div class="seen">
-                <h6>Driskell Subdivision, Helotes, Texas</h6>
+                <h6>Driskell Subdivision, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
@@ -67,7 +68,7 @@
         <div name="divImg" tabindex="0">
             <img src="/img/annabelleRanch.jpeg" alt="">
             <div class="seen">
-                <h6>Annabelle Ranch, San Antonio, Texas</h6>
+                <h6>Annabelle Ranch, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
@@ -79,7 +80,7 @@
         <div name="divImg" tabindex="0">
             <img src="/img/jureczki3.jpeg" alt="">
             <div class="seen">
-                <h6>William Kelley Survey No. 35, Bandera, Texas</h6>
+                <h6>William Kelley Survey No. 35, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
@@ -93,7 +94,7 @@
         <div name="divImg" tabindex="0">
             <img src="/img/uvaldeAnnex.jpeg" alt="">
             <div class="seen">
-                <h6>Uvalde County Annex, Hondo, Texas</h6>
+                <h6>Uvalde County Annex, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
@@ -105,7 +106,7 @@
         <div name="divImg" tabindex="0">
             <img src="/img/sawsTealHoustonSt.jpeg" alt="">
             <div class="seen">
-                <h6>E Houston St, San Antonio, Texas</h6>
+                <h6>E Houston St, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
@@ -117,7 +118,7 @@
         <div name="divImg" tabindex="0">
             <img src="/img/Avenue-K.jpeg" alt="">
             <div class="seen">
-                <h6>A.C. Bulack Survey, Medina County, Texas</h6>
+                <h6>A.C. Bulack Survey, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
@@ -129,7 +130,7 @@
         <div name="divImg" tabindex="0">
             <img src="/img/hammondAve.jpeg" alt="">
             <div class="seen">
-                <h6>Highland Park, San Antonio, Texas</h6>
+                <h6>Highland Park, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
@@ -139,15 +140,16 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img name="mainImg" src="/img/shavanoParkTreeTopoP1.jpeg" alt="">
+            <img name="mainImg" src="/img/shavanoParkHuntington.jpeg" alt="">
             <div class="seen">
-                <h6>Shavano Park, San Antonio, Texas</h6>
+                <h6>Huntington Subdivision, Texas</h6>
                 <span name="marty">View Project</span>
             </div>
             <div class="notSeenData" name="gotMe">
                 <input type="hidden" name="text" category="place" textContent="Huntingon Subdivision, ">
-                <input type="hidden" name="text" category="citystate" textContent="San Antonio, TX, ">
+                <input type="hidden" name="text" category="citystate" textContent="Shavano Park, TX, ">
                 <input type="hidden" name="text" category="surveytype" textContent="Boundary, Tree and Topographic Survey">
+                <input type="hidden" name="image" imageSrc="/img/shavanoParkTreeTopoP1jpeg">
                 <input type="hidden" name="image" imageSrc="/img/shavanoParkTreeTopoP3.jpeg">
                 <input type="hidden" name="image" imageSrc="/img/shavanoParkTreeTopoP2.jpeg">
             </div>
