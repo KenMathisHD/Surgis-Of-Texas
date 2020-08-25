@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div id="kim-mar-prof" class="profile">
-                <img src="/img/kimMartin.jpeg" alt="Kimberly Martin Profile Picture">
+                <img src="/img/kimMartin_1_.jpeg" alt="Kimberly Martin Profile Picture">
                 <div>
                     <span>Kimberly Martin, Project Manager</span>
                     <p>Kimberly "Kim" Martin is the Project Manager for SurGIS of Texas Corporation. Kim started 

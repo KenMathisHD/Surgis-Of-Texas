@@ -31,6 +31,48 @@
         }
     }
 }
+.picPopup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+    z-index: -1;
+    opacity: 0;
+    transition: ease-in-out 350ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #exit-button {
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-color: black;
+        border: 2px solid white;
+        cursor: pointer;
+        z-index: 25;
+    
+            &:before {
+                content: '\e14c';
+                font-family: 'Material Icons';
+                display: inline-block;
+                color: white;
+                font-size: 25px;
+            }
+    }
+    img {
+        max-width: 90%;
+        max-height: 90%;
+    }
+}
+
 
 @media (min-width: 400px) {
     .servicesInfoCont {
@@ -114,4 +156,10 @@
             }
         }
     }
+}
+
+
+.imagePopIn {
+    z-index: 99;
+    opacity: 1;
 }

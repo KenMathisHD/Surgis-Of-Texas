@@ -40,28 +40,28 @@
                 <div id="img5" class="imgBackgroudProjectGrid"></div>
                 <div id="pvm5" name="divpvm" class="anchorHoverProjectsIndex" tabindex="0">
                     <h6>Bear Springs, Tx</h6>
-                    <a href="" id="pvm-anchor-5">View Project</a>
+                    <a href="/projects-surgis.php" id="pvm-anchor-5">View Project</a>
                 </div>
             </div>
             <div class="background-wrap-projects-index">
                 <div id="img6" class="imgBackgroudProjectGrid"></div>
                 <div id="pvm6" name="divpvm" class="anchorHoverProjectsIndex" tabindex="0">
                     <h6>Cantera Hills Subdivision, Texas</h6>
-                    <a href="" id="pvm-anchor-6">View Project</a>
+                    <a href="/projects-surgis.php" id="pvm-anchor-6">View Project</a>
                 </div>
             </div>
             <div class="background-wrap-projects-index">
                 <div id="img7" class="imgBackgroudProjectGrid"></div>
                 <div id="pvm7" name="divpvm" class="anchorHoverProjectsIndex" tabindex="0">
                     <h6>Huntington Subdivision, Texas</h6>
-                    <a href="" id="pvm-anchor-7">View Project</a>
+                    <a href="/projects-surgis.php" id="pvm-anchor-7">View Project</a>
                 </div>
             </div>
             <div class="background-wrap-projects-index">
                 <div id="img8" class="imgBackgroudProjectGrid"></div>
                 <div id="pvm8" name="divpvm" class="anchorHoverProjectsIndex" tabindex="0">
                     <h6>Highland Park, Texas</h6>
-                    <a href="" id="pvm-anchor-8">View Project</a>
+                    <a href="/projects-surgis.php" id="pvm-anchor-8">View Project</a>
                 </div>
             </div>
 

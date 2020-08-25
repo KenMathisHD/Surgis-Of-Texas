@@ -12,7 +12,29 @@ const ants = document.getElementById("a-n-t-s");
 const tnls = document.getElementById("t-n-l-s");
 const femafls = document.getElementById("fema-fl-s");
 
+const exitButton = document.getElementById("exit-button");
+const poppedImg = document.getElementById("popped-img");
+const picPopup = document.getElementById("pic-popup");
+let popImgClicked = false;
 
+
+
+
+document.addEventListener("click", function (e) {
+    if (e.target.tagName === 'IMG' && popImgClicked === false && e.target.parentElement.tagName != 'A') {
+        if (e.target.getAttribute('src')) {
+            poppedImg.src = e.target.getAttribute("src");
+            picPopup.classList.add("imagePopIn");
+            popImgClicked = true;
+        }
+    }
+});
+
+exitButton.addEventListener("click", function () {
+    picPopup.classList.remove("imagePopIn");
+    poppedImg.src = " ";
+    popImgClicked = false;
+});
 
 aBnds.addEventListener('click', function() {
     let navHeight = regNav.scrollHeight;

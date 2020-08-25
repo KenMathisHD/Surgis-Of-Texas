@@ -4,6 +4,8 @@ const kimMar = document.getElementById("kim-mar");
 const lydMcCProf = document.getElementById("lyd-mcc-prof");
 const phiHamProf = document.getElementById("phi-ham-prof");
 const kimMarProf = document.getElementById("kim-mar-prof");
+const aboutSur = document.getElementById("about-sur");
+const aboutCont = document.getElementById("about-cont");
 
 lydMcC.addEventListener('click', function() {
     let navHeight = regNav.scrollHeight;
@@ -18,5 +20,10 @@ phiHam.addEventListener('click', function() {
 kimMar.addEventListener('click', function() {
     let navHeight = regNav.scrollHeight;
     let elemTop = (whereAmI(kimMarProf).top)-navHeight;
+    $("html, body").animate({ scrollTop: elemTop }, "slow");
+});
+aboutSur.addEventListener('click', function() {
+    let navHeight = regNav.scrollHeight;
+    let elemTop = (whereAmI(aboutCont).top)-navHeight;
     $("html, body").animate({ scrollTop: elemTop }, "slow");
 });

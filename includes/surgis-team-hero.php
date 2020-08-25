@@ -14,7 +14,7 @@
                     <a href="#" id="kim-mar"><span>Kimberly Martin, Project Manager</span><img src="/img/kimMartin.jpeg" alt=""></a>
                 </div>
                 <div class="surgisPlumb">
-                    <a href=""><span>About SurGIS</span></a>
+                    <a href="#" id="about-sur"><span>About SurGIS</span></a>
                 </div>
             </div>
         </div>

@@ -100,7 +100,7 @@
             of the information required in an ALTA survey is information on property boundaries and easements, any improvements such as fences, roads, trails, right of 
             ways, or other features that can affect property ownership or sale. ALTA surveys also require information be included on the properties around the target property 
             if they affect the sale/resale of the property or the operation of an existing business or a business set to be built at the target property. You can see the 
-            ALTA standards and requirements by licking 
+            ALTA standards and requirements by clicking 
             <a href="https://cdn.ymaws.com/www.nsps.us.com/resource/resmgr/ALTA_Standards/2016_Standards.pdf" target="_blank" rel="noopener">here</a>. Boundary surveys, 
             at a minimum, only require information on the location of the boundaries and any encroachments over the boundary; however, they can contain additional 
             information at the request of the client.</p>
@@ -189,6 +189,14 @@
                 <a href="/projects-surgis.php"> >FEMA flood certificate projects.</a>
 
         </div>
+    </div>
+
+
+    <div id="pic-popup" class="picPopup">
+        <!-- <div id="pp-cont" class="ppCont">
+        </div> -->
+        <div id="exit-button" class="material-icons"></div>
+        <img id="popped-img" src="" alt="">
     </div>
 
 </section>

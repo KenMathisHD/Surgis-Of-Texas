@@ -78,17 +78,16 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/jureczki3.jpeg" alt="">
+            <img src="/img/BearSpringsLot.jpeg" alt="">
             <div class="seen">
-                <h6>William Kelley Survey No. 35, Texas</h6>
+                <h6>Bear Springs Subdivision, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <input type="hidden" name="text" category="place" textContent="WIlliam Kelley Survey No. 35, ">
-                <input type="hidden" name="text" category="citystate" textContent="Bandera, TX, ">
+                <input type="hidden" name="text" category="place" textContent="Bear Springs Subdivision, ">
+                <input type="hidden" name="text" category="citystate" textContent="Medina, TX, ">
                 <input type="hidden" name="text" category="surveytype" textContent="Boundary Survey">       <!--109-04, not 109-01-->
-                <input type="hidden" name="image" imageSrc="/img/jureczki2.jpeg">
-                <input type="hidden" name="image" imageSrc="/img/jureczki.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/bearsprings.jpeg">
             </div>
         </div>
         <div name="divImg" tabindex="0">
@@ -98,9 +97,10 @@
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <input type="hidden" name="text" category="place" textContent="Uvalde County Annex, ">
+                <input type="hidden" name="text" category="place" textContent="Uvalde County, ">
                 <input type="hidden" name="text" category="citystate" textContent="Hondo, TX, ">
-                <input type="hidden" name="text" category="surveytype" textContent="Construction Staking">
+                <input type="hidden" name="text" category="surveytype" textContent="Construction Staking, Tree Location, Topographic and Improvement and Utilities">
+                <input type="hidden" name="image" imageSrc="/img/uvaldeAnnex-1.jpeg">
             </div>
         </div>
         <div name="divImg" tabindex="0">
