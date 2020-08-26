@@ -21,7 +21,7 @@
             </button>
             
             <div class="navLogo">
-                <div class="logoBackground"></div>    
+                <div class="logoBackground"></div>
                 <a href="/index.php">
                     <img src="/img/logo5-1.png" alt="Surgis Plumbob Logo">
                     <div class="wordsLogo">
@@ -31,7 +31,7 @@
                 </a>
             </div>
 
-            <ul id="regular-nav" class="regularNav">
+            <ul class="regularNav">
                 <li><a href="/index.php">Home</a></li>
                 <li><a href="/projects-surgis.php">Projects</a></li>
                 <li><a href="/services-surgis.php">Services</a></li>

@@ -71,7 +71,7 @@
 }
 @media (max-width: 991px) {
   .heroImageHolder {
-    background-image: url(/img/mainHeroMaybe.jpeg);
+    background-image: url(/img/1200/indexHerox1200.jpeg);
     background-position: 75%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -83,6 +83,9 @@
   }
 }
 @media (max-width: 767px) {
+  .heroImageHolder {
+    background-image: url(/img/760/indexHerox760.jpeg);
+  }
   .heroImageHolder img {
     max-height: 700px;
   }
@@ -141,6 +144,7 @@
   .heroImageHolder img {
     width: 100%;
     opacity: 1;
+    content: url(../img/1200/indexHerox1200.jpeg);
   }
   .heroImageHolder .heroWords {
     top: 25%;
@@ -172,6 +176,9 @@
   }
 }
 @media (min-width: 1600px) {
+  .heroImageHolder img {
+    content: url(../img/1920/indexHerox1920.jpeg);
+  }
   .heroImageHolder .heroWords {
     width: 42%;
   }

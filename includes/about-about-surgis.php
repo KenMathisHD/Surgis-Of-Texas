@@ -2,7 +2,7 @@
 
     <div id="about-cont" class="aboutAbout">
 
-        <img src="/img/logo5.png" alt="">
+        <img src="/img/logo5-1.png" alt="">
 
         <h2>Our Story</h2>
 

@@ -9,7 +9,7 @@
                 <a href="/services-surgis.php">
                     <div>
                         <span>Boundary & Subdivision Surveys</span>
-                        <img src="/img/hillCountryCrossingSurvey.jpeg" alt="">
+                        <img src="/img/600/hillCountryCrossingSurveyx600.jpeg" alt="">
                         <a class="learnMoreServicesLinkIn" href="/services-surgis.php">Learn More</a>
                     </div>
                 </a>
@@ -19,7 +19,7 @@
                 <a href="/services-surgis.php">
                     <div>
                         <span>Topographic Surveys</span>
-                        <img src="/img/sawsTealHoustonSt.jpeg" alt="">
+                        <img src="/img/600/topoSAx600.jpeg" alt="">
                         <a class="learnMoreServicesLinkIn" href="/services-surgis.php">Learn More</a>
                     </div>
                 </a>
@@ -29,7 +29,7 @@
                 <a href="/services-surgis.php">
                     <div>
                         <span>Construction Staking</span>
-                        <img src="/img/constructionStaking uvaldeAnnex 120-110.jpeg" alt="">
+                        <img src="/img/600/uvalde-stake-2x600.jpeg" alt="">
                         <a class="learnMoreServicesLinkIn" href="/services-surgis.php">Learn More</a>
                     </div>
                 </a>
@@ -39,7 +39,7 @@
                 <a href="/services-surgis.php">
                     <div>
                         <span>ALTA Surveys</span>
-                        <img src="/img/gunther.jpeg" alt="">
+                        <img src="/img/600/gALTAx600.jpeg" alt="">
                         <a class="learnMoreServicesLinkIn" href="/services-surgis.php">Learn More</a>
                     </div>
                 </a>
@@ -49,7 +49,7 @@
                 <a href="/services-surgis.php">
                     <div>
                         <span>Tree Location Surveys</span>
-                        <img src="/img/treeSurvey 128-02 256 Wells Springs.jpeg" alt="">
+                        <img src="/img/600/treeSurveyx600.jpeg" alt="">
                         <a class="learnMoreServicesLinkIn" href="/services-surgis.php">Learn More</a>
                     </div>
                     <p class="learnMoreServicesLinkOut">Learn More</p>
@@ -59,7 +59,7 @@
                 <a href="/services-surgis.php">
                     <div>
                         <span>FEMA Flood Certificates</span>
-                        <img src="/img/flood-cert-box.jpeg" alt="">
+                        <img src="/img/600/flood-certx600.jpeg" alt="">
                         <a class="learnMoreServicesLinkIn" href=/services-surgis.php"">Learn More</a>
                     </div>
                     <p class="learnMoreServicesLinkOut">Learn More</p>

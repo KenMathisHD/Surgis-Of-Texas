@@ -2,7 +2,7 @@
 
 <div class="heroImageHolder">
     <div class="colorOverImage"></div>
-    <img src="/img/mainHeroMaybe.jpeg" alt="SurGIS of Texas Surveying Image - Top of Site" id="hero-image">
+    <img src="/img/1200/indexHerox1200.jpeg" alt="SurGIS of Texas Surveying Image - Top of Site" id="hero-image">
     <div class="heroWords">
 
         <span>Professional Land Surveying with Integrity</span>

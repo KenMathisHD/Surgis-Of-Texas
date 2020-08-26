@@ -10,7 +10,7 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: url("/img/BlackTopographyBackground.jpeg");
+  background-image: url(../img/760/BlackTopographyBackgroundx760.jpeg);
   background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
@@ -143,6 +143,7 @@
   }
   .surveys .backgroundimageforopacityssake {
     background-attachment: fixed;
+    background-image: url(../img/1200/BlackTopographyBackgroundx1200.jpeg);
   }
   .surveys h3 {
     padding: 10px 0 20px;
@@ -205,6 +206,9 @@
   }
 }
 @media (min-width: 1600px) {
+  .surveys .backgroundimageforopacityssake {
+    background-image: url(../img/1920/BlackTopographyBackgroundx1920.jpeg);
+  }
   .surveys .ourServices div div img {
     height: 350px;
   }

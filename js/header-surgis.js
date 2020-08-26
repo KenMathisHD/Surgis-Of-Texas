@@ -24,13 +24,17 @@ $(window).scroll( function() {
 });
 
 navButton.addEventListener('click', function() {
-    mobileNav.classList.toggle('list-transform');
-    navButtonSpan.classList.toggle('swirly');
+    navButtonClassToggles();
 });
 
 back2top.addEventListener('click', function() {
     $("html, body").animate({ scrollTop: 0 }, "slow");
 });
+
+function navButtonClassToggles() {
+    mobileNav.classList.toggle('list-transform');
+    navButtonSpan.classList.toggle('swirly');
+}
 
 
 function addBack2Top(distToTop) {
