@@ -19,7 +19,7 @@
                 <div class="material-icons emailInner"></div>
             </li>
             </ul>
-            <p>Please feel free to contact us, our team is ready to help with any questions you may have. This is placeholder text.</p>
+            <p>Please feel free to contact us, our team is ready to help with any questions you may have. Whether your project is big or small, we can help.</p>
         </div>
 
         <div class="findUs">

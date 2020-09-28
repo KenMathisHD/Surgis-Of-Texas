@@ -2,9 +2,9 @@
 
     <div id="projects-gallery-grid" class="projectsGalleryGrid">
         <div name="divImg" tabindex="0">
-            <img src="/img/slimTOPO.jpeg" alt="" id="test-image">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/slimTOPO.jpeg" alt="" id="test-image">
             <div class="seen">
-                <h6>Helotes Slim Addition, Helotes, Texas</h6>
+                <h6>Helotes Slim Addition, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
@@ -17,45 +17,49 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/canteraHillsBoundary.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/canteraHills.jpeg" alt="">
             <div class="seen">
-                <h6>Grey Forest, Texas</h6>
+                <h6>Cantera Hills, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
                 <input type="hidden" name="text" category="place" textContent="Cantera Hills Subdivision, ">
                 <input type="hidden" name="text" category="citystate" textContent="Grey Fores, TX, ">
                 <input type="hidden" name="text" category="surveytype" textContent="Boundary Survey">
+                <input type="hidden" name="image" imageSrc="/img/canteraHillsBoundary.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/CANTERA 14.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/Cantera Hills 5.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/Cantera Hills 39.jpeg">
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/gunther.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/gALTA.jpeg" alt="">
             <div class="seen">
-                <h6>Houston Street, San Antonio, Texas</h6>
+                <h6>San Antonio, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <input type="hidden" name="text" category="place" textContent="Houston Street, ">
+                <input type="hidden" name="text" category="place" textContent="Bexar County">
                 <input type="hidden" name="text" category="citystate" textContent="San Antonio, TX, ">
                 <input type="hidden" name="text" category="surveytype" textContent="ALTA/ACSM Land Title Survey">
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/chineese_church.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/chinese_church.jpeg" alt="">
             <div class="seen">
-                <h6>Dessau Rd, Austin, Texas</h6>
+                <h6>Austin Chinese Church Addition, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <input type="hidden" name="text" category="place" textContent="Dessau Rd, ">
+                <input type="hidden" name="text" category="place" textContent="Austin Chinese Church Addition, ">
                 <input type="hidden" name="text" category="citystate" textContent="Austin, TX, ">
                 <input type="hidden" name="text" category="surveytype" textContent="Boundary, As-built, Improvements and Utilities Survey">
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/hillCountryCrossingSurvey.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/hillCountryCrossingSurvey.jpeg" alt="">
             <div class="seen">
-                <h6>Driskell Subdivision, Helotes, Texas</h6>
+                <h6>Driskell Subdivision, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
@@ -65,59 +69,62 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/annabelleRanch.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/Menger 201.jpeg" alt="">
             <div class="seen">
-                <h6>Annabelle Ranch, San Antonio, Texas</h6>
+                <h6>Menger Springs Subdivision, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <input type="hidden" name="text" category="place" textContent="Annabelle Ranch Subdivision, ">
-                <input type="hidden" name="text" category="citystate" textContent="San Antonio, TX, ">
-                <input type="hidden" name="text" category="surveytype" textContent="Topographic and Tree Location Survey">
+                <input type="hidden" name="text" category="place" textContent="Menger Springs Subdivision, ">
+                <input type="hidden" name="text" category="citystate" textContent="Kendall County, TX, ">
+                <input type="hidden" name="text" category="surveytype" textContent="Topographic, Tree Location, Boundary Survey">
+                <input type="hidden" name="image" imageSrc="/img/Menger 255.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/Menger 259.jpeg">
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/jureczki3.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/BearSpringsLot.jpeg" alt="">
             <div class="seen">
-                <h6>William Kelley Survey No. 35, Bandera, Texas</h6>
+                <h6>Bear Springs Subdivision, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <input type="hidden" name="text" category="place" textContent="WIlliam Kelley Survey No. 35, ">
-                <input type="hidden" name="text" category="citystate" textContent="Bandera, TX, ">
+                <input type="hidden" name="text" category="place" textContent="Bear Springs Subdivision, ">
+                <input type="hidden" name="text" category="citystate" textContent="Medina, TX, ">
                 <input type="hidden" name="text" category="surveytype" textContent="Boundary Survey">       <!--109-04, not 109-01-->
-                <input type="hidden" name="image" imageSrc="/img/jureczki2.jpeg">
-                <input type="hidden" name="image" imageSrc="/img/jureczki.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/bearsprings.jpeg">
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/uvaldeAnnex.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/uvalde-stake-2.jpeg" alt="">
             <div class="seen">
-                <h6>Uvalde County Annex, Hondo, Texas</h6>
+                <h6>Uvalde County Annex, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <input type="hidden" name="text" category="place" textContent="Uvalde County Annex, ">
+                <input type="hidden" name="text" category="place" textContent="Uvalde County, ">
                 <input type="hidden" name="text" category="citystate" textContent="Hondo, TX, ">
-                <input type="hidden" name="text" category="surveytype" textContent="Construction Staking">
+                <input type="hidden" name="text" category="surveytype" textContent="Construction Staking, Tree Location, Topographic and Improvement and Utilities">
+                <input type="hidden" name="image" imageSrc="/img/uvalde-tree.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/uvalde-stake-1.jpeg">
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/sawsTealHoustonSt.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/topoSA.jpeg" alt="">
             <div class="seen">
-                <h6>E Houston St, San Antonio, Texas</h6>
+                <h6>San Antonio, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
-                <input type="hidden" name="text" category="place" textContent="E Houston St, ">
+                <input type="hidden" name="text" category="place" textContent="Bexar County">
                 <input type="hidden" name="text" category="citystate" textContent="San Antonio, TX, ">
                 <input type="hidden" name="text" category="surveytype" textContent="Topographic Survey">
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/Avenue-K.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/ACBulack.jpeg" alt="">
             <div class="seen">
-                <h6>A.C. Bulack Survey, Medina County, Texas</h6>
+                <h6>A.C. Bulack Survey, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
@@ -127,9 +134,9 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/hammondAve.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/highlandParkTopo.jpeg" alt="">
             <div class="seen">
-                <h6>Highland Park, San Antonio, Texas</h6>
+                <h6>Highland Park, Texas</h6>
                 <span>View Project</span>
             </div>
             <div class="notSeenData">
@@ -139,17 +146,21 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img name="mainImg" src="/img/shavanoParkTreeTopoP1.jpeg" alt="">
+            <img name="mainImg" src="/img/Huntington.jpeg" alt="">
             <div class="seen">
-                <h6>Shavano Park, San Antonio, Texas</h6>
+                <h6>Huntington Subdivision, Texas</h6>
                 <span name="marty">View Project</span>
             </div>
             <div class="notSeenData" name="gotMe">
                 <input type="hidden" name="text" category="place" textContent="Huntingon Subdivision, ">
-                <input type="hidden" name="text" category="citystate" textContent="San Antonio, TX, ">
+                <input type="hidden" name="text" category="citystate" textContent="Shavano Park, TX, ">
                 <input type="hidden" name="text" category="surveytype" textContent="Boundary, Tree and Topographic Survey">
-                <input type="hidden" name="image" imageSrc="/img/shavanoParkTreeTopoP3.jpeg">
-                <input type="hidden" name="image" imageSrc="/img/shavanoParkTreeTopoP2.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/HuntingtonTreeTopoP1.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/HuntingtonTreeTopoP2.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/HuntingtonTreeTopoP3.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/Huntington 2175.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/Huntington2158.jpeg">
+                <input type="hidden" name="image" imageSrc="/img/Huntington2159.jpeg">
             </div>
         </div>
 
@@ -165,7 +176,7 @@
         <div class="innerCont">
             <div class="imagePopup">
                 <div class="mainImage">
-                    <img src="/img/1x1.jpeg" alt="" id="popped-up-image">
+                    <img src="/img/1x1.jpeg" altImgSrc="/img/1x1.jpeg" alt="" id="popped-up-image">
                 </div>
                 <div class="jobInfo">
                     <span>Job Name</span>
@@ -174,9 +185,9 @@
                 </div>
             </div>
             <div id="job-photos" class="jobPhotos">
-                <img src="/img/1x1.jpeg" alt="">
-                <img src="/img/1x1.jpeg" alt="">
-                <img src="/img/1x1.jpeg" alt="">
+                <img src="/img/1x1.jpeg" altImgSrc="/img/1x1.jpeg" alt="">
+                <img src="/img/1x1.jpeg" altImgSrc="/img/1x1.jpeg" alt="">
+                <img src="/img/1x1.jpeg" altImgSrc="/img/1x1.jpeg" alt="">
             </div>
             <div id="exit-button" class="material-icons"></div>
             <div id="arrows-holder" class="arrowsHolder material-icons">

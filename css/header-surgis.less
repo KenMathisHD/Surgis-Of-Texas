@@ -84,11 +84,12 @@
 .navHolder {
     position: relative;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
-    align-items: center;
     height: 60px;
-    padding: 5px 10px;
+    padding: 0 10px;
     transition: ease-in-out 350ms;
+    // overflow: hidden;
 
     &:before {
         content: "";
@@ -122,11 +123,13 @@
     }
     button {
         z-index: 2;
+        align-self: center;
+
+        // &:focus {
+
+        // }
     }
-    div {
-        z-index: 2;
-    }
-    ul {
+    div, ul {
         z-index: 2;
     }
 }
@@ -148,30 +151,35 @@
 }
 .navLogo {
     position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin-bottom: 5px;
-    padding: 10px 20px 10px 10px;
-    background: radial-gradient(ellipse closest-side, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.3) 35%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0.1) 91%, rgba(255, 255, 255, 0) 100%);
+    padding: 0 5px 0 0;
+    height: 100%;
 
     .logoBackground {
         position: absolute;
         top: 0;
         left: 0;
-        right: 132px;
+        right: 0;
+        padding-right: -132px;
         bottom: 0;
+        background: radial-gradient(ellipse closest-side, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.3) 35%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0.1) 91%, rgba(255, 255, 255, 0) 100%);
+        z-index: 1;
     }
 
     a {
+        position: relative;
+        z-index: 2;
         display: flex;
+        align-content: center;
+        height: 100%;
 
         img {
             position: relative;
             width: 50px;
-            z-index: 26;
+            max-height: 100%;
+            object-fit: contain;
+            object-position: center;
         }
+
         .wordsLogo {
             position: relative;
             display: flex;
@@ -266,7 +274,7 @@
     background-color: #E6E6E6;
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     bottom: 0;
     z-index: 49;
     padding: 98px 0 0 0;
@@ -276,7 +284,7 @@
     justify-content: flex-start;
     list-style: none;
     box-shadow: 0 0 12px 1px rgba(0,0,0,.25);
-    transform: translateX(-120%);
+    transform: translateX(120%);
     overflow: hidden;
     transition: ease-in-out 350ms;
     li {
@@ -418,6 +426,7 @@
     .navHolder {
         height: 110px;
         padding: 10px 15px;
+        flex-direction: row;
 
         &:hover {
             transition: ease-in-out 350ms;

@@ -16,9 +16,10 @@ $includes = $path . "/includes/";                       //here we're taking the 
 
     <main>
         <?php include($includes . "hero-surgis.php"); ?>
-        <?php include($includes . "about-section-index-surgis.php"); ?>
-        <?php include($includes . "woman-owned.php"); ?> 
         <?php include($includes . "projects-index.php"); ?>
+        <?php include($includes . "services-index-surgis.php"); ?>
+        <?php include($includes . "woman-owned.php"); ?> 
+        <?php include($includes . "about-section-index-surgis.php"); ?>
        
     </main>
 

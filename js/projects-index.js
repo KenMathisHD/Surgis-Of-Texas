@@ -1,8 +1,15 @@
 const indexProjectCont = document.getElementById("index-project-cont");
 const byNames = document.getElementsByName("divpvm");
 const test = document.getElementsByClassName("anchorHoverProjectsIndex");
+
+
 let windowChecker;
 
+imgChanger();
+
+$(window).scroll( function() {
+    imgChanger();
+});
 
 $(window).resize(function() {
     let browsWidth = $(window).width();
@@ -33,4 +40,21 @@ indexProjectCont.addEventListener("click", function() {     //checks to see if s
         }
     }
 });
+
+function imgChanger() {
+    if (screen.bottom >= (whereAmI(img1).top - 100)) {
+
+        if (($("#img1").css("background-image").indexOf("1x1.jpeg")) >= 0) {
+            
+            $("#img1").css("background-image", "url('/img/600/jureczki3x600.jpeg')");
+            $("#img2").css("background-image", "url('/img/600/hillCountryCrossingSurveyx600.jpeg')");
+            $("#img3").css("background-image", "url('/img/600/slimTOPOx600.jpeg')");
+            $("#img4").css("background-image", "url('/img/600/uvalde-stake-1x600.jpeg')");
+            $("#img5").css("background-image", "url('/img/600/bearspringsx600.jpeg')");
+            $("#img6").css("background-image", "url('/img/600/canteraHillsx600.jpeg')");
+            $("#img7").css("background-image", "url('/img/600/Huntingtonx600.jpeg')");
+            $("#img8").css("background-image", "url('/img/600/highlandParkTopox600.jpeg')");
+        }
+    }
+}
 

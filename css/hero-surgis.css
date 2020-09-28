@@ -47,13 +47,13 @@
   line-height: 24px;
   margin-top: 15px;
 }
-.heroImageHolder .heroWords p a {
+.heroImageHolder .heroWords a {
   position: relative;
   text-decoration: none;
   color: white;
   transition: 200ms;
 }
-.heroImageHolder .heroWords p a:before {
+.heroImageHolder .heroWords a:before {
   content: "";
   position: absolute;
   display: block;
@@ -65,13 +65,13 @@
   opacity: 0;
   transition: ease-in-out 200ms;
 }
-.heroImageHolder .heroWords p a:hover:before {
+.heroImageHolder .heroWords a:hover:before {
   opacity: 1;
   right: 0;
 }
 @media (max-width: 991px) {
   .heroImageHolder {
-    background-image: url(/img/mainHeroMaybe.jpeg);
+    background-image: url(/img/1200/indexHerox1200.jpeg);
     background-position: 75%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -83,6 +83,9 @@
   }
 }
 @media (max-width: 767px) {
+  .heroImageHolder {
+    background-image: url(/img/760/indexHerox760.jpeg);
+  }
   .heroImageHolder img {
     max-height: 700px;
   }
@@ -131,7 +134,7 @@
   .heroImageHolder .heroWords p {
     font-size: 22px;
     line-height: 35px;
-    margin-bottom: 0;
+    margin-top: 0;
   }
 }
 @media (min-width: 992px) {
@@ -141,6 +144,7 @@
   .heroImageHolder img {
     width: 100%;
     opacity: 1;
+    content: url(../img/1200/indexHerox1200.jpeg);
   }
   .heroImageHolder .heroWords {
     top: 25%;
@@ -153,30 +157,28 @@
     text-align: left;
   }
   .heroImageHolder .heroWords span {
-    font-size: 28px;
+    font-size: 22px;
   }
   .heroImageHolder .heroWords p {
-    font-size: 16px;
+    font-size: 15.5px;
     line-height: 28.5px;
-  }
-  .heroImageHolder .heroWords:before {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    right: -8px;
-    bottom: 0;
-    width: 8px;
-    background-color: goldenrod;
-    z-index: 25;
   }
 }
 @media (min-width: 1200px) {
   .heroImageHolder .heroWords {
-    padding: 40px 30px 40px 25px;
+    padding: 20px 15px 20px 12.5px;
+  }
+  .heroImageHolder .heroWords p {
+    margin-top: 15px;
+  }
+  .heroImageHolder .heroWords a {
+    font-size: 18px;
   }
 }
 @media (min-width: 1600px) {
+  .heroImageHolder img {
+    content: url(../img/1920/indexHerox1920.jpeg);
+  }
   .heroImageHolder .heroWords {
     width: 42%;
   }
