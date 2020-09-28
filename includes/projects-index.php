@@ -6,7 +6,7 @@
         </div>
         <div class="projects-grid-index">
             <div class="background-wrap-projects-index mdi">
-                <div id="img1" class="imgBackgroudProjectGrid"></div>
+                <div id="img1" class="imgBackgroudProjectGrid backgroundImgIDTargeter"></div>
                 <div id="pvm1" name="divpvm" class="anchorHoverProjectsIndex" tabindex="0">
                     <h6>William Kelley Survey No. 35, Texas</h6>
                     <a href="/projects-surgis.php" id="pvm-anchor-1">View Project</a>

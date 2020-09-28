@@ -45,36 +45,13 @@
   border-radius: 25px;
   transition: ease-in-out 350ms;
 }
-.projects-grid-index .background-wrap-projects-index #img1 {
-  background-image: url("/img/600/jureczki3x600.jpeg");
-}
-.projects-grid-index .background-wrap-projects-index #img2 {
-  background-image: url("/img/600/hillCountryCrossingSurveyx600.jpeg");
-}
-.projects-grid-index .background-wrap-projects-index #img3 {
-  background-image: url("/img/600/slimTOPOx600.jpeg");
-}
-.projects-grid-index .background-wrap-projects-index #img4 {
-  background-image: url("/img/600/uvalde-stake-1x600.jpeg");
-}
-.projects-grid-index .background-wrap-projects-index #img5 {
-  background-image: url("/img/600/bearspringsx600.jpeg");
-}
-.projects-grid-index .background-wrap-projects-index #img6 {
-  background-image: url("/img/600/canteraHillsx600.jpeg");
-}
-.projects-grid-index .background-wrap-projects-index #img7 {
-  background-image: url("/img/600/Huntingtonx600.jpeg");
-}
-.projects-grid-index .background-wrap-projects-index #img8 {
-  background-image: url("/img/600/highlandParkTopox600.jpeg");
-}
 .projects-grid-index .background-wrap-projects-index .imgBackgroudProjectGrid {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
+  background-image: url(/img/1x1.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

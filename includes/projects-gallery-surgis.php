@@ -2,7 +2,7 @@
 
     <div id="projects-gallery-grid" class="projectsGalleryGrid">
         <div name="divImg" tabindex="0">
-            <img src="/img/slimTOPO.jpeg" alt="" id="test-image">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/slimTOPO.jpeg" alt="" id="test-image">
             <div class="seen">
                 <h6>Helotes Slim Addition, Texas</h6>
                 <span>View Project</span>
@@ -17,7 +17,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/canteraHills.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/canteraHills.jpeg" alt="">
             <div class="seen">
                 <h6>Cantera Hills, Texas</h6>
                 <span>View Project</span>
@@ -33,7 +33,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/gALTA.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/gALTA.jpeg" alt="">
             <div class="seen">
                 <h6>San Antonio, Texas</h6>
                 <span>View Project</span>
@@ -45,7 +45,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/chinese_church.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/chinese_church.jpeg" alt="">
             <div class="seen">
                 <h6>Austin Chinese Church Addition, Texas</h6>
                 <span>View Project</span>
@@ -57,7 +57,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/hillCountryCrossingSurvey.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/hillCountryCrossingSurvey.jpeg" alt="">
             <div class="seen">
                 <h6>Driskell Subdivision, Texas</h6>
                 <span>View Project</span>
@@ -69,7 +69,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/Menger 201.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/Menger 201.jpeg" alt="">
             <div class="seen">
                 <h6>Menger Springs Subdivision, Texas</h6>
                 <span>View Project</span>
@@ -83,7 +83,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/BearSpringsLot.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/BearSpringsLot.jpeg" alt="">
             <div class="seen">
                 <h6>Bear Springs Subdivision, Texas</h6>
                 <span>View Project</span>
@@ -96,7 +96,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/uvalde-stake-2.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/uvalde-stake-2.jpeg" alt="">
             <div class="seen">
                 <h6>Uvalde County Annex, Texas</h6>
                 <span>View Project</span>
@@ -110,7 +110,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/topoSA.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/topoSA.jpeg" alt="">
             <div class="seen">
                 <h6>San Antonio, Texas</h6>
                 <span>View Project</span>
@@ -122,7 +122,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/ACBulack.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/ACBulack.jpeg" alt="">
             <div class="seen">
                 <h6>A.C. Bulack Survey, Texas</h6>
                 <span>View Project</span>
@@ -134,7 +134,7 @@
             </div>
         </div>
         <div name="divImg" tabindex="0">
-            <img src="/img/highlandParkTopo.jpeg" alt="">
+            <img src="/img/1x1.jpeg" altImgSrc="/img/highlandParkTopo.jpeg" alt="">
             <div class="seen">
                 <h6>Highland Park, Texas</h6>
                 <span>View Project</span>
@@ -176,7 +176,7 @@
         <div class="innerCont">
             <div class="imagePopup">
                 <div class="mainImage">
-                    <img src="/img/1x1.jpeg" alt="" id="popped-up-image">
+                    <img src="/img/1x1.jpeg" altImgSrc="/img/1x1.jpeg" alt="" id="popped-up-image">
                 </div>
                 <div class="jobInfo">
                     <span>Job Name</span>
@@ -185,9 +185,9 @@
                 </div>
             </div>
             <div id="job-photos" class="jobPhotos">
-                <img src="/img/1x1.jpeg" alt="">
-                <img src="/img/1x1.jpeg" alt="">
-                <img src="/img/1x1.jpeg" alt="">
+                <img src="/img/1x1.jpeg" altImgSrc="/img/1x1.jpeg" alt="">
+                <img src="/img/1x1.jpeg" altImgSrc="/img/1x1.jpeg" alt="">
+                <img src="/img/1x1.jpeg" altImgSrc="/img/1x1.jpeg" alt="">
             </div>
             <div id="exit-button" class="material-icons"></div>
             <div id="arrows-holder" class="arrowsHolder material-icons">

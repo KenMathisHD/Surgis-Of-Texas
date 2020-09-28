@@ -34,8 +34,8 @@
                 <li>Email: <a href="mailto:info@surgis-texas.com" target="_blank">info@surgis-texas.com</a></li>
             </ul>
             <div class="logosholder">
-                <a href="https://www.facebook.com/SurGIS/" target="_blank" rel="noopener"><img src="/img/facebooklogo.png" alt="facebook link to SurGIS of Texas Corp"></a>
-                <a href="https://www.instagram.com/surgisoftexascorporation/?hl=en" target="_blank" rel="noopener"><img src="/img/instagram.jpeg" alt="instagram link to SurGIS of Texas Corp"></a>
+                <a href="https://www.facebook.com/SurGIS/" target="_blank" rel="noopener"><img src="/img/1x1.jpeg" altImgSrc="/img/facebooklogo.png" alt="facebook link to SurGIS of Texas Corp"></a>
+                <a href="https://www.instagram.com/surgisoftexascorporation/?hl=en" target="_blank" rel="noopener"><img src="/img/1x1.jpeg" altImgSrc="/img/instagram.jpeg" alt="instagram link to SurGIS of Texas Corp"></a>
             </div>
         </div>
         <div id="sec4">

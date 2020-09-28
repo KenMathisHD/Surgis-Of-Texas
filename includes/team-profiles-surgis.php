@@ -3,7 +3,7 @@
     <div class="teamProfilesCont">
         <div class="teamProfiles">
             <div id="lyd-mcc-prof" class="profile">
-                <img src="/img/lydMcCloskey.jpeg" alt="Lydia McCloskey Profile Picture">
+                <img src="/img/1x1.jpeg" altImgSrc="/img/lydMcCloskey.jpeg" alt="Lydia McCloskey Profile Picture">
                 <div>
                     <span>Lydia McCloskey, President and Co-Founder</span>
                     <p>Lydia McCloskey is the President and Co-Founder of SurGIS of Texas Corporation. Lydia 
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div id="phi-ham-prof" class="profile">
-                <img src="/img/philHampton.jpeg" alt="Philip Hampton Profile Picture">
+                <img src="/img/1x1.jpeg" altImgSrc="/img/philHampton.jpeg" alt="Philip Hampton Profile Picture">
                 <div>
                     <span>Philip V. Hampton, RPLS, Vice-President and Co-Founder</span>
                     <p>Philip Hampton is the Vice President and Co-Founder of SurGIS of Texas Corporation, as 
@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div id="kim-mar-prof" class="profile">
-                <img src="/img/kimMartin_1_.jpeg" alt="Kimberly Martin Profile Picture">
+                <img src="/img/1x1.jpeg" altImgSrc="/img/kimMartin_1_.jpeg" alt="Kimberly Martin Profile Picture">
                 <div>
                     <span>Kimberly Martin, Project Manager</span>
                     <p>Kimberly "Kim" Martin is the Project Manager for SurGIS of Texas Corporation. Kim started 

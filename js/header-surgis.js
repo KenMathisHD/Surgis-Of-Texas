@@ -9,18 +9,23 @@ const teamSmallNav = document.getElementById("team-small-nav-point");
 const contactUsPage = document.getElementById("contact-us");
 const servicesPage = document.getElementById("our-services");
 const aboutPage = document.getElementById("about");
+const imgArr = document.getElementsByTagName("img");
 let navHeight = 0;
+var screen = whereIsScreen();
 
 
 let scrolledHeight = $(window).scrollTop();
 addBack2Top(scrolledHeight);
 smallHeaderNoContactBar(scrolledHeight);
 areWeOnTheMainPage();
+lazyLoadImgs();
 
 $(window).scroll( function() {
     scrolledHeight = $(window).scrollTop();
     addBack2Top(scrolledHeight);
     smallHeaderNoContactBar(scrolledHeight);
+    screen = whereIsScreen();
+    lazyLoadImgs();
 });
 
 navButton.addEventListener('click', function() {
@@ -36,6 +41,16 @@ function navButtonClassToggles() {
     navButtonSpan.classList.toggle('swirly');
 }
 
+
+function lazyLoadImgs() {
+    for (let i = 0; i < imgArr.length; i++) {
+        if (screen.bottom >= (whereAmI(imgArr[i]).top - 100)) {
+            if (imgArr[i].getAttribute("src") == "/img/1x1.jpeg") {
+                imgArr[i].src = imgArr[i].getAttribute("altImgSrc");
+            }
+        }
+    }
+}
 
 function addBack2Top(distToTop) {
     if (distToTop > 80) {
@@ -126,4 +141,12 @@ function whereAmI(elem) {
         bottom: (($(elem).offset().top) + $(elem).height())
     };
     return targElem;
+}
+
+function whereIsScreen() {
+    let seePort = {
+        top: $(window).scrollTop(),
+        bottom: ($(window).scrollTop()+$(window).height())
+    }
+    return seePort;
 }
