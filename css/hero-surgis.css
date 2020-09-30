@@ -168,10 +168,9 @@
   .heroImageHolder .heroWords {
     padding: 20px 15px 20px 12.5px;
   }
-  .heroImageHolder .heroWords p {
-    margin-top: 15px;
-  }
+  .heroImageHolder .heroWords p,
   .heroImageHolder .heroWords a {
+    margin-top: 15px;
     font-size: 18px;
   }
 }
@@ -186,7 +185,8 @@
     font-size: 37px;
     line-height: 45px;
   }
-  .heroImageHolder .heroWords p {
+  .heroImageHolder .heroWords p,
+  .heroImageHolder .heroWords a {
     font-size: 25px;
     line-height: 34px;
   }

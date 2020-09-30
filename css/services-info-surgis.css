@@ -3,12 +3,11 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  max-width: 100%;
   padding: 50px 7.5%;
 }
 .servicesInfoCont > div {
   position: relative;
-  width: 100%;
   padding: 20px 0 40px;
   text-align: center;
 }
@@ -117,7 +116,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
     padding: 100px 12.5%;
   }
   .servicesInfoCont > div {

@@ -185,9 +185,7 @@
                 </div>
             </div>
             <div id="job-photos" class="jobPhotos">
-                <img src="/img/1x1.jpeg" altImgSrc="/img/1x1.jpeg" alt="">
-                <img src="/img/1x1.jpeg" altImgSrc="/img/1x1.jpeg" alt="">
-                <img src="/img/1x1.jpeg" altImgSrc="/img/1x1.jpeg" alt="">
+                
             </div>
             <div id="exit-button" class="material-icons"></div>
             <div id="arrows-holder" class="arrowsHolder material-icons">
