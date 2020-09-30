@@ -67,7 +67,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: rgba(0,0,0,0.9);
     z-index: 1;
     opacity: 0;
@@ -76,34 +76,37 @@
     .innerCont {
         display: block;
         position: relative;
-        width: 100%;
-        height: 100vh;
-        padding: 1% 5vw 0;
+        max-width: 100%;
+        height: 99%;
+        padding: 0 5vw;
 
         .imagePopup {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
             transition: ease-in-out 250ms;
             height: 100%;
-            padding: 50px 5vw 120px;
+            padding: 6% 5%;
 
             .mainImage {
-                height: 70%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
+                height: 65%;
     
                 >img {
-                    max-width: 100%;
-                    max-height: 100%;
-                    border: 3px solid white;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    object-position: center;
                 }
             }
             .jobInfo {
-                flex: 0 0 30%;
+                max-width: 100%;
+                margin: 4% 4% 120px;
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: column;
@@ -122,13 +125,13 @@
         }
         .jobPhotos {
             position: absolute;
-            bottom: 0;
+            bottom: 1%;
             left: 0;
-            width: 100%;
+            right: 0;
             max-height: 120px;
             display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             justify-content: space-evenly;
             align-items: center;
             padding: 15px 20px;
@@ -221,8 +224,6 @@
         .imagePopupCont {
             .innerCont {
                 .imagePopup {
-                    padding: 50px 5vw 145px;
-                    
                     .jobInfo {
                         flex-direction: row;
                         justify-content: center;
@@ -274,7 +275,11 @@
         .imagePopupCont {
             .innerCont {
                 .imagePopup {
-                    padding: 50px 5vw 210px;
+                    padding: 2% 5%;
+
+                    .mainImage {
+                        height: 65%;
+                    }
                     
                     .jobInfo {
                         flex-direction: column;
@@ -382,11 +387,18 @@
         .imagePopupCont {
             .innerCont {
                 .imagePopup {
-                    padding: 0 5vw 70px;
-                    flex-direction: column-reverse;
+                    padding: 1% 2%;
+                    flex-direction: column;
+
+                    .mainImage {
+                        height: 75%;
+                    }
+
                     .jobInfo {
                         flex-direction: row;
                         align-content: center;
+                        margin: 1% 4% 0;
+                        max-height: 100%;
     
                         span {
                             margin: 0 5px;
@@ -394,12 +406,7 @@
                     }
                 }
                 .jobPhotos {
-                    max-height: 70px;
-                    padding: 10px 20px;
-    
-                    img {
-                        max-height: 35px;
-                    }
+                    display: none;
                 }
                 .arrowsHolder {
                     height: 50px;
@@ -408,24 +415,20 @@
             }
         }
     }
-    @media (min-width: 600px) {
-        .imagePopupCont {
-            .innerCont {
-                .imagePopup {
-                    padding: 0 5vw 80px;
-                }
-            }
-        }
-    }
     @media (min-width: 992px) {
         .imagePopupCont {
             .innerCont {
                 .imagePopup {
-                    padding: 0 5vw 140px;
-                    flex-direction: column-reverse;
+                    flex-direction: column;
+
+                    .mainImage {
+                        height: 70%;
+                    }
+
                     .jobInfo {
                         flex-direction: row;
                         align-content: center;
+                        margin-bottom: 160px;
     
                         span {
                             margin: 0 5px;
@@ -434,6 +437,7 @@
                     }
                 }
                 .jobPhotos {
+                    display: flex;
                     max-height: 150px;
                     padding: 10px 20px;
     
@@ -471,59 +475,20 @@
 
 @media (min-width: 1200px) {
     .projectsGalleryGrid {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: stretch;
-        z-index: 2;
     
         >div {
             flex: 0 0 25%;
             height: 250px;
-            position: relative;
-            overflow: hidden;
     
-            >img {
-                position: relative;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                z-index: 1;
-                transform: scale(1.25);
-            }
             .seen {
-                position: absolute;
-                top: 0;
-                left: 0;
-                bottom: 0;
-                right: 0;
-                z-index: 2;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
                 background-color: rgba(0,0,0,0);
-                color: white;
-                transition: ease-in-out 250ms;
     
                 h6 {
-                    text-align: center;
                     padding: 10px 0;
                     opacity: 0;
-                    transition: ease-in-out 250ms;
                 }
                 span {
-                    text-align: center;
-                    padding: 7.5px 25px;
-                    background-color: goldenrod;
-                    border: 3px solid white;
-                    color: white;
-                    text-decoration: none;
                     opacity: 0;
-                    transition: ease-in-out 250ms;
-                    cursor: pointer;
                 }
                 &:hover {
                     background-color: rgba(0, 0, 0, 0.6);
@@ -547,23 +512,16 @@
             .imagePopup {
                 flex-direction: row;
                 justify-content: space-around;
-                padding: 50px 5vw 110px;
+                padding: 0 5vw;
             
                 .mainImage {
-                    flex: 0 0 65%;
-                    height: 100%;
                     flex-direction: row;
                     justify-content: flex-end;
                     align-content: center;
                     align-items: center;
 
-                    img {
-                        height: auto;
-                        width: auto;
-                    }
                 }
                 .jobInfo {
-                    flex: 0 0 35%;
                     padding: 0 10px;
                     
                     span {

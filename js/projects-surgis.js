@@ -15,6 +15,8 @@ let textArr = [];
 exitButton.addEventListener("click", function () {
     imagePopup.classList.remove("imagePopIn");
     poppedUpImage.src = "/img/1x1.jpeg";
+    // Remove listener to re-enable scroll
+    window.removeEventListener('scroll', noScroll);
     for (let s = 0; s < jobsInfo.length; s++) {                     //loops through the spans in the div with the class jobInfo
         jobsInfo[s].innerHTML = " ";                                //resets all their innerHTML's to be empty
         textArr = [];                                               //resets textArr to empty
@@ -102,6 +104,8 @@ projectsGalleryGrid.addEventListener("click", function () {
             let imgSrc = $(byTheDivs[i]).find('img').attr('src'); //gets the image source for the image child of the active div (i.e. the clicked image)
             poppedUpImage.src = imgSrc;                     //sets the source for the popup image as the source for the image in the active div (i.e. the clicked image)
             imagePopup.classList.add("imagePopIn");         //has the clicked image popup
+            // add listener to disable scroll
+            window.addEventListener('scroll', noScroll);
 
             let notSeeData = byTheDivs[i].getElementsByClassName("notSeenData")[0].getElementsByTagName("input");
             for (let i = 0; i < notSeeData.length; i++) {
@@ -124,6 +128,10 @@ projectsGalleryGrid.addEventListener("click", function () {
         }
     }
 });
+function noScroll() {
+    window.scrollTo(0, 0);
+}
+
 function formatTextArr() {                              //moves all the data to it's place in the array and then returns an array with just the text values needed
     let temp = textArr;
     for (let i = 0; i < textArr.length; i++) {
