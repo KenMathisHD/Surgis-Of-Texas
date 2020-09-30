@@ -85,7 +85,7 @@
 }
 @media (min-width: 768px) {
   .bottomNav > div {
-    flex: 50%;
+    flex: 48%;
   }
   .bottomNav > div h5 {
     font-size: 28px;
@@ -137,7 +137,7 @@
   }
   .bottomNav #sec4 {
     order: 1;
-    flex: 50%;
+    flex: 48%;
     margin: 0;
     padding: 15px 0px;
   }
