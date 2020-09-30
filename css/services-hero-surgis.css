@@ -47,7 +47,6 @@
   grid-template-columns: auto;
   grid-row-gap: 25px;
   justify-content: center;
-  border: 2px solid yellow;
 }
 .servicesHeroCont .servicesCont .services > a {
   display: flex;
@@ -105,8 +104,14 @@
     padding: 155px 5% 50px;
   }
   .servicesHeroCont .servicesCont .services {
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto;
+    grid-template-rows: repeat(3, 30%);
+    grid-template-columns: repeat(2, 45%);
+    grid-row-gap: 5%;
+    justify-content: space-between;
+    padding: 3.5% 0 1.5%;
+  }
+  .servicesHeroCont .servicesCont .services > a img {
+    height: auto;
   }
   .servicesHeroCont .servicesCont .services > a span {
     padding: 25px 5px;
@@ -121,7 +126,7 @@
     font-size: 50px;
   }
   .servicesHeroCont .servicesCont .services {
-    padding: 40px 0;
+    padding: 5% 0 5%;
   }
   .servicesHeroCont .servicesCont .services > a span {
     font-size: 28px;
@@ -129,25 +134,31 @@
 }
 @media (min-width: 1200px) {
   .servicesHeroCont .servicesCont {
-    padding: 150px 10% 100px;
-  }
-  .servicesHeroCont .servicesCont > h2 {
-    font-size: 50px;
+    padding: 150px 5% 0;
   }
   .servicesHeroCont .servicesCont .services {
-    grid-template-rows: 375px 375px;
-    grid-template-columns: 30% 30% 30%;
-    grid-column-gap: 5%;
-  }
-  .servicesHeroCont .servicesCont .services > a {
-    flex: 0 0 28%;
-    margin: 25px 0;
-  }
-  .servicesHeroCont .servicesCont .services > a img {
-    height: 270px;
+    padding: 2.5% 0 7.5%;
+    grid-template-rows: 45% 45%;
+    grid-template-columns: repeat(3, 30%);
+    grid-row-gap: 5%;
   }
   .servicesHeroCont .servicesCont .services > a span {
-    padding: 15px 5px;
-    font-size: 20px;
+    padding: 5px;
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+@media (min-width: 1600px) {
+  .servicesHeroCont .servicesCont {
+    padding: 150px 10% 100px;
+  }
+  .servicesHeroCont .servicesCont .services {
+    max-width: 1800px;
+    padding: 5% 0 5%;
+  }
+  .servicesHeroCont .servicesCont .services > a span {
+    padding: 10px;
+    font-size: 30px;
+    line-height: 45px;
   }
 }
