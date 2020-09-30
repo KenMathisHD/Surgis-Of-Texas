@@ -2,9 +2,20 @@
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url(/materialicons/material-design-icons-3.0.1/iconfont/MaterialIcons-Regular.eot);
   /* For IE6-8 */
   src: local('Material Icons'), local('MaterialIcons-Regular'), url(/materialicons/material-design-icons-3.0.1/iconfont/MaterialIcons-Regular.woff2) format('woff2'), url(/materialicons/material-design-icons-3.0.1/iconfont/MaterialIcons-Regular.woff) format('woff'), url(/materialicons/material-design-icons-3.0.1/iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Segoe UI Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local('Segoe UI Regular'), url(/fonts/Segoe-UI.woff) format('woff');
+}
+* {
+  font-family: 'Segoe UI Regular', Arial, sans-serif;
 }
 .material-icons {
   font-family: 'Material Icons';

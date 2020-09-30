@@ -1,4 +1,7 @@
 <?php                                                  //this is how you open a php block
+
+Header("Cache-Control: max-age=31536000");
+
 $path = $_SERVER['DOCUMENT_ROOT'];                      //$ is php equivalent of var - it defines a variable.
 $includes = $path . "/includes/";                       //here we're taking the root we defined earlier, and then adding the file path we want to the end of it as a string to direct it to the files we want it to pull in  it tpo 
 ?>                                                      <!--This closes a php block-->
