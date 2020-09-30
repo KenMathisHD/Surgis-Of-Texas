@@ -148,6 +148,7 @@
   position: relative;
   padding: 0 5px 0 0;
   height: 100%;
+  margin: 0;
 }
 .navLogo .logoBackground {
   position: absolute;
@@ -155,7 +156,7 @@
   left: 0;
   right: 0;
   padding-right: -132px;
-  bottom: 0;
+  height: 95%;
   background: radial-gradient(ellipse closest-side, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.3) 35%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0.1) 91%, rgba(255, 255, 255, 0) 100%);
   z-index: 1;
 }
@@ -340,8 +341,7 @@
     height: 80px;
   }
   .navLogo {
-    margin-bottom: 5px;
-    padding: 10px 20px 10px 10px;
+    padding: 0 20px 0 10px;
   }
   .navLogo a img {
     position: relative;
@@ -413,9 +413,6 @@
   .navHolderSquishedNoLag:after {
     opacity: 1;
   }
-  .navLogo {
-    margin-bottom: 5px;
-  }
   .navLogo a img {
     width: 100px;
   }
@@ -472,9 +469,6 @@
     height: 110px;
     padding: 0 15px;
   }
-  .navLogo {
-    margin: 0;
-  }
   .navLogo a img {
     width: 125px;
   }
@@ -486,9 +480,6 @@
   }
 }
 @media (min-width: 1600px) {
-  .navLogo {
-    margin: 0;
-  }
   .navLogo a img {
     width: 112.5px;
   }
