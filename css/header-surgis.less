@@ -289,7 +289,7 @@
     right: 0;
     bottom: 0;
     z-index: 49;
-    padding: 98px 0 0 0;
+    padding: 80px 0 0 0;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -354,170 +354,391 @@
     transform: translateY(0px);
 }
 
-@media (min-width: 576px) {
-    .contactBar {
-        padding: 2.5px 0;
-    
-        div {
-            max-height: 25px;
-            span {
-                font-size: 18px;
-                &:before {
-                    height: 18px;
-                }
-            }
-        }
-    }   
-    .navHolder {
-        height: 80px;
-    }
-    .navLogo {
-        padding: 0 20px 0 10px;
-
-        a {
-            img {
-                position: relative;
-                width: 70px;
-                z-index: 26;
-            }
-            .wordsLogo {
-                span {
+@media all and (orientation:portrait) and (min-width: 0px) and (max-width: 1199px) {
+    @media (min-width: 576px) {
+        .contactBar {
+            padding: 2.5px 0;
+        
+            div {
+                max-height: 25px;
+                span, a {
                     font-size: 18px;
-                }
-            }
-        }
-    }
-}
-
-@media (min-width: 768px) {
-    .navHolder {
-        height: 90px;
-        padding: 5px 15px;
-    }
-    .navLogo {        
-        a {
-            img {
-                position: relative;
-                width: 80px;
-                z-index: 26;
-            }
-            .wordsLogo {
-                span {
-                    font-size: 20px;
-                }
-            }
-        }
-    }
-    
-    
-}
-@media (min-width: 992px) {
-    .nav-mobile-button {
-        display: none;
-    }
-    .mobileNav {
-        display: none;
-    }
-    .contactBar {
-        padding: 15px 0;
-    
-        div {
-            max-height: 35px;
-            font-size: 20px;
-            span {
-                &:before {
-                    height: 20px;
-                }
-            }
-        }
-    }
-    .contactBar {
-        padding: 10px 0;
-    }
-    .navHolder {
-        height: 110px;
-        padding: 10px 15px;
-        flex-direction: row;
-
-        &:hover {
-            transition: ease-in-out 350ms;
-        }
-    }
-    .navHolderSquished {
-        height: 100px;
-        transition: ease-in-out 350ms;
-
-        &:before {
-            opacity: 0;
-        }
-        &:after {
-            opacity: 1;
-        }
-    }
-    .navHolderSquishedNoLag {
-        height: 100px;
-
-        &:before {
-            opacity: 0;
-        }
-        &:after {
-            opacity: 1;
-        }
-    }
-    .navLogo {
-        a {
-            img {
-                width: 100px;
-            }
-            .wordsLogo {
-
-                span {
-                    font-size: 22.5px;
-                }
-            }
-        }
-    }
-    .regularNav {
-        position: relative;
-        flex: 0 0 60%;
-        display: flex;
-        justify-content: space-between;
-        padding-right: 25px;
-
-        li {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            a {
-                position: relative;
-                font-size: 17px;
-                text-decoration: none;
-                color: white;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                text-shadow: 2px 2px 4px black, 2px -2px 4px black, -2px 2px 4px black;
-
-                &:before {
-                    content: "";
-                    position: absolute;
-                    bottom: -3px;
-                    left: 0;
-                    right: 100%;    //setting right to 100% allows it to animate it as moving across when you change the right to 0
-                    height: 3px;
-                    display: inline-block;
-                    transition: ease-in-out 250ms;
-                    background: white;
-                }
-    
-                &:hover {
                     &:before {
-                        right: 0;
+                        height: 18px;
+                    }
+                }
+            }
+        }   
+        .navHolder {
+            height: 80px;
+        }
+        .navLogo {
+            padding: 0 20px 0 10px;
+    
+            a {
+                img {
+                    position: relative;
+                    width: 70px;
+                    z-index: 26;
+                }
+                .wordsLogo {
+                    span {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    
+    @media (min-width: 768px) {
+        .contactBar {
+            padding: 10px 0;
+        
+            div {
+                max-height: 45px;
+                span, a {
+                    font-size: 22px;
+                    &:before {
+                        height: 22px;
+                    }
+                }
+            }
+        }  
+        .navHolder {
+            height: 90px;
+            padding: 5px 15px;
+        }
+        .navLogo {        
+            a {
+                img {
+                    position: relative;
+                    width: 80px;
+                    z-index: 26;
+                }
+                .wordsLogo {
+                    span {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .mobileNav {
+            padding: 130px 0 0 0;
+        }
+        
+        
+    }
+    @media (min-width: 992px) {
+        .nav-mobile-button {
+            display: none;
+        }
+        .mobileNav {
+            display: none;
+        }
+        .contactBar {
+            padding: 15px 0;
+        
+            div {
+                max-height: 35px;
+                font-size: 20px;
+                span {
+                    &:before {
+                        height: 20px;
+                    }
+                }
+            }
+        }
+        .contactBar {
+            padding: 10px 0;
+        }
+        .navHolder {
+            height: 110px;
+            padding: 10px 15px;
+            flex-direction: row;
+    
+            &:hover {
+                transition: ease-in-out 350ms;
+            }
+        }
+        .navHolderSquished {
+            height: 100px;
+            transition: ease-in-out 350ms;
+    
+            &:before {
+                opacity: 0;
+            }
+            &:after {
+                opacity: 1;
+            }
+        }
+        .navHolderSquishedNoLag {
+            height: 100px;
+    
+            &:before {
+                opacity: 0;
+            }
+            &:after {
+                opacity: 1;
+            }
+        }
+        .navLogo {
+            a {
+                img {
+                    width: 100px;
+                }
+                .wordsLogo {
+    
+                    span {
+                        font-size: 22.5px;
+                    }
+                }
+            }
+        }
+        .regularNav {
+            position: relative;
+            flex: 0 0 60%;
+            display: flex;
+            justify-content: space-between;
+            padding-right: 25px;
+    
+            li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                a {
+                    position: relative;
+                    font-size: 17px;
+                    text-decoration: none;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-shadow: 2px 2px 4px black, 2px -2px 4px black, -2px 2px 4px black;
+    
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        bottom: -3px;
+                        left: 0;
+                        right: 100%;    //setting right to 100% allows it to animate it as moving across when you change the right to 0
+                        height: 3px;
+                        display: inline-block;
+                        transition: ease-in-out 250ms;
+                        background: white;
+                    }
+        
+                    &:hover {
+                        &:before {
+                            right: 0;
+                        }
                     }
                 }
             }
         }
     }
 }
+@media all and (orientation:landscape) and (min-width: 0px) and (max-width: 1199px) {
+    
+    @media (min-width: 568px) {
+        .contactBar {
+            padding: 2.5px 0;
+        
+            div {
+                max-height: 25px;
+                span {
+                    font-size: 18px;
+                    &:before {
+                        height: 18px;
+                    }
+                }
+            }
+        }   
+        .navHolder {
+            height: 60px;
+        }
+        .navLogo {
+            padding: 0 20px 0 5px;
+    
+            a {
+                img {
+                    position: relative;
+                    width: 60px;
+                    z-index: 26;
+                }
+                .wordsLogo {
+                    span {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        .mobileNav {
+            padding: 80px 0 0 0;
+
+            li {
+                a {
+                    font-size: 20px;
+                    padding: 10px 100px 10px 15px;
+                }
+            }
+        }
+    }
+    @media (width: 653px) and (height: 280px) {
+        .navHolder {
+            height: 60px;
+        }
+        .mobileNav {
+            padding: 80px 0 0 0;
+
+            li {
+                a {
+                    font-size: 18px;
+                    padding: 10px 100px 10px 10px;
+                }
+            }
+        }
+    }
+    @media (min-width: 700px) and (min-height: 400px) {
+        .navHolder {
+            height: 75px;
+            padding: 0 15px;
+        }
+        .navLogo {        
+            a {
+                img {
+                    position: relative;
+                    width: 80px;
+                    z-index: 26;
+                }
+                .wordsLogo {
+                    span {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .mobileNav {
+            padding: 105px 0 0 0;
+
+            li {
+                a {
+                    font-size: 20px;
+                    padding: 15px 100px 15px 13px;
+                }
+            }
+        }
+        
+        
+    }
+    @media (min-width: 992px) {
+        .nav-mobile-button {
+            display: none;
+        }
+        .mobileNav {
+            display: none;
+        }
+        .contactBar {
+            padding: 15px 0;
+        
+            div {
+                max-height: 35px;
+                font-size: 20px;
+                span {
+                    &:before {
+                        height: 20px;
+                    }
+                }
+            }
+        }
+        .contactBar {
+            padding: 10px 0;
+        }
+        .navHolder {
+            height: 110px;
+            padding: 10px 15px;
+            flex-direction: row;
+    
+            &:hover {
+                transition: ease-in-out 350ms;
+            }
+        }
+        .navHolderSquished {
+            height: 100px;
+            transition: ease-in-out 350ms;
+    
+            &:before {
+                opacity: 0;
+            }
+            &:after {
+                opacity: 1;
+            }
+        }
+        .navHolderSquishedNoLag {
+            height: 100px;
+    
+            &:before {
+                opacity: 0;
+            }
+            &:after {
+                opacity: 1;
+            }
+        }
+        .navLogo {
+            a {
+                img {
+                    width: 100px;
+                }
+                .wordsLogo {
+    
+                    span {
+                        font-size: 22.5px;
+                    }
+                }
+            }
+        }
+        .regularNav {
+            position: relative;
+            flex: 0 0 60%;
+            display: flex;
+            justify-content: space-between;
+            padding-right: 25px;
+    
+            li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                a {
+                    position: relative;
+                    font-size: 17px;
+                    text-decoration: none;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-shadow: 2px 2px 4px black, 2px -2px 4px black, -2px 2px 4px black;
+    
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        bottom: -3px;
+                        left: 0;
+                        right: 100%;    //setting right to 100% allows it to animate it as moving across when you change the right to 0
+                        height: 3px;
+                        display: inline-block;
+                        transition: ease-in-out 250ms;
+                        background: white;
+                    }
+        
+                    &:hover {
+                        &:before {
+                            right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 
 @media (min-width: 1200px) {
     .navHolder {
