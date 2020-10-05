@@ -12,6 +12,9 @@ const aboutPage = document.getElementById("about");
 const imgArr = document.getElementsByTagName("img");
 let navHeight = 0;
 var screen = whereIsScreen();
+let trig = 0;
+let mobNavpad = $(mobileNav).css('padding-top');
+
 
 
 let scrolledHeight = $(window).scrollTop();
@@ -65,12 +68,21 @@ function smallHeaderNoContactBar(distToTop) {
     if (heroImage) {
         let heroImageBottom = isMyBottomPastTheTop(heroImage);
         if (heroImageBottom === true) {
-            regNav.classList.add("navHolderSquished");
-            contactBar.classList.add("contactBarGoAway");
+            if (trig === 0) {
+                regNav.classList.add("navHolderSquished");
+                contactBar.classList.add("contactBarGoAway");
+                let contHeight = contactBar.scrollHeight;
+                let newPad = (parseInt(mobNavpad)-contHeight)+"px";
+                $(mobileNav).css('padding-top', newPad);
+                trig = 1;
+
+            }
         }
-        else {
+        else if (heroImageBottom === false) {
             regNav.classList.remove("navHolderSquished");
             contactBar.classList.remove("contactBarGoAway");
+            $(mobileNav).css('padding-top', mobNavpad);
+            trig = 0;
         }
     }
 }
@@ -115,7 +127,7 @@ function isMyBottomPastTheTop(elem) {
     if (targElem < screentop) {
         targElemStatus = true;
     }
-    else if (targElem.top <= screentop && targElem.bottom > screentop) {
+    else if (targElem >= screentop) {
         targElemStatus = false;
     }
 
