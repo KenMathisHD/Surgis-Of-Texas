@@ -46,14 +46,14 @@ function imgChanger() {
 
         if (($("#img1").css("background-image").indexOf("1x1.jpeg")) >= 0) {
             
-            $("#img1").css("background-image", "url('/img/600/jureczki3x600.jpeg')");
-            $("#img2").css("background-image", "url('/img/600/hillCountryCrossingSurveyx600.jpeg')");
-            $("#img3").css("background-image", "url('/img/600/slimTOPOx600.jpeg')");
-            $("#img4").css("background-image", "url('/img/600/uvalde-stake-1x600.jpeg')");
-            $("#img5").css("background-image", "url('/img/600/bearspringsx600.jpeg')");
-            $("#img6").css("background-image", "url('/img/600/canteraHillsx600.jpeg')");
-            $("#img7").css("background-image", "url('/img/600/Huntingtonx600.jpeg')");
-            $("#img8").css("background-image", "url('/img/600/highlandParkTopox600.jpeg')");
+            $("#img1").css("background-image", "url('/img/325/jureczki3.jpeg')");
+            $("#img2").css("background-image", "url('/img/325/hillCountryCrossingSurvey.jpeg')");
+            $("#img3").css("background-image", "url('/img/325/slimTOPO.jpeg')");
+            $("#img4").css("background-image", "url('/img/325/uvalde-stake-1.jpeg')");
+            $("#img5").css("background-image", "url('/img/325/bearsprings.jpeg')");
+            $("#img6").css("background-image", "url('/img/325/canteraHills.jpeg')");
+            $("#img7").css("background-image", "url('/img/325/Huntington.jpeg')");
+            $("#img8").css("background-image", "url('/img/325/highlandParkTopo.jpeg')");
         }
     }
 }

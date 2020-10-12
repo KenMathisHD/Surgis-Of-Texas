@@ -293,3 +293,9 @@
     object-fit: cover;
   }
 }
+@media (min-width: 1600px) {
+  .woman-owned-cont {
+    margin: 175px auto;
+    max-width: 1600px;
+  }
+}

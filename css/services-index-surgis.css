@@ -209,6 +209,10 @@
   .surveys .backgroundimageforopacityssake {
     background-image: url(../img/1920/BlackTopographyBackgroundx1920.jpeg);
   }
+  .surveys .ourServices {
+    margin: 0 auto;
+    max-width: 1600px;
+  }
   .surveys .ourServices div div img {
     height: 350px;
   }
