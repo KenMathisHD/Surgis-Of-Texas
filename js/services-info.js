@@ -22,8 +22,8 @@ let popImgClicked = false;
 
 document.addEventListener("click", function (e) {
     if (e.target.tagName === 'IMG' && popImgClicked === false && e.target.parentElement.tagName != 'A') {
-        if (e.target.getAttribute('src')) {
-            poppedImg.src = e.target.getAttribute("src");
+        if (e.target.getAttribute('bigImgSrc')) {
+            poppedImg.src = e.target.getAttribute("bigImgSrc");
             picPopup.classList.add("imagePopIn");
             popImgClicked = true;
         }

@@ -43,44 +43,52 @@
   letter-spacing: 3px;
 }
 .teamHeroCont .teamCirclesCont .teamCircles {
+  display: grid;
+  grid-template-rows: repeat(3, 87.5px);
+  grid-template-columns: repeat(3, 87.5px);
+  max-width: 100%;
+  padding: 40px 15px 75px;
+}
+.teamHeroCont .teamCirclesCont .teamCircles .person {
+  transform: rotate(45deg);
+  outline: 2px solid white;
+  overflow: hidden;
+}
+.teamHeroCont .teamCirclesCont .teamCircles .person a {
+  position: relative;
+  text-decoration: none;
+  transform: rotate(-45deg) scale(1.45);
+  display: block;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding-bottom: 75px;
-}
-.teamHeroCont .teamCirclesCont .teamCircles > div > a {
-  position: relative;
-  height: 90px;
-  width: 90px;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  overflow: hidden;
-  text-decoration: none;
-  border: 2px solid white;
-  transform: rotate(45deg);
 }
-.teamHeroCont .teamCirclesCont .teamCircles > div > a span {
+.teamHeroCont .teamCirclesCont .teamCircles .person a span {
   position: relative;
-  font-size: 12px;
-  color: white;
-  z-index: 3;
-  opacity: 1;
-  transform: rotate(-45deg);
-  padding: 0 5px;
-}
-.teamHeroCont .teamCirclesCont .teamCircles > div > a img {
-  position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  z-index: 1;
-  transform: rotate(-45deg) scale(1.4);
-  filter: blur(4px);
+  z-index: 3;
+  font-size: 10px;
+  color: white;
+  padding: 10px;
+  transition: 200ms ease-in-out;
 }
-.teamHeroCont .teamCirclesCont .teamCircles > div > a:after {
+.teamHeroCont .teamCirclesCont .teamCircles .person a img {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+  filter: blur(4px);
+  transition: 200ms ease-in-out;
+}
+.teamHeroCont .teamCirclesCont .teamCircles .person a:after {
   content: "";
   position: absolute;
   top: 0;
@@ -90,34 +98,31 @@
   display: block;
   background: rgba(0, 0, 0, 0.7);
   z-index: 2;
+  transition: 200ms ease-in-out;
 }
-.teamHeroCont .teamCirclesCont .teamCircles .rowOfTwo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: nowrap;
+.teamHeroCont .teamCirclesCont .teamCircles .pTop {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
 }
-.teamHeroCont .teamCirclesCont .teamCircles .rowOfTwo a {
-  margin: 0 11vw;
-  background-color: #E6FFFF;
+.teamHeroCont .teamCirclesCont .teamCircles .pMidLeft {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
-.teamHeroCont .teamCirclesCont .teamCircles .surgisPlumb a {
-  position: relative;
-  background-color: white;
+.teamHeroCont .teamCirclesCont .teamCircles .pMidRight {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
-.teamHeroCont .teamCirclesCont .teamCircles .surgisPlumb a:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("/img/logo5.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  transform: rotate(-45deg) scale(1.4);
+.teamHeroCont .teamCirclesCont .teamCircles .pBottom {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
 }
 @media (min-width: 400px) {
   .teamHeroCont {
@@ -129,12 +134,14 @@
   .teamHeroCont .teamCirclesCont h3 {
     padding-bottom: 75px;
   }
-  .teamHeroCont .teamCirclesCont .teamCircles > div > a {
-    width: 110px;
-    height: 110px;
+  .teamHeroCont .teamCirclesCont .teamCircles {
+    grid-template-rows: repeat(3, 110px);
+    grid-template-columns: repeat(3, 110px);
+    padding: 30px 0 75px;
   }
-  .teamHeroCont .teamCirclesCont .teamCircles > div > a span {
-    font-size: 14px;
+  .teamHeroCont .teamCirclesCont .teamCircles .person > a span {
+    padding: 10px 15px;
+    font-size: 13px;
   }
 }
 @media (min-width: 576px) {
@@ -155,17 +162,14 @@
     letter-spacing: 4px;
   }
   .teamHeroCont .teamCirclesCont .teamCircles {
-    padding-bottom: 100px;
+    padding: 50px 15px 80px;
+    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(3, 150px);
   }
-  .teamHeroCont .teamCirclesCont .teamCircles > div > a {
-    width: 175px;
-    height: 175px;
-  }
-  .teamHeroCont .teamCirclesCont .teamCircles > div > a span {
-    font-size: 24px;
-  }
-  .teamHeroCont .teamCirclesCont .teamCircles .rowOfTwo a {
-    margin: 0 8vw;
+  .teamHeroCont .teamCirclesCont .teamCircles .person > a span {
+    padding: 10px 20px;
+    font-size: 17px;
+    line-height: 20px;
   }
 }
 @media (min-width: 992px) {
@@ -186,31 +190,26 @@
   }
   .teamHeroCont .teamCirclesCont .teamCircles {
     padding: 10px 0 25px;
+    grid-template-rows: repeat(3, 175px);
+    grid-template-columns: repeat(3, 175px);
   }
-  .teamHeroCont .teamCirclesCont .teamCircles > div {
-    margin: -10px 0;
-  }
-  .teamHeroCont .teamCirclesCont .teamCircles > div a {
-    width: 175px;
-    height: 175px;
-  }
-  .teamHeroCont .teamCirclesCont .teamCircles > div a span {
+  .teamHeroCont .teamCirclesCont .teamCircles .person a span {
     opacity: 0;
   }
-  .teamHeroCont .teamCirclesCont .teamCircles > div a img {
+  .teamHeroCont .teamCirclesCont .teamCircles .person a img {
     filter: blur(0px);
   }
-  .teamHeroCont .teamCirclesCont .teamCircles > div a:after {
+  .teamHeroCont .teamCirclesCont .teamCircles .person a:after {
     background: rgba(0, 0, 0, 0.2);
   }
-  .teamHeroCont .teamCirclesCont .teamCircles > div a:hover span {
+  .teamHeroCont .teamCirclesCont .teamCircles .person a:hover span {
     opacity: 1;
   }
-  .teamHeroCont .teamCirclesCont .teamCircles > div a:hover:after {
-    background: rgba(0, 0, 0, 0.7);
+  .teamHeroCont .teamCirclesCont .teamCircles .person a:hover img {
+    filter: blur(2px);
   }
-  .teamHeroCont .teamCirclesCont .teamCircles .rowOfTwo a {
-    margin: 0 6vw;
+  .teamHeroCont .teamCirclesCont .teamCircles .person a:hover:after {
+    background: rgba(0, 0, 0, 0.7);
   }
 }
 @media (min-width: 1200px) {
@@ -223,27 +222,7 @@
     font-size: 40px;
     letter-spacing: 4px;
   }
-  .teamHeroCont .teamCirclesCont .teamCircles {
-    padding: 10px 0 25px;
-  }
-  .teamHeroCont .teamCirclesCont .teamCircles > div > a {
-    height: 165px;
-    width: 165px;
-    padding: 5px 15px;
-  }
-  .teamHeroCont .teamCirclesCont .teamCircles > div > a span {
-    font-size: 18px;
-    opacity: 0;
-    transition: ease-in-out 250ms;
-  }
-  .teamHeroCont .teamCirclesCont .teamCircles > div > a:after {
-    background: rgba(0, 0, 0, 0.1);
-    transition: ease-in-out 250ms;
-  }
-  .teamHeroCont .teamCirclesCont .teamCircles .rowOfTwo {
-    justify-content: space-between;
-  }
-  .teamHeroCont .teamCirclesCont .teamCircles .rowOfTwo a {
-    margin: 0 6vw;
+  .teamHeroCont .teamCirclesCont .teamCircles .person a span {
+    font-size: 16px;
   }
 }
