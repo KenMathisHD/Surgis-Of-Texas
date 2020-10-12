@@ -56,29 +56,29 @@
 .contactBar {
     position: relative;
     padding: 2.5px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
+    max-height: 22.5px;
     background-color: rgba(30, 30, 30, 0.8);
     overflow: hidden;
     transition: ease-in-out 350ms;
 
     div {
-        max-height: 22.5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
         font-size: 16px;
         transition: ease-in-out 350ms;
         span {
             position: relative;
-            padding: 0 15px 0 0;
+            padding: 0 10px 0 0;
             color: white;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             &:before {
                 content: "";
                 position: absolute;
-                top: 3px;
+                top: 10%;
                 right: -3px;
-                height: 18px;
+                height: 80%;
                 width: 3px;
                 display: inline-block;
                 background: white;
@@ -354,7 +354,7 @@
     transform: translateY(0px);
 }
 
-@media all and (orientation:portrait) and (min-width: 0px) and (max-width: 1199px) {
+@media all and (orientation:portrait) and (max-width: 1199px) {
     @media (min-width: 576px) {
         .contactBar {
             padding: 2.5px 0;
@@ -536,7 +536,7 @@
         }
     }
 }
-@media all and (orientation:landscape) and (min-width: 0px) and (max-width: 1199px) {
+@media all and (orientation:landscape) and (max-width: 1199px) {
     
     @media (min-width: 568px) {
         .contactBar {
@@ -582,7 +582,7 @@
             }
         }
     }
-    @media (width: 653px) and (height: 280px) {
+    @media (device-width: 653px) and (device-height: 280px) {
         .navHolder {
             height: 60px;
         }
@@ -739,21 +739,61 @@
 }
 
 
-
 @media (min-width: 1200px) {
+    .nav-mobile-button {
+        display: none;
+    }
+    .mobileNav {
+        display: none;
+    }
+    .contactBar {
+        padding: 10px 0;
+        max-height: 35px;
+    
+        div {
+            font-size: 22px;
+
+            span {
+                padding-right: 15px;
+            }
+            a {
+                padding-left: 15px;
+            }
+        }
+    }
     .navHolder {
         height: 125px;
         margin-bottom: 5px;
         padding: 0 20px;
+        flex-direction: row;
         background: linear-gradient(to bottom, rgba(90, 90, 90, 0.2) 0%,rgba(70, 70, 70, 0.2) 40%,rgba(50, 50, 50, 0.2) 64%,rgba(30, 30, 30, 0.2) 90%, rgba(30, 30, 30, 0) 100%);
+    
+        &:hover {
+            transition: ease-in-out 350ms;
+        }
     }
     .navHolderSquished {
         height: 110px;
         padding: 0 15px;
+        transition: ease-in-out 350ms;
+
+        &:before {
+            opacity: 0;
+        }
+        &:after {
+            opacity: 1;
+        }
     }
     .navHolderSquishedNoLag {
         height: 110px;
         padding: 0 15px;
+
+        &:before {
+            opacity: 0;
+        }
+        &:after {
+            opacity: 1;
+        }
     }
     .navLogo {
         a {
@@ -768,9 +808,42 @@
         }
     }
     .regularNav {
+        position: relative;
+        flex: 0 0 60%;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 25px;
+
         li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
             a {
+                position: relative;
                 font-size: 20px;
+                text-decoration: none;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-shadow: 2px 2px 4px black, 2px -2px 4px black, -2px 2px 4px black;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    bottom: -3px;
+                    left: 0;
+                    right: 100%;    //setting right to 100% allows it to animate it as moving across when you change the right to 0
+                    height: 3px;
+                    display: inline-block;
+                    transition: ease-in-out 250ms;
+                    background: white;
+                }
+    
+                &:hover {
+                    &:before {
+                        right: 0;
+                    }
+                }
             }
         }
     }
@@ -809,28 +882,11 @@
 
 .contactBarGoAway {
     padding: 0;
+    max-height: 0px;
     transition: ease-in-out 350ms;
-
-    div {
-        max-height: 0px;
-        span {
-            &:before {
-                height: 0;
-            }
-        }
-    }
 }
 .contactBarGoAwayNoLag {
     display: none;
-
-    div {
-        max-height: 0px;
-        span {
-            &:before {
-                height: 0;
-            }
-        }
-    }
 }
 
 #make-a-thing-behind-reg-nav {
