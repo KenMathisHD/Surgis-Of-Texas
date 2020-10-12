@@ -16,6 +16,8 @@
 }
 * {
   font-family: 'Segoe UI Regular', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 .material-icons {
   font-family: 'Material Icons';
@@ -324,6 +326,18 @@
 .addtoback2top {
   transform: translateY(0px);
 }
+@media all and (orientation: portrait) and (max-width: 1199px) and (device-height: 653px) and (device-width: 280px) {
+  .navHolder {
+    height: 60px;
+  }
+  .mobileNav {
+    padding: 80px 0 0 0;
+  }
+  .mobileNav li a {
+    font-size: 20px;
+    padding: 15px 60px 15px 10px;
+  }
+}
 @media all and (orientation: portrait) and (max-width: 1199px) and (min-width: 576px) {
   .contactBar {
     padding: 2.5px 0;
@@ -513,10 +527,10 @@
     height: 60px;
   }
   .mobileNav {
-    padding: 80px 0 0 0;
+    padding: 85px 0 0 0;
   }
   .mobileNav li a {
-    font-size: 18px;
+    font-size: 17px;
     padding: 10px 100px 10px 10px;
   }
 }

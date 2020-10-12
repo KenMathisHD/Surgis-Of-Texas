@@ -87,6 +87,7 @@ function smallHeaderNoContactBar(distToTop) {
     }
 }
 
+
 function areWeOnTheMainPage() {
     if (heroImage) {
         return true;
