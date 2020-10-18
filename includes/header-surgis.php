@@ -7,8 +7,7 @@
 
             <div>
 
-                <span>Call us</span>
-                <a href="tel:2103675843">(210) 367-5843</a>
+                <span>Call us - <a href="tel:2103675843">(210) 367-5843</a></span>
 
             </div>
 

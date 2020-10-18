@@ -102,6 +102,7 @@
   font-family: 'Material Icons';
   color: white;
   font-size: 35px;
+  line-height: 1.5em;
   text-align: center;
   border-radius: 50%;
   z-index: 5;
@@ -133,9 +134,11 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 .projects-word-bottom-index {
+  padding-bottom: 30px;
   text-align: center;
 }
 .projects-word-bottom-index a {
+  display: inline-block;
   padding: 10px 20px;
   font-size: 20px;
   color: black;
