@@ -10,19 +10,20 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/index_home_master.css">
+  <!-- <link rel="stylesheet" href="css/material-icons.css">
+  <link rel="stylesheet" href="css/roboto.css">
   <link rel="stylesheet" href="css/header-surgis.css">
   <link rel="stylesheet" href="css/hero-surgis.css">
   <link rel="stylesheet" href="css/projects-index.css">
   <link rel="stylesheet" href="css/services-index-surgis.css">
   <link rel="stylesheet" href="css/woman-owned.css">
   <link rel="stylesheet" href="css/about-section-index-surgis.css">
-  <link rel="stylesheet" href="css/bottomnav-surgis.css">
+  <link rel="stylesheet" href="css/bottomnav-surgis.css"> -->
 
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"> -->
 
   <meta name="theme-color" content="#fafafa">

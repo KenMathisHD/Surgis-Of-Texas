@@ -10,12 +10,12 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="css/header-surgis.css">
+  <link rel="stylesheet" href="css/projects_master.css">
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="css/header-surgis.css">
   <link rel="stylesheet" href="css/projects-top-surgis.css">
   <link rel="stylesheet" href="css/projects-gallery-surgis.css">
 
-  <link rel="stylesheet" href="css/bottomnav-surgis.css">
+  <link rel="stylesheet" href="css/bottomnav-surgis.css"> -->
 
   <meta name="theme-color" content="#fafafa">
